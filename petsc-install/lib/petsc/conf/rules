@@ -1,7 +1,7 @@
 # -*- mode: makefile -*-
 #
 chk_petscdir:
-	@mypwd=`pwd`; cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install 2>&1 > /dev/null; true_PETSC_DIR=`pwd`; cd $${mypwd} 2>&1 >/dev/null; \
+	@mypwd=`pwd`; cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install 2>&1 > /dev/null; true_PETSC_DIR=`pwd`; cd $${mypwd} 2>&1 >/dev/null; \
         newpwd=`echo $${mypwd} | sed "s+$${true_PETSC_DIR}+DUMMY+g"`;\
         haspetsc=`echo $${mypwd} | sed "s+petsc-+DUMMY+g"`;\
         if [ $${mypwd} = $${newpwd} -a $${haspetsc} != $${mypwd} ]; then \
@@ -13,7 +13,7 @@ chk_petscdir:
         fi
 
 chk_upgrade:
-	-@PETSC_DIR=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install ${PYTHON} /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/bin/petscnagupgrade.py
+	-@PETSC_DIR=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install ${PYTHON} /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/bin/petscnagupgrade.py
 
 chk_loc:
 	@if [ ${LOC}foo = foo ] ; then \
@@ -39,14 +39,14 @@ gnumake:
 	+@echo "make gnumake is deprecated, use make libs"
 	+@make libs
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/conf/files:
-	@touch -t 197102020000 /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/conf/files
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/conf/files:
+	@touch -t 197102020000 /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/conf/files
 
 ./${PETSC_ARCH}/tests/testfiles:
 	@${MKDIR} -p ./${PETSC_ARCH}/tests && touch -t 197102020000 ./${PETSC_ARCH}/tests/testfiles
 
-libs: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/conf/files ./${PETSC_ARCH}/tests/testfiles
-	+@cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install && MAKEFLAGS="-j$(MAKE_NP) -l$(MAKE_LOAD) $(MAKEFLAGS)" ${OMAKE_PRINTDIR} -f gmakefile ${MAKE_PAR_OUT_FLG} V=${V} libs
+libs: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/conf/files ./${PETSC_ARCH}/tests/testfiles
+	+@cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install && MAKEFLAGS="-j$(MAKE_NP) -l$(MAKE_LOAD) $(MAKEFLAGS)" ${OMAKE_PRINTDIR} -f gmakefile ${MAKE_PAR_OUT_FLG} V=${V} libs
 
 # Does nothing; needed for some rules that require actions.
 foo:
@@ -87,7 +87,7 @@ tree: ${ACTION}
               if [ "$$?" = 0 ]; then \
                 flg=0; \
                 for PKGFLG in $$r; do \
-                  grep -w "#define $${PKGFLG}" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/include/petscconf.h > /dev/null; \
+                  grep -w "#define $${PKGFLG}" /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/include/petscconf.h > /dev/null; \
                   if [ "$$?" = 1 ]; then flg=1; break; fi; \
                 done; \
                 if [ "$$flg" = 1 ]; then continue; fi; \
@@ -219,7 +219,7 @@ getautoconfargs:
 	${LGRIND} -lmake -d ${LGRIND_DIR}/lgrindef -i $< > $*.tex
 
 .tex.mtex:
-	PYTHONPATH=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/bin/maint;export PYTHONPATH;cat $< | ${PYTHON} /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/bin/maint/mapnameslatex.py > $*.mtex
+	PYTHONPATH=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/bin/maint;export PYTHONPATH;cat $< | ${PYTHON} /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/bin/maint/mapnameslatex.py > $*.mtex
 
 .fig.pdf:
 	fig2dev -L pdf $< $*.pdf
@@ -409,7 +409,7 @@ deleteshared:
 
 # ---------------------------------------------------------------------------------------
 #   Rules for the automatic generation of documentation, tutorials etc
-# See rule for allmanualpages and allhtml in /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/makefile
+# See rule for allmanualpages and allhtml in /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/makefile
 #
 # Builds manual pages in HTML in two stages
 #   1.) manualpages_buildcite: builds the file manualpages.cit for hyperlinks
@@ -428,8 +428,8 @@ chk_manualpage_dir:
 manualpages_buildcite: chk_manualpage_dir
 	@-if [ "${MANSEC}" != "" ] ; then \
           if [ "${SUBMANSEC}" = "" ] ; then LMANSEC=${MANSEC}; else LMANSEC=${SUBMANSEC}; fi; \
-          DOCTEXT_PATH=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/src/docs/tex/doctext; export DOCTEXT_PATH; \
-	  TEXTFILTER_PATH=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/src/docs/tex/doctext; export TEXTFILTER_PATH; \
+          DOCTEXT_PATH=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/src/docs/tex/doctext; export DOCTEXT_PATH; \
+	  TEXTFILTER_PATH=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/src/docs/tex/doctext; export TEXTFILTER_PATH; \
           ${DOCTEXT} -html -indexdir ../$${LMANSEC} \
 		-index ${LOC}/docs/manualpages/manualpages.cit \
 		-mpath ${LOC}/docs/manualpages/$${LMANSEC} ${SOURCED};  fi
@@ -438,10 +438,10 @@ manualpages_buildcite: chk_manualpage_dir
 manualpages:
 	-@if [ "${MANSEC}" != "" ] ; then \
           if [ "${SUBMANSEC}" = "" ] ; then LMANSEC=${MANSEC}; else LMANSEC=${SUBMANSEC}; fi; \
-          DOCTEXT_PATH=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/src/docs/tex/doctext; export DOCTEXT_PATH; \
+          DOCTEXT_PATH=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/src/docs/tex/doctext; export DOCTEXT_PATH; \
 	  ${DOCTEXT} -html \
 		-mpath ${LOC}/docs/manualpages/$${LMANSEC} -heading PETSc \
-		-defn /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/src/docs/tex/doctext/html.def \
+		-defn /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/src/docs/tex/doctext/html.def \
 		-locdir ${LOCDIR} -mapref ${LOC}/docs/manualpages/manualpages.cit ${SOURCED};\
 		chmod -f g+w ${LOC}/docs/manualpages/$${LMANSEC}/* ; fi
 #
@@ -546,7 +546,7 @@ manimplementations:
   ${RM} implsClassAll.txt
 
 getexlist:
-	-@/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/bin/maint/getexlist -locdir ${LOCDIR} -byfile -destdir ${LOC}/docs/manualpages/concepts/ ${EXAMPLESC} ${EXAMPLESF}
+	-@/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/bin/maint/getexlist -locdir ${LOCDIR} -byfile -destdir ${LOC}/docs/manualpages/concepts/ ${EXAMPLESC} ${EXAMPLESF}
 	-@${RM} -f logfile.txt
 #
 #   Rules for generating html code from C and Fortran
@@ -559,9 +559,9 @@ checkmakefilelist:
 
 html: chk_c2html
 	-@sed -e s?man+../?man+ROOT/docs/manualpages/? ${LOC}/docs/manualpages/manualpages.cit > /tmp/$$USER.htmlmap
-	-@cat /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/src/docs/mpi.www.index >> /tmp/$$USER.htmlmap
+	-@cat /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/src/docs/mpi.www.index >> /tmp/$$USER.htmlmap
 	-@ROOT=`echo ${LOCDIR} | sed -e s?/[a-z]*?/..?g -e s?src/??g -e s?include/??g` ;\
-          loc=`pwd | sed -e s?\$/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install?$${LOC}/?g -e s?/disks??g`;  \
+          loc=`pwd | sed -e s?\$/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install?$${LOC}/?g -e s?/disks??g`;  \
           ${MKDIR} -p $${loc} ;\
           for i in ${SOURCEALL} ${EXAMPLESC} ${EXAMPLESF} ${EXAMPLESCH} ${EXAMPLESFH} ${EXAMPLESMATLAB}  foo ; do\
 	    if [ -f $$i ]; then \
@@ -577,22 +577,22 @@ html: chk_c2html
               ${RM} $${loc}/$$i.html; \
               echo "<center><a href=\"$${iroot}\">Actual source code: $${iroot}</a></center><br>" > $${loc}/$$i.html; \
               sed -e "s/CHKERRQ(ierr);//g" -e "s/PetscFunctionReturn(0)/return(0)/g"  -e "s/ierr [ ]*= //g"  -e "s/PETSC[A-Z]*_DLLEXPORT//g" $$i | ${C2HTML} -n  | \
-              awk '{ sub(/<pre width="80">/,"<pre width=\"80\">\n"); print }'  | ${PYTHON} /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/bin/maint/fixinclude.py $$i $/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install | \
+              awk '{ sub(/<pre width="80">/,"<pre width=\"80\">\n"); print }'  | ${PYTHON} /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/bin/maint/fixinclude.py $$i $/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install | \
               egrep -v '(PetscValid|PetscFunctionBegin|PetscCheck|PetscErrorCode ierr;|#if !defined\(__|#define __|#undef __|EXTERN_C )' | \
               ${MAPNAMES} -map /tmp/$$USER.htmlmap -inhtml | sed -e s?ROOT?$${IROOT}?g >> $${loc}/$$i.html ; \
 	    fi; \
          done
 	-@ROOT=`echo ${LOCDIR} | sed -e s?/[a-z]*?/..?g -e s?src/??g -e s?include/??g` ;\
-          loc=`pwd | sed -e s?\$/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install?$${LOC}/?g -e s?/disks??g`; ${RM} $${loc}/index.html; \
-          cat /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/src/docs/manualpages-sec/header_${MANSEC} | sed -e "s?<A HREF=\"PETSC_DIR[a-z/]*\">Examples</A>?<A HREF=\"$${ROOT}/docs/manualpages/${MANSEC}\">Manual pages</A>?g" -e "s?PETSC_DIR?$${ROOT}/?g"> $${loc}/index.html; \
+          loc=`pwd | sed -e s?\$/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install?$${LOC}/?g -e s?/disks??g`; ${RM} $${loc}/index.html; \
+          cat /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/src/docs/manualpages-sec/header_${MANSEC} | sed -e "s?<A HREF=\"PETSC_DIR[a-z/]*\">Examples</A>?<A HREF=\"$${ROOT}/docs/manualpages/${MANSEC}\">Manual pages</A>?g" -e "s?PETSC_DIR?$${ROOT}/?g"> $${loc}/index.html; \
           echo "<p>" >> $${loc}/index.html
-	-@loc=`pwd | sed -e s?\$/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install?$${LOC}/?g -e s?/disks??g`;\
+	-@loc=`pwd | sed -e s?\$/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install?$${LOC}/?g -e s?/disks??g`;\
             if [ "${EXAMPLESC}" != "" ] ; then \
                for file in ${EXAMPLESC} foo ; do \
 		if [ -f $$file ]; then \
                    cmess=`grep "static\( const\)\? char help" $${file} | cut -d\" -f2 | cut -d\. -f1`; \
                    echo "<a href=\"$${file}.html\">$${file}: $${cmess}</a><br>" >> $${loc}/index.html;\
-                   ${PYTHON} /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/bin/maint/latexinexamples.py $${file}.html;\
+                   ${PYTHON} /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/bin/maint/latexinexamples.py $${file}.html;\
 		fi; \
                done ;\
             else \
@@ -610,7 +610,7 @@ html: chk_c2html
             fi ;\
             echo " " >> $${loc}/index.html; \
             echo "<a href=\"makefile.html\">makefile</a><br>" >> $${loc}/index.html
-	-@loc=`pwd | sed -e s?\$/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install?$${LOC}/?g -e s?/disks??g`;  \
+	-@loc=`pwd | sed -e s?\$/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install?$${LOC}/?g -e s?/disks??g`;  \
 	   cat makefile | ${C2HTML}  | ${MAPNAMES} -map /tmp/$$USER.htmlmap -inhtml > $${loc}/makefile.html
 	-@${RM} /tmp/$$USER.htmlmap
 
@@ -778,7 +778,7 @@ rmtrailingblanks:
 #
 uncrustify:
 	@for i in ${SOURCED} ${EXAMPLESC}; do \
-	  uncrustify -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/conf/uncrustify.cfg $$i; \
+	  uncrustify -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/conf/uncrustify.cfg $$i; \
 	done
 
 updatedatafiles:
@@ -786,5 +786,5 @@ updatedatafiles:
             echo " ** Updating datafiles at ${HOME}/datafiles **"; \
             cd "${HOME}/datafiles" && git pull -q; fi
 
-include /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/conf/petscrules
+include /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/conf/petscrules
 

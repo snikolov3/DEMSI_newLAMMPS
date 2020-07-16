@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # Utility rule file for two_particles_test_inputs.
 
@@ -59,8 +59,8 @@ testcases/two_particles/CMakeFiles/two_particles_test_inputs: testcases/two_part
 
 
 testcases/two_particles/grid.nc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, particles_in_bonded.nc, particles_in_unbonded.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/two_particles && python /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/two_particles/make_testcase.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, particles_in_bonded.nc, particles_in_unbonded.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/two_particles && python /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/two_particles/make_testcase.py
 
 testcases/two_particles/particles_in_bonded.nc: testcases/two_particles/grid.nc
 	@$(CMAKE_COMMAND) -E touch_nocreate testcases/two_particles/particles_in_bonded.nc
@@ -82,10 +82,10 @@ testcases/two_particles/CMakeFiles/two_particles_test_inputs.dir/build: two_part
 .PHONY : testcases/two_particles/CMakeFiles/two_particles_test_inputs.dir/build
 
 testcases/two_particles/CMakeFiles/two_particles_test_inputs.dir/clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/two_particles && $(CMAKE_COMMAND) -P CMakeFiles/two_particles_test_inputs.dir/cmake_clean.cmake
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/two_particles && $(CMAKE_COMMAND) -P CMakeFiles/two_particles_test_inputs.dir/cmake_clean.cmake
 .PHONY : testcases/two_particles/CMakeFiles/two_particles_test_inputs.dir/clean
 
 testcases/two_particles/CMakeFiles/two_particles_test_inputs.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/two_particles /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/two_particles /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/two_particles/CMakeFiles/two_particles_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/two_particles /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/two_particles /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/two_particles/CMakeFiles/two_particles_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : testcases/two_particles/CMakeFiles/two_particles_test_inputs.dir/depend
 

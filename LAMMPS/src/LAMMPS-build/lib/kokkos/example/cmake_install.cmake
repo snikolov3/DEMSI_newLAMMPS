@@ -1,8 +1,8 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/example
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install")
+  set(CMAKE_INSTALL_PREFIX "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -26,6 +26,7 @@ find_package(Git)
 
 # by default, install into $HOME/.local (not /usr/local), so that no root access (and sudo!!) is needed
 if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+  message("\n\n\n\n\nDEMSI LAMMPS installation going into the wrong place\n\n\n\n\n")
   set(CMAKE_INSTALL_PREFIX "$ENV{HOME}/.local" CACHE PATH "default install path" FORCE )
 endif()
 
@@ -70,11 +71,11 @@ if(${CMAKE_CXX_COMPILER_ID} STREQUAL "Intel")
 endif()
 
 if(${CMAKE_CXX_COMPILER_ID} STREQUAL "GNU")
-  set(CMAKE_TUNE_DEFAULT "-march=native")
+  set(CMAKE_TUNE_DEFAULT "-mcpu=native")
 endif()
 
 if(${CMAKE_CXX_COMPILER_ID} STREQUAL "Clang")
-  set(CMAKE_TUNE_DEFAULT "-march=native")
+  set(CMAKE_TUNE_DEFAULT "-mcpu=native")
 endif()
 
 # we require C++11 without extensions

@@ -1,8 +1,8 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/algorithms/src
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/algorithms/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install")
+  set(CMAKE_INSTALL_PREFIX "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,17 +39,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/algorithms/src/Kokkos_Random.hpp"
-    "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/algorithms/src/Kokkos_Sort.hpp"
-    "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/algorithms/src/KokkosAlgorithms_config.h"
+    "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/algorithms/src/Kokkos_Random.hpp"
+    "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/algorithms/src/Kokkos_Sort.hpp"
+    "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/algorithms/src/KokkosAlgorithms_config.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xKokkosAlgorithmsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/algorithms/src/Kokkos_Random.hpp"
-    "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/algorithms/src/Kokkos_Sort.hpp"
-    "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/algorithms/src/KokkosAlgorithms_config.h"
+    "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/algorithms/src/Kokkos_Random.hpp"
+    "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/algorithms/src/Kokkos_Sort.hpp"
+    "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/algorithms/src/KokkosAlgorithms_config.h"
     )
 endif()
 

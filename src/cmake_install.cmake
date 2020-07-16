@@ -1,4 +1,4 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/src
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

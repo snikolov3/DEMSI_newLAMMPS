@@ -9,7 +9,7 @@
 #define PETSC_DEPRECATED_FUNCTION(why) __attribute((deprecated))
 #define PETSC_DEPRECATED_MACRO(why) _Pragma(why)
 #define PETSC_DEPRECATED_TYPEDEF(why) __attribute((deprecated))
-#define PETSC_DIR "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install"
+#define PETSC_DIR "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install"
 #define PETSC_DIR_SEPARATOR '/'
 #define PETSC_FUNCTION_NAME_C __func__
 #define PETSC_FUNCTION_NAME_CXX __func__
@@ -25,7 +25,7 @@
 #define PETSC_HAVE_SOWING 1
 #define PETSC_HAVE_SO_REUSEADDR 1
 #define PETSC_HAVE_X 1
-#define PETSC_LIB_DIR "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib"
+#define PETSC_LIB_DIR "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib"
 #define PETSC_MPICC_SHOW "/home/projects/ppc64le/gcc/7.2.0/bin/gcc -I/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -pthread -Wl,-rpath -Wl,/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -Wl,--enable-new-dtags -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -lmpi"
 #define PETSC_PREFETCH_HINT_NTA 0
 #define PETSC_PREFETCH_HINT_T0 3
@@ -141,9 +141,6 @@
 #define PETSC_HAVE_DYNAMIC_LIBRARIES 1
 #define PETSC_USE_SHARED_LIBRARIES 1
 #define PETSC_USE_DEBUGGER "gdb"
-#define PETSC_VERSION_BRANCH_GIT "(HEAD detached at e472002)"
-#define PETSC_VERSION_DATE_GIT "2020-05-18 21:34:14 +0000"
-#define PETSC_VERSION_GIT "v3.13.1-54-ge472002"
 #define PETSC_BLASLAPACK_UNDERSCORE 1
 #define PETSC_HAVE_MPIEXEC_ENVIRONMENTAL_VARIABLE OMP
 #define PETSC_HAVE_MPIIO 1

@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 # Utility rule file for error.h.
 
@@ -56,9 +56,9 @@ include CMakeFiles/error.h.dir/progress.make
 CMakeFiles/error.h: includes/lammps/error.h
 
 
-includes/lammps/error.h: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/error.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating includes/lammps/error.h"
-	/home/projects/ppc64le/cmake/3.12.3/bin/cmake -E copy_if_different /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/error.h /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/includes/lammps/error.h
+includes/lammps/error.h: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating includes/lammps/error.h"
+	/home/projects/ppc64le/cmake/3.12.3/bin/cmake -E copy_if_different /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/includes/lammps/error.h
 
 error.h: CMakeFiles/error.h
 error.h: includes/lammps/error.h
@@ -76,6 +76,6 @@ CMakeFiles/error.h.dir/clean:
 .PHONY : CMakeFiles/error.h.dir/clean
 
 CMakeFiles/error.h.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/error.h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/error.h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/error.h.dir/depend
 

@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 # Utility rule file for install-python.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-bui
 include CMakeFiles/install-python.dir/progress.make
 
 CMakeFiles/install-python:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Installing LAMMPS Python module"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/python && /ascldap/users/projects/ppc64le/python/2.7.12/bin/python2.7 install.py -v /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/version.h -m /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/python/lammps.py -l /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/liblammps.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Installing LAMMPS Python module"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/python && /ascldap/users/projects/ppc64le/python/2.7.12/bin/python2.7 install.py -v /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/version.h -m /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/python/lammps.py -l /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/liblammps.so
 
 install-python: CMakeFiles/install-python
 install-python: CMakeFiles/install-python.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/install-python.dir/clean:
 .PHONY : CMakeFiles/install-python.dir/clean
 
 CMakeFiles/install-python.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/install-python.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/install-python.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/install-python.dir/depend
 

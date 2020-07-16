@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 # Utility rule file for gitversion.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-bui
 include CMakeFiles/gitversion.dir/progress.make
 
 CMakeFiles/gitversion:
-	/home/projects/ppc64le/cmake/3.12.3/bin/cmake -DLAMMPS_DIR="/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS" -DGIT_EXECUTABLE="/ascldap/users/projects/ppc64le/git/2.10.1/bin/git" -DGIT_FOUND="TRUE" -DLAMMPS_STYLE_HEADERS_DIR="/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/styles" -P /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake/Modules/generate_lmpgitversion.cmake
+	/home/projects/ppc64le/cmake/3.12.3/bin/cmake -DLAMMPS_DIR="/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS" -DGIT_EXECUTABLE="/ascldap/users/projects/ppc64le/git/2.10.1/bin/git" -DGIT_FOUND="TRUE" -DLAMMPS_STYLE_HEADERS_DIR="/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/styles" -P /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake/Modules/generate_lmpgitversion.cmake
 
 gitversion: CMakeFiles/gitversion
 gitversion: CMakeFiles/gitversion.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/gitversion.dir/clean:
 .PHONY : CMakeFiles/gitversion.dir/clean
 
 CMakeFiles/gitversion.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/gitversion.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/gitversion.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gitversion.dir/depend
 

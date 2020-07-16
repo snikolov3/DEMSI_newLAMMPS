@@ -48,10 +48,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/CMakeFiles/progress.marks
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/CMakeFiles/progress.marks
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/clean
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ContinuousSubmit.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousSubmit.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousSubmit.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ContinuousSubmit: lib/kokkos/CMakeFiles/ContinuousSubmit.dir/rule
 
 # fast build rule for target.
 ContinuousSubmit/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousSubmit.dir/build.make lib/kokkos/CMakeFiles/ContinuousSubmit.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousSubmit.dir/build.make lib/kokkos/CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ContinuousCoverage.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousCoverage.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousCoverage.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ ContinuousCoverage: lib/kokkos/CMakeFiles/ContinuousCoverage.dir/rule
 
 # fast build rule for target.
 ContinuousCoverage/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousCoverage.dir/build.make lib/kokkos/CMakeFiles/ContinuousCoverage.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousCoverage.dir/build.make lib/kokkos/CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ContinuousTest.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousTest.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousTest.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ ContinuousTest: lib/kokkos/CMakeFiles/ContinuousTest.dir/rule
 
 # fast build rule for target.
 ContinuousTest/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousTest.dir/build.make lib/kokkos/CMakeFiles/ContinuousTest.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousTest.dir/build.make lib/kokkos/CMakeFiles/ContinuousTest.dir/build
 .PHONY : ContinuousTest/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ContinuousBuild.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousBuild.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousBuild.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ ContinuousBuild: lib/kokkos/CMakeFiles/ContinuousBuild.dir/rule
 
 # fast build rule for target.
 ContinuousBuild/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousBuild.dir/build.make lib/kokkos/CMakeFiles/ContinuousBuild.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousBuild.dir/build.make lib/kokkos/CMakeFiles/ContinuousBuild.dir/build
 .PHONY : ContinuousBuild/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ ContinuousMemCheck: lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # fast build rule for target.
 ContinuousMemCheck/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/build.make lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/build.make lib/kokkos/CMakeFiles/ContinuousMemCheck.dir/build
 .PHONY : ContinuousMemCheck/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/Nightly.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/Nightly.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/Nightly.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ Nightly: lib/kokkos/CMakeFiles/Nightly.dir/rule
 
 # fast build rule for target.
 Nightly/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/Nightly.dir/build.make lib/kokkos/CMakeFiles/Nightly.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/Nightly.dir/build.make lib/kokkos/CMakeFiles/Nightly.dir/build
 .PHONY : Nightly/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlyTest.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyTest.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyTest.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ NightlyTest: lib/kokkos/CMakeFiles/NightlyTest.dir/rule
 
 # fast build rule for target.
 NightlyTest/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyTest.dir/build.make lib/kokkos/CMakeFiles/NightlyTest.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyTest.dir/build.make lib/kokkos/CMakeFiles/NightlyTest.dir/build
 .PHONY : NightlyTest/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlyUpdate.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyUpdate.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyUpdate.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ NightlyUpdate: lib/kokkos/CMakeFiles/NightlyUpdate.dir/rule
 
 # fast build rule for target.
 NightlyUpdate/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyUpdate.dir/build.make lib/kokkos/CMakeFiles/NightlyUpdate.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyUpdate.dir/build.make lib/kokkos/CMakeFiles/NightlyUpdate.dir/build
 .PHONY : NightlyUpdate/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlyBuild.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyBuild.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyBuild.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ NightlyBuild: lib/kokkos/CMakeFiles/NightlyBuild.dir/rule
 
 # fast build rule for target.
 NightlyBuild/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyBuild.dir/build.make lib/kokkos/CMakeFiles/NightlyBuild.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyBuild.dir/build.make lib/kokkos/CMakeFiles/NightlyBuild.dir/build
 .PHONY : NightlyBuild/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/Continuous.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/Continuous.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/Continuous.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ Continuous: lib/kokkos/CMakeFiles/Continuous.dir/rule
 
 # fast build rule for target.
 Continuous/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/Continuous.dir/build.make lib/kokkos/CMakeFiles/Continuous.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/Continuous.dir/build.make lib/kokkos/CMakeFiles/Continuous.dir/build
 .PHONY : Continuous/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlyStart.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyStart.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyStart.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ NightlyStart: lib/kokkos/CMakeFiles/NightlyStart.dir/rule
 
 # fast build rule for target.
 NightlyStart/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyStart.dir/build.make lib/kokkos/CMakeFiles/NightlyStart.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyStart.dir/build.make lib/kokkos/CMakeFiles/NightlyStart.dir/build
 .PHONY : NightlyStart/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ NightlyMemoryCheck: lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # fast build rule for target.
 NightlyMemoryCheck/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/build.make lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/build.make lib/kokkos/CMakeFiles/NightlyMemoryCheck.dir/build
 .PHONY : NightlyMemoryCheck/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlyMemCheck.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyMemCheck.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyMemCheck.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -348,12 +348,12 @@ NightlyMemCheck: lib/kokkos/CMakeFiles/NightlyMemCheck.dir/rule
 
 # fast build rule for target.
 NightlyMemCheck/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyMemCheck.dir/build.make lib/kokkos/CMakeFiles/NightlyMemCheck.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyMemCheck.dir/build.make lib/kokkos/CMakeFiles/NightlyMemCheck.dir/build
 .PHONY : NightlyMemCheck/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ExperimentalStart.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalStart.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalStart.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -363,12 +363,12 @@ ExperimentalStart: lib/kokkos/CMakeFiles/ExperimentalStart.dir/rule
 
 # fast build rule for target.
 ExperimentalStart/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalStart.dir/build.make lib/kokkos/CMakeFiles/ExperimentalStart.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalStart.dir/build.make lib/kokkos/CMakeFiles/ExperimentalStart.dir/build
 .PHONY : ExperimentalStart/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ContinuousConfigure.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousConfigure.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousConfigure.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ ContinuousConfigure: lib/kokkos/CMakeFiles/ContinuousConfigure.dir/rule
 
 # fast build rule for target.
 ContinuousConfigure/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousConfigure.dir/build.make lib/kokkos/CMakeFiles/ContinuousConfigure.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousConfigure.dir/build.make lib/kokkos/CMakeFiles/ContinuousConfigure.dir/build
 .PHONY : ContinuousConfigure/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlyCoverage.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyCoverage.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyCoverage.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -393,12 +393,12 @@ NightlyCoverage: lib/kokkos/CMakeFiles/NightlyCoverage.dir/rule
 
 # fast build rule for target.
 NightlyCoverage/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyCoverage.dir/build.make lib/kokkos/CMakeFiles/NightlyCoverage.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyCoverage.dir/build.make lib/kokkos/CMakeFiles/NightlyCoverage.dir/build
 .PHONY : NightlyCoverage/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -408,12 +408,12 @@ ExperimentalUpdate: lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # fast build rule for target.
 ExperimentalUpdate/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/build.make lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/build.make lib/kokkos/CMakeFiles/ExperimentalUpdate.dir/build
 .PHONY : ExperimentalUpdate/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -423,12 +423,12 @@ ExperimentalConfigure: lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # fast build rule for target.
 ExperimentalConfigure/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/build.make lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/build.make lib/kokkos/CMakeFiles/ExperimentalConfigure.dir/build
 .PHONY : ExperimentalConfigure/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -438,12 +438,12 @@ ExperimentalCoverage: lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # fast build rule for target.
 ExperimentalCoverage/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/build.make lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/build.make lib/kokkos/CMakeFiles/ExperimentalCoverage.dir/build
 .PHONY : ExperimentalCoverage/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ExperimentalBuild.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalBuild.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalBuild.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -453,12 +453,12 @@ ExperimentalBuild: lib/kokkos/CMakeFiles/ExperimentalBuild.dir/rule
 
 # fast build rule for target.
 ExperimentalBuild/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalBuild.dir/build.make lib/kokkos/CMakeFiles/ExperimentalBuild.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalBuild.dir/build.make lib/kokkos/CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlyConfigure.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyConfigure.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlyConfigure.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -468,12 +468,12 @@ NightlyConfigure: lib/kokkos/CMakeFiles/NightlyConfigure.dir/rule
 
 # fast build rule for target.
 NightlyConfigure/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyConfigure.dir/build.make lib/kokkos/CMakeFiles/NightlyConfigure.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlyConfigure.dir/build.make lib/kokkos/CMakeFiles/NightlyConfigure.dir/build
 .PHONY : NightlyConfigure/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ExperimentalTest.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalTest.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalTest.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -483,12 +483,12 @@ ExperimentalTest: lib/kokkos/CMakeFiles/ExperimentalTest.dir/rule
 
 # fast build rule for target.
 ExperimentalTest/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalTest.dir/build.make lib/kokkos/CMakeFiles/ExperimentalTest.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalTest.dir/build.make lib/kokkos/CMakeFiles/ExperimentalTest.dir/build
 .PHONY : ExperimentalTest/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -498,12 +498,12 @@ ExperimentalMemCheck: lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # fast build rule for target.
 ExperimentalMemCheck/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/build.make lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/build.make lib/kokkos/CMakeFiles/ExperimentalMemCheck.dir/build
 .PHONY : ExperimentalMemCheck/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/Experimental.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/Experimental.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/Experimental.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -513,12 +513,12 @@ Experimental: lib/kokkos/CMakeFiles/Experimental.dir/rule
 
 # fast build rule for target.
 Experimental/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/Experimental.dir/build.make lib/kokkos/CMakeFiles/Experimental.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/Experimental.dir/build.make lib/kokkos/CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/NightlySubmit.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlySubmit.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/NightlySubmit.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -528,12 +528,12 @@ NightlySubmit: lib/kokkos/CMakeFiles/NightlySubmit.dir/rule
 
 # fast build rule for target.
 NightlySubmit/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlySubmit.dir/build.make lib/kokkos/CMakeFiles/NightlySubmit.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/NightlySubmit.dir/build.make lib/kokkos/CMakeFiles/NightlySubmit.dir/build
 .PHONY : NightlySubmit/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -543,12 +543,12 @@ ExperimentalSubmit: lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # fast build rule for target.
 ExperimentalSubmit/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/build.make lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/build.make lib/kokkos/CMakeFiles/ExperimentalSubmit.dir/build
 .PHONY : ExperimentalSubmit/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ContinuousStart.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousStart.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousStart.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -558,12 +558,12 @@ ContinuousStart: lib/kokkos/CMakeFiles/ContinuousStart.dir/rule
 
 # fast build rule for target.
 ContinuousStart/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousStart.dir/build.make lib/kokkos/CMakeFiles/ContinuousStart.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousStart.dir/build.make lib/kokkos/CMakeFiles/ContinuousStart.dir/build
 .PHONY : ContinuousStart/fast
 
 # Convenience name for target.
 lib/kokkos/CMakeFiles/ContinuousUpdate.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousUpdate.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/CMakeFiles/ContinuousUpdate.dir/rule
 .PHONY : lib/kokkos/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -573,7 +573,7 @@ ContinuousUpdate: lib/kokkos/CMakeFiles/ContinuousUpdate.dir/rule
 
 # fast build rule for target.
 ContinuousUpdate/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousUpdate.dir/build.make lib/kokkos/CMakeFiles/ContinuousUpdate.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/CMakeFiles/ContinuousUpdate.dir/build.make lib/kokkos/CMakeFiles/ContinuousUpdate.dir/build
 .PHONY : ContinuousUpdate/fast
 
 # Help Target
@@ -627,6 +627,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

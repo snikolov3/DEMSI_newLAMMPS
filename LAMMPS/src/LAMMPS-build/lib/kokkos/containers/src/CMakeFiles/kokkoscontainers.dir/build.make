@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 # Include any dependencies generated for this target.
 include lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/depend.make
@@ -58,17 +58,17 @@ include lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/progress.make
 include lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/flags.make
 
 lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o: lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/flags.make
-lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp
+lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp
 
 lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp > CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp > CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.i
 
 lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp -o CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp -o CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.s
 
 # Object files for target kokkoscontainers
 kokkoscontainers_OBJECTS = \
@@ -82,9 +82,9 @@ lib/kokkos/containers/src/libkokkoscontainers.so.3.1.1: lib/kokkos/containers/sr
 lib/kokkos/containers/src/libkokkoscontainers.so.3.1.1: lib/kokkos/core/src/libkokkoscore.so.3.1.1
 lib/kokkos/containers/src/libkokkoscontainers.so.3.1.1: /usr/lib64/libdl.so
 lib/kokkos/containers/src/libkokkoscontainers.so.3.1.1: lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libkokkoscontainers.so"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kokkoscontainers.dir/link.txt --verbose=$(VERBOSE)
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && $(CMAKE_COMMAND) -E cmake_symlink_library libkokkoscontainers.so.3.1.1 libkokkoscontainers.so.3.1.1 libkokkoscontainers.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libkokkoscontainers.so"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kokkoscontainers.dir/link.txt --verbose=$(VERBOSE)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && $(CMAKE_COMMAND) -E cmake_symlink_library libkokkoscontainers.so.3.1.1 libkokkoscontainers.so.3.1.1 libkokkoscontainers.so
 
 lib/kokkos/containers/src/libkokkoscontainers.so: lib/kokkos/containers/src/libkokkoscontainers.so.3.1.1
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/kokkos/containers/src/libkokkoscontainers.so
@@ -95,10 +95,10 @@ lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build: lib/kokkos/cont
 .PHONY : lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build
 
 lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && $(CMAKE_COMMAND) -P CMakeFiles/kokkoscontainers.dir/cmake_clean.cmake
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src && $(CMAKE_COMMAND) -P CMakeFiles/kokkoscontainers.dir/cmake_clean.cmake
 .PHONY : lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/clean
 
 lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/containers/src /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/depend
 

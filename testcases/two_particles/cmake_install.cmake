@@ -1,4 +1,4 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/two_particles
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/two_particles
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

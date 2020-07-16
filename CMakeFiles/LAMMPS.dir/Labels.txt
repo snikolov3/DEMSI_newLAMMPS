@@ -1,0 +1,13 @@
+# Target labels
+ LAMMPS
+# Source files and their labels
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/LAMMPS
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/LAMMPS.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/LAMMPS-complete.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-install.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-mkdir.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-download.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-update.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-patch.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-configure.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-build.rule

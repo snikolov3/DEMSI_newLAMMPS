@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/KokkosExp_Cuda_IterateTile.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/KokkosExp_Cuda_IterateTile.hpp
 Kokkos_Macros.hpp
 -
 iostream
@@ -22,7 +22,7 @@ impl/Kokkos_Profiling_Interface.hpp
 typeinfo
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/KokkosExp_Cuda_IterateTile_Refactor.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/KokkosExp_Cuda_IterateTile_Refactor.hpp
 Kokkos_Macros.hpp
 -
 iostream
@@ -38,15 +38,15 @@ impl/Kokkos_Profiling_Interface.hpp
 typeinfo
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Atomic_Intrinsics.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Atomic_Intrinsics.hpp
 Kokkos_Macros.hpp
 -
 cassert
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Atomic_Intrinsics_Restore_Builtins.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Atomic_Intrinsics_Restore_Builtins.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_BlockSize_Deduction.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_BlockSize_Deduction.hpp
 Kokkos_Macros.hpp
 -
 iostream
@@ -54,7 +54,7 @@ iostream
 Cuda/Kokkos_Cuda_Error.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Error.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Error.hpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_Error.hpp
@@ -62,9 +62,9 @@ impl/Kokkos_Error.hpp
 iostream
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Instance.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Instance.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_KernelLaunch.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_KernelLaunch.hpp
 Kokkos_Macros.hpp
 -
 string
@@ -84,7 +84,7 @@ Cuda/Kokkos_Cuda_Locks.hpp
 Cuda/Kokkos_Cuda_Instance.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Locks.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Locks.hpp
 Kokkos_Macros.hpp
 -
 cstdint
@@ -92,7 +92,7 @@ cstdint
 Cuda/Kokkos_Cuda_Error.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Parallel.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Parallel.hpp
 Kokkos_Macros.hpp
 -
 iostream
@@ -126,7 +126,7 @@ typeinfo
 KokkosExp_MDRangePolicy.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ReduceScan.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ReduceScan.hpp
 Kokkos_Macros.hpp
 -
 utility
@@ -140,7 +140,7 @@ impl/Kokkos_Error.hpp
 Cuda/Kokkos_Cuda_Vectorization.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Task.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Task.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -152,7 +152,7 @@ Cuda/Kokkos_Cuda_Error.hpp
 impl/Kokkos_TaskTeamMember.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Team.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Team.hpp
 iostream
 -
 algorithm
@@ -178,7 +178,7 @@ impl/Kokkos_Profiling_Interface.hpp
 typeinfo
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_UniqueToken.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_UniqueToken.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_CudaSpace.hpp
@@ -190,7 +190,7 @@ impl/Kokkos_SharedAlloc.hpp
 impl/Kokkos_ConcurrentBitset.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Vectorization.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Vectorization.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Cuda.hpp
@@ -198,33 +198,33 @@ Kokkos_Cuda.hpp
 Cuda/Kokkos_Cuda_Version_9_8_Compatibility.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Version_9_8_Compatibility.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Version_9_8_Compatibility.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_View.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_View.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ViewCopyETIAvail.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ViewCopyETIAvail.hpp
 eti/common/Kokkos_ViewFillCopyETIAvail_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ViewCopyETIDecl.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ViewCopyETIDecl.hpp
 eti/common/Kokkos_ViewFillCopyETIDecl_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_WorkGraphPolicy.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_abort.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_abort.hpp
 Kokkos_Macros.hpp
 -
 cuda.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_fwd.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_fwd.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/KokkosExp_HIP_IterateTile.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/KokkosExp_HIP_IterateTile.hpp
 Kokkos_Macros.hpp
 -
 iostream
@@ -240,15 +240,15 @@ impl/Kokkos_Profiling_Interface.hpp
 typeinfo
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Abort.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Abort.hpp
 Kokkos_Macros.hpp
 -
 hip/hip_runtime.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Atomic.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Atomic.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_BlockSize_Deduction.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_BlockSize_Deduction.hpp
 Kokkos_Macros.hpp
 -
 HIP/Kokkos_HIP_Instance.hpp
@@ -256,7 +256,7 @@ HIP/Kokkos_HIP_Instance.hpp
 HIP/Kokkos_HIP_KernelLaunch.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Error.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Error.hpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_Error.hpp
@@ -266,11 +266,11 @@ hip/hip_runtime.h
 ostream
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Instance.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Instance.hpp
 Kokkos_HIP_Space.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_KernelLaunch.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_KernelLaunch.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_HIP_Space.hpp
@@ -280,7 +280,7 @@ HIP/Kokkos_HIP_Error.hpp
 HIP/Kokkos_HIP_Instance.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Locks.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Locks.hpp
 Kokkos_Macros.hpp
 -
 cstdint
@@ -288,7 +288,7 @@ cstdint
 HIP/Kokkos_HIP_Error.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_MDRange.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_MDRange.hpp
 HIP/Kokkos_HIP_BlockSize_Deduction.hpp
 -
 HIP/Kokkos_HIP_KernelLaunch.hpp
@@ -300,7 +300,7 @@ KokkosExp_MDRangePolicy.hpp
 Kokkos_Parallel.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_Range.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_Range.hpp
 Kokkos_Parallel.hpp
 -
 HIP/Kokkos_HIP_BlockSize_Deduction.hpp
@@ -310,7 +310,7 @@ HIP/Kokkos_HIP_KernelLaunch.hpp
 HIP/Kokkos_HIP_ReduceScan.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_Team.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_Team.hpp
 Kokkos_Parallel.hpp
 -
 HIP/Kokkos_HIP_KernelLaunch.hpp
@@ -322,11 +322,11 @@ HIP/Kokkos_HIP_Team.hpp
 HIP/Kokkos_HIP_Instance.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_ReduceScan.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_ReduceScan.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Team.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Team.hpp
 Kokkos_Macros.hpp
 -
 utility
@@ -342,13 +342,13 @@ HIP/Kokkos_HIP_BlockSize_Deduction.hpp
 Kokkos_Vectorization.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Vectorization.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Vectorization.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_HIP.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_ChunkedRoundRobinExecutor.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_ChunkedRoundRobinExecutor.hpp
 hpx/config.hpp
 -
 hpx/async_launch_policy_dispatch.hpp
@@ -378,7 +378,7 @@ utility
 vector
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_Task.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_Task.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -394,7 +394,7 @@ hpx/lcos/local/latch.hpp
 type_traits
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_WorkGraphPolicy.hpp
 HPX/Kokkos_HPX_ChunkedRoundRobinExecutor.hpp
 -
 hpx/apply.hpp
@@ -402,7 +402,7 @@ hpx/apply.hpp
 hpx/lcos/local/latch.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/KokkosExp_MDRangePolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/KokkosExp_MDRangePolicy.hpp
 initializer_list
 -
 Kokkos_Layout.hpp
@@ -422,7 +422,7 @@ ROCm/KokkosExp_ROCm_IterateTile_Refactor.hpp
 HIP/KokkosExp_HIP_IterateTile.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_AnonymousSpace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_AnonymousSpace.hpp
 Kokkos_Core_fwd.hpp
 -
 Kokkos_Concepts.hpp
@@ -430,7 +430,7 @@ Kokkos_Concepts.hpp
 cstddef
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Array.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Array.hpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_Error.hpp
@@ -446,7 +446,7 @@ cstddef
 string
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Atomic.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Atomic.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_HostSpace.hpp
@@ -456,47 +456,47 @@ impl/Kokkos_Traits.hpp
 Cuda/Kokkos_Cuda_Locks.hpp
 -
 impl/Kokkos_Atomic_Memory_Order.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Memory_Order.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Memory_Order.hpp
 ROCm/Kokkos_ROCm_Atomic.hpp
 -
 HIP/Kokkos_HIP_Atomic.hpp
 -
 impl/Kokkos_Atomic_Windows.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Windows.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Windows.hpp
 impl/Kokkos_Atomic_Assembly.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Assembly.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Assembly.hpp
 impl/Kokkos_Atomic_Exchange.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Exchange.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Exchange.hpp
 impl/Kokkos_Atomic_Compare_Exchange_Strong.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Compare_Exchange_Strong.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Compare_Exchange_Strong.hpp
 impl/Kokkos_Atomic_Generic.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic.hpp
 impl/Kokkos_Atomic_Fetch_Add.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Add.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Add.hpp
 impl/Kokkos_Atomic_Increment.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Increment.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Increment.hpp
 impl/Kokkos_Atomic_Decrement.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Decrement.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Decrement.hpp
 impl/Kokkos_Atomic_Fetch_Sub.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Sub.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Sub.hpp
 impl/Kokkos_Atomic_Fetch_Or.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Or.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Or.hpp
 impl/Kokkos_Atomic_Fetch_And.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_And.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_And.hpp
 impl/Kokkos_Atomic_MinMax.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_MinMax.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_MinMax.hpp
 impl/Kokkos_Memory_Fence.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Memory_Fence.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Memory_Fence.hpp
 impl/Kokkos_Volatile_Load.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Volatile_Load.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Volatile_Load.hpp
 impl/Kokkos_Atomic_Load.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Load.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Load.hpp
 impl/Kokkos_Atomic_Store.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Store.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Store.hpp
 impl/Kokkos_Atomic_Generic_Secondary.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic_Secondary.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic_Secondary.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Complex.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Complex.hpp
 Kokkos_Atomic.hpp
 -
 Kokkos_NumericTraits.hpp
@@ -506,13 +506,13 @@ complex
 iostream
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Concepts.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Concepts.hpp
 type_traits
 -
 Kokkos_Core_fwd.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_CopyViews.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_CopyViews.hpp
 string
 -
 impl/Kokkos_ViewFillCopyETIAvail.hpp
@@ -520,7 +520,7 @@ impl/Kokkos_ViewFillCopyETIAvail.hpp
 impl/Kokkos_ViewFillCopyETIDecl.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Core.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Core.hpp
 Kokkos_Core_fwd.hpp
 -
 Kokkos_Serial.hpp
@@ -574,7 +574,7 @@ Kokkos_Crs.hpp
 Kokkos_WorkGraphPolicy.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Core_fwd.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Core_fwd.hpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_Utilities.hpp
@@ -584,11 +584,11 @@ Kokkos_UniqueToken.hpp
 Kokkos_MasterLock.hpp
 -
 Cuda/Kokkos_Cuda_fwd.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_fwd.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_fwd.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Crs.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Crs.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Cuda.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Cuda.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -630,7 +630,7 @@ Cuda/Kokkos_Cuda_UniqueToken.hpp
 KokkosExp_MDRangePolicy.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_CudaSpace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_CudaSpace.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -648,7 +648,7 @@ impl/Kokkos_Profiling_Interface.hpp
 Cuda/Kokkos_Cuda_abort.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_ExecPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_ExecPolicy.hpp
 Kokkos_Core_fwd.hpp
 -
 impl/Kokkos_Traits.hpp
@@ -666,11 +666,11 @@ iostream
 typeinfo
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Extents.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Extents.hpp
 cstddef
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Future.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Future.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -688,13 +688,13 @@ Kokkos_Atomic.hpp
 Kokkos_Concepts.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_HBWSpace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HBWSpace.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_HostSpace.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_HIP.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HIP.hpp
 Kokkos_Core_fwd.hpp
 -
 Kokkos_HIP_Space.hpp
@@ -712,7 +712,7 @@ HIP/Kokkos_HIP_Parallel_MDRange.hpp
 HIP/Kokkos_HIP_Parallel_Team.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_HIP_Space.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HIP_Space.hpp
 Kokkos_Core_fwd.hpp
 -
 iosfwd
@@ -736,7 +736,7 @@ impl/Kokkos_Profiling_Interface.hpp
 hip/hip_runtime_api.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_HPX.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HPX.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -812,7 +812,7 @@ vector
 HPX/Kokkos_HPX_Task.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_HostSpace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HostSpace.hpp
 cstring
 -
 string
@@ -834,9 +834,9 @@ impl/Kokkos_Error.hpp
 impl/Kokkos_SharedAlloc.hpp
 -
 impl/Kokkos_HostSpace_deepcopy.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Layout.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Layout.hpp
 cstddef
 -
 impl/Kokkos_Traits.hpp
@@ -844,7 +844,7 @@ impl/Kokkos_Traits.hpp
 impl/Kokkos_Tags.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Macros.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Macros.hpp
 KokkosCore_config.h
 -
 impl/Kokkos_OldMacros.hpp
@@ -858,11 +858,11 @@ hip/hip_runtime.h
 hip/hip_runtime_api.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_MasterLock.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_MasterLock.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_MemoryPool.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_MemoryPool.hpp
 Kokkos_Core_fwd.hpp
 -
 Kokkos_Parallel.hpp
@@ -876,19 +876,19 @@ impl/Kokkos_Error.hpp
 impl/Kokkos_SharedAlloc.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_MemoryTraits.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_MemoryTraits.hpp
 impl/Kokkos_Traits.hpp
 -
 impl/Kokkos_Tags.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_NumericTraits.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_NumericTraits.hpp
 climits
 -
 cfloat
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMP.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMP.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -924,7 +924,7 @@ OpenMP/Kokkos_OpenMP_Task.hpp
 KokkosExp_MDRangePolicy.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMPTarget.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMPTarget.hpp
 Kokkos_Core_fwd.hpp
 -
 omp.h
@@ -958,7 +958,7 @@ OpenMPTarget/Kokkos_OpenMPTarget_Parallel_MDRange.hpp
 OpenMPTarget/Kokkos_OpenMPTarget_Task.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMPTargetSpace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMPTargetSpace.hpp
 cstring
 -
 string
@@ -974,13 +974,13 @@ Kokkos_HostSpace.hpp
 omp.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Pair.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Pair.hpp
 Kokkos_Macros.hpp
 -
 utility
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Parallel.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Parallel.hpp
 cstddef
 -
 Kokkos_Core_fwd.hpp
@@ -1006,17 +1006,17 @@ iostream
 Kokkos_Parallel_Reduce.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Parallel_Reduce.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Parallel_Reduce.hpp
 Kokkos_NumericTraits.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_PointerOwnership.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_PointerOwnership.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_ROCm.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_ROCm.hpp
 Kokkos_Core_fwd.hpp
 -
 ROCm/hc_math_std.hpp
@@ -1050,7 +1050,7 @@ ROCm/Kokkos_ROCm_Parallel.hpp
 ROCm/Kokkos_ROCm_Task.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_ROCmSpace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_ROCmSpace.hpp
 Kokkos_Core_fwd.hpp
 -
 iosfwd
@@ -1062,7 +1062,7 @@ string
 Kokkos_HostSpace.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_ScratchSpace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_ScratchSpace.hpp
 cstdio
 -
 Kokkos_Core_fwd.hpp
@@ -1070,7 +1070,7 @@ Kokkos_Core_fwd.hpp
 Kokkos_Concepts.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Serial.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Serial.hpp
 Kokkos_Macros.hpp
 -
 cstddef
@@ -1106,11 +1106,11 @@ Kokkos_UniqueToken.hpp
 impl/Kokkos_Serial_Task.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_TaskPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_TaskPolicy.hpp
 Kokkos_TaskScheduler.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_TaskScheduler.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_TaskScheduler.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -1136,13 +1136,13 @@ impl/Kokkos_TaskTeamMember.hpp
 impl/Kokkos_SimpleTaskScheduler.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_TaskScheduler_fwd.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_TaskScheduler_fwd.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Threads.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Threads.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -1176,21 +1176,21 @@ Threads/Kokkos_Threads_Parallel.hpp
 KokkosExp_MDRangePolicy.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Timer.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Timer.hpp
 chrono
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_UniqueToken.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_UniqueToken.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_Vectorization.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Vectorization.hpp
 Cuda/Kokkos_Cuda_Vectorization.hpp
 -
 HIP/Kokkos_HIP_Vectorization.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_View.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_View.hpp
 type_traits
 -
 string
@@ -1218,23 +1218,23 @@ impl/Kokkos_ViewUniformType.hpp
 impl/Kokkos_Atomic_View.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_WorkGraphPolicy.hpp
 impl/Kokkos_Serial_WorkGraphPolicy.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_WorkGraphPolicy.hpp
 OpenMP/Kokkos_OpenMP_WorkGraphPolicy.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_WorkGraphPolicy.hpp
 Cuda/Kokkos_Cuda_WorkGraphPolicy.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_WorkGraphPolicy.hpp
 Threads/Kokkos_Threads_WorkGraphPolicy.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_WorkGraphPolicy.hpp
 HPX/Kokkos_HPX_WorkGraphPolicy.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_WorkGraphPolicy.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Kokkos_hwloc.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_hwloc.hpp
 utility
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp
 Kokkos_Macros.hpp
 -
 cstdio
@@ -1256,7 +1256,7 @@ impl/Kokkos_CPUDiscovery.hpp
 impl/Kokkos_Profiling_Interface.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_OpenMP.hpp
@@ -1278,7 +1278,7 @@ fstream
 omp.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Parallel.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Parallel.hpp
 Kokkos_Macros.hpp
 -
 omp.h
@@ -1292,7 +1292,7 @@ impl/Kokkos_FunctorAdapter.hpp
 KokkosExp_MDRangePolicy.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core.hpp
@@ -1306,7 +1306,7 @@ OpenMP/Kokkos_OpenMP_Task.hpp
 cassert
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -1320,23 +1320,23 @@ type_traits
 cassert
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Team.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Team.hpp
 Kokkos_Macros.hpp
 -
 OpenMP/Kokkos_OpenMP_Exec.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_ViewCopyETIAvail.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_ViewCopyETIAvail.hpp
 eti/common/Kokkos_ViewFillCopyETIAvail_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_ViewCopyETIDecl.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_ViewCopyETIDecl.hpp
 eti/common/Kokkos_ViewFillCopyETIDecl_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_WorkGraphPolicy.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Exec.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Exec.hpp
 impl/Kokkos_Traits.hpp
 -
 impl/Kokkos_Spinwait.hpp
@@ -1350,7 +1350,7 @@ sstream
 fstream
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Parallel.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Parallel.hpp
 omp.h
 -
 iostream
@@ -1362,7 +1362,7 @@ OpenMPTarget/Kokkos_OpenMPTarget_Exec.hpp
 impl/Kokkos_FunctorAdapter.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Parallel_MDRange.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Parallel_MDRange.hpp
 omp.h
 -
 iostream
@@ -1374,9 +1374,9 @@ OpenMPTarget/Kokkos_OpenMPTarget_Exec.hpp
 impl/Kokkos_FunctorAdapter.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Task.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Task.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/KokkosExp_ROCm_IterateTile_Refactor.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/KokkosExp_ROCm_IterateTile_Refactor.hpp
 Kokkos_Macros.hpp
 -
 iostream
@@ -1392,27 +1392,27 @@ impl/Kokkos_Profiling_Interface.hpp
 typeinfo
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Atomic.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Atomic.hpp
 hc.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Config.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Config.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Exec.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Exec.hpp
 algorithm
 -
 typeinfo
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Invoke.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Invoke.hpp
 type_traits
 -
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Join.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Join.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Parallel.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Parallel.hpp
 algorithm
 -
 typeinfo
@@ -1432,7 +1432,7 @@ KokkosExp_MDRangePolicy.hpp
 ROCm/Kokkos_ROCm_ReduceScan.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Reduce.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Reduce.hpp
 iostream
 -
 algorithm
@@ -1450,7 +1450,7 @@ ROCm/Kokkos_ROCm_Invoke.hpp
 ROCm/Kokkos_ROCm_Join.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ReduceScan.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ReduceScan.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Parallel.hpp
@@ -1462,17 +1462,17 @@ impl/Kokkos_Error.hpp
 ROCm/Kokkos_ROCm_Vectorization.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Scan.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Scan.hpp
 ROCm/Kokkos_ROCm_Invoke.hpp
 -
 ROCm/Kokkos_ROCm_Join.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Task.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Task.hpp
 ROCm/Kokkos_ROCm_Vectorization.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Tile.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Tile.hpp
 hc.hpp
 -
 type_traits
@@ -1484,35 +1484,35 @@ memory
 ROCm/Kokkos_ROCm_Config.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Vectorization.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Vectorization.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_ROCm.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ViewCopyETIAvail.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ViewCopyETIAvail.hpp
 eti/common/Kokkos_ViewFillCopyETIAvail_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ViewCopyETIDecl.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ViewCopyETIDecl.hpp
 eti/common/Kokkos_ViewFillCopyETIDecl_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/hc_math_std.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/hc_math_std.hpp
 hc.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/ROCm/hc.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/hc.hpp
 cmath
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Serial/Kokkos_Serial_ViewCopyETIAvail.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Serial/Kokkos_Serial_ViewCopyETIAvail.hpp
 eti/common/Kokkos_ViewFillCopyETIAvail_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Serial/Kokkos_Serial_ViewCopyETIDecl.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Serial/Kokkos_Serial_ViewCopyETIDecl.hpp
 eti/common/Kokkos_ViewFillCopyETIDecl_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_ThreadsExec.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_ThreadsExec.hpp
 Kokkos_Macros.hpp
 -
 cstdio
@@ -1528,7 +1528,7 @@ Kokkos_Atomic.hpp
 Kokkos_UniqueToken.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_ThreadsTeam.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_ThreadsTeam.hpp
 Kokkos_Macros.hpp
 -
 cstdio
@@ -1544,7 +1544,7 @@ impl/Kokkos_HostThreadTeam.hpp
 Kokkos_Atomic.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_Parallel.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_Parallel.hpp
 Kokkos_Macros.hpp
 -
 vector
@@ -1558,21 +1558,21 @@ impl/Kokkos_FunctorAdapter.hpp
 KokkosExp_MDRangePolicy.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_ViewCopyETIAvail.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_ViewCopyETIAvail.hpp
 eti/common/Kokkos_ViewFillCopyETIAvail_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_ViewCopyETIDecl.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_ViewCopyETIDecl.hpp
 eti/common/Kokkos_ViewFillCopyETIDecl_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_WorkGraphPolicy.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/eti/common/Kokkos_ViewFillCopyETIAvail_Macros.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/eti/common/Kokkos_ViewFillCopyETIAvail_Macros.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/eti/common/Kokkos_ViewFillCopyETIDecl_Macros.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/eti/common/Kokkos_ViewFillCopyETIDecl_Macros.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/KokkosExp_Host_IterateTile.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/KokkosExp_Host_IterateTile.hpp
 Kokkos_Macros.hpp
 -
 iostream
@@ -1582,7 +1582,7 @@ algorithm
 cstdio
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_AnalyzePolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_AnalyzePolicy.hpp
 Kokkos_Core_fwd.hpp
 -
 Kokkos_Concepts.hpp
@@ -1590,11 +1590,11 @@ Kokkos_Concepts.hpp
 impl/Kokkos_Tags.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Assembly.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Assembly.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Compare_Exchange_Strong.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Compare_Exchange_Strong.hpp
 xmmintrin.h
 -
 Kokkos_Macros.hpp
@@ -1610,15 +1610,15 @@ Cuda/Kokkos_Cuda_Atomic_Intrinsics.hpp
 Cuda/Kokkos_Cuda_Atomic_Intrinsics_Restore_Builtins.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Decrement.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Decrement.hpp
 xmmintrin.h
 -
 Kokkos_Macros.hpp
 -
 impl/Kokkos_Atomic_Fetch_Sub.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/impl/Kokkos_Atomic_Fetch_Sub.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/impl/Kokkos_Atomic_Fetch_Sub.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Exchange.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Exchange.hpp
 xmmintrin.h
 -
 Kokkos_Macros.hpp
@@ -1626,7 +1626,7 @@ Kokkos_Macros.hpp
 Cuda/Kokkos_Cuda_Version_9_8_Compatibility.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Add.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Add.hpp
 xmmintrin.h
 -
 Kokkos_Macros.hpp
@@ -1634,19 +1634,19 @@ Kokkos_Macros.hpp
 Cuda/Kokkos_Cuda_Version_9_8_Compatibility.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_And.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_And.hpp
 xmmintrin.h
 -
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Or.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Or.hpp
 xmmintrin.h
 -
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Sub.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Sub.hpp
 xmmintrin.h
 -
 Kokkos_Macros.hpp
@@ -1656,7 +1656,7 @@ Cuda/Kokkos_Cuda_Version_9_8_Compatibility.hpp
 impl/Kokkos_Atomic_Assembly.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Macros.hpp
@@ -1664,17 +1664,17 @@ Kokkos_Macros.hpp
 Cuda/Kokkos_Cuda_Version_9_8_Compatibility.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic_Secondary.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic_Secondary.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Increment.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Increment.hpp
 xmmintrin.h
 -
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Load.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Load.hpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_Atomic_Memory_Order.hpp
@@ -1686,17 +1686,17 @@ Cuda/Kokkos_Cuda_Atomic_Intrinsics.hpp
 Cuda/Kokkos_Cuda_Atomic_Intrinsics_Restore_Builtins.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Memory_Order.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Memory_Order.hpp
 Kokkos_Macros.hpp
 -
 atomic
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_MinMax.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_MinMax.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Store.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Store.hpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_Atomic_Memory_Order.hpp
@@ -1708,19 +1708,19 @@ Cuda/Kokkos_Cuda_Atomic_Intrinsics.hpp
 Cuda/Kokkos_Cuda_Atomic_Intrinsics_Restore_Builtins.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_View.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_View.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Atomic.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Windows.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Windows.hpp
 winsock2.h
 -
 windows.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_BitOps.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_BitOps.hpp
 Kokkos_Macros.hpp
 -
 cstdint
@@ -1732,7 +1732,7 @@ immintrin.h
 hc.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp
 windows.h
 -
 unistd.h
@@ -1746,9 +1746,9 @@ cstring
 cerrno
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ChaseLev.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ChaseLev.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -1764,9 +1764,9 @@ impl/Kokkos_LinkedListNode.hpp
 Kokkos_Atomic.hpp
 -
 Kokkos_LIFO.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_LIFO.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_LIFO.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ClockTic.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ClockTic.hpp
 Kokkos_Macros.hpp
 -
 stdint.h
@@ -1774,7 +1774,7 @@ stdint.h
 chrono
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ConcurrentBitset.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ConcurrentBitset.hpp
 stdint.h
 -
 Kokkos_Atomic.hpp
@@ -1784,7 +1784,7 @@ impl/Kokkos_BitOps.hpp
 impl/Kokkos_ClockTic.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp
 Kokkos_Core.hpp
 -
 impl/Kokkos_Error.hpp
@@ -1810,7 +1810,7 @@ cerrno
 unistd.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_EBO.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_EBO.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -1820,7 +1820,7 @@ utility
 type_traits
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp
 cstdio
 -
 cstring
@@ -1838,7 +1838,7 @@ stdexcept
 impl/Kokkos_Error.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.hpp
 string
 -
 iosfwd
@@ -1850,11 +1850,11 @@ Cuda/Kokkos_Cuda_abort.hpp
 HIP/Kokkos_HIP_Abort.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp
 Kokkos_Core.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_FunctorAdapter.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_FunctorAdapter.hpp
 cstddef
 -
 Kokkos_Core_fwd.hpp
@@ -1864,7 +1864,7 @@ impl/Kokkos_Traits.hpp
 impl/Kokkos_Tags.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_FunctorAnalysis.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_FunctorAnalysis.hpp
 cstddef
 -
 Kokkos_Core_fwd.hpp
@@ -1874,7 +1874,7 @@ impl/Kokkos_Traits.hpp
 impl/Kokkos_Tags.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_HostBarrier.hpp
@@ -1894,13 +1894,13 @@ winsock2.h
 windows.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Atomic.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp
 cstdio
 -
 algorithm
@@ -1940,17 +1940,17 @@ Kokkos_Atomic.hpp
 immintrin.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp
 Kokkos_Core.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.hpp
 Kokkos_HostSpace_deepcopy.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.hpp
 cstdint
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp
 limits
 -
 Kokkos_Macros.hpp
@@ -1962,7 +1962,7 @@ impl/Kokkos_Error.hpp
 impl/Kokkos_Spinwait.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.hpp
 Kokkos_Core_fwd.hpp
 -
 Kokkos_Pair.hpp
@@ -1982,7 +1982,7 @@ limits
 algorithm
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_LIFO.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_LIFO.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -1998,7 +1998,7 @@ impl/Kokkos_LinkedListNode.hpp
 Kokkos_Atomic.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_LinkedListNode.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_LinkedListNode.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -2012,7 +2012,7 @@ impl/Kokkos_Error.hpp
 Kokkos_Atomic.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp
 ostream
 -
 sstream
@@ -2020,7 +2020,7 @@ sstream
 impl/Kokkos_Error.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemorySpace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemorySpace.hpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_SharedAlloc.hpp
@@ -2034,11 +2034,11 @@ iostream
 sstream
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Memory_Fence.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Memory_Fence.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MultipleTaskQueue.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MultipleTaskQueue.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2070,9 +2070,9 @@ typeinfo
 stdexcept
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_OldMacros.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_OldMacros.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_OptionalRef.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_OptionalRef.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -2082,11 +2082,11 @@ Kokkos_PointerOwnership.hpp
 impl/Kokkos_Error.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_DeviceInfo.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_DeviceInfo.hpp
 cstdint
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_Profiling_Interface.hpp
@@ -2098,7 +2098,7 @@ impl/Kokkos_Profiling_Interface.hpp
 cstring
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.hpp
 Kokkos_Macros.hpp
 -
 cinttypes
@@ -2118,7 +2118,7 @@ dlfcn.h
 impl/Kokkos_Profiling_DeviceInfo.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core.hpp
@@ -2128,7 +2128,7 @@ impl/Kokkos_Serial_Task.hpp
 impl/Kokkos_TaskQueue_impl.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2140,19 +2140,19 @@ Kokkos_Serial.hpp
 impl/Kokkos_HostThreadTeam.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_WorkGraphPolicy.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_WorkGraphPolicy.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp
 Kokkos_Core.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.hpp
 cstdint
 -
 string
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SimpleTaskScheduler.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SimpleTaskScheduler.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -2180,7 +2180,7 @@ impl/Kokkos_TaskTeamMember.hpp
 impl/Kokkos_EBO.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SingleTaskQueue.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SingleTaskQueue.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2212,7 +2212,7 @@ typeinfo
 stdexcept
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp
 Kokkos_Macros.hpp
 -
 Kokkos_Atomic.hpp
@@ -2234,7 +2234,7 @@ winsock2.h
 windows.h
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Atomic.hpp
@@ -2244,11 +2244,11 @@ cstdint
 type_traits
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp
 Kokkos_Macros.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Macros.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Macros.hpp
 Kokkos_Stacktrace.hpp
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.hpp
 execinfo.h
 -
 cxxabi.h
@@ -2262,7 +2262,7 @@ tuple
 vector
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.hpp
 functional
 -
 ostream
@@ -2270,7 +2270,7 @@ ostream
 string
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Tags.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Tags.hpp
 impl/Kokkos_Traits.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -2278,7 +2278,7 @@ Kokkos_Core_fwd.hpp
 type_traits
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskBase.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskBase.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2294,7 +2294,7 @@ typeinfo
 stdexcept
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskNode.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskNode.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2320,7 +2320,7 @@ typeinfo
 stdexcept
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskPolicyData.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskPolicyData.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -2328,7 +2328,7 @@ Kokkos_Core_fwd.hpp
 Kokkos_TaskScheduler_fwd.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueue.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueue.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2356,7 +2356,7 @@ typeinfo
 stdexcept
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueCommon.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueCommon.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2386,7 +2386,7 @@ typeinfo
 stdexcept
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMemoryManager.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMemoryManager.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2414,7 +2414,7 @@ typeinfo
 stdexcept
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMultiple.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMultiple.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2446,17 +2446,17 @@ cassert
 impl/Kokkos_TaskQueueMultiple_impl.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMultiple_impl.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMultiple_impl.hpp
 Kokkos_Macros.hpp
 -
 impl/Kokkos_TaskQueueMultiple.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueue_impl.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueue_impl.hpp
 Kokkos_Macros.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskResult.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskResult.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_TaskScheduler_fwd.hpp
@@ -2474,7 +2474,7 @@ typeinfo
 stdexcept
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskTeamMember.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskTeamMember.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -2496,7 +2496,7 @@ impl/Kokkos_TaskQueueMultiple.hpp
 impl/Kokkos_TaskPolicyData.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Traits.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Traits.hpp
 cstddef
 -
 cstdint
@@ -2510,7 +2510,7 @@ string
 type_traits
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Utilities.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Utilities.hpp
 Kokkos_Macros.hpp
 -
 cstdint
@@ -2518,7 +2518,7 @@ cstdint
 type_traits
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_VLAEmulation.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_VLAEmulation.hpp
 Kokkos_Macros.hpp
 -
 Kokkos_Core_fwd.hpp
@@ -2528,13 +2528,13 @@ impl/Kokkos_Error.hpp
 type_traits
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewArray.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewArray.hpp
 Kokkos_Array.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewCtor.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewCtor.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewFillCopyETIAvail.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewFillCopyETIAvail.hpp
 Serial/Kokkos_Serial_ViewCopyETIAvail.hpp
 -
 OpenMP/Kokkos_OpenMP_ViewCopyETIAvail.hpp
@@ -2546,7 +2546,7 @@ Cuda/Kokkos_Cuda_ViewCopyETIAvail.hpp
 ROCm/Kokkos_ROCm_ViewCopyETIAvail.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewFillCopyETIDecl.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewFillCopyETIDecl.hpp
 Serial/Kokkos_Serial_ViewCopyETIDecl.hpp
 -
 OpenMP/Kokkos_OpenMP_ViewCopyETIDecl.hpp
@@ -2558,7 +2558,7 @@ Cuda/Kokkos_Cuda_ViewCopyETIDecl.hpp
 ROCm/Kokkos_ROCm_ViewCopyETIDecl.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewMapping.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewMapping.hpp
 type_traits
 -
 initializer_list
@@ -2582,11 +2582,11 @@ impl/Kokkos_Atomic_View.hpp
 impl/Kokkos_Profiling_Interface.hpp
 -
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewUniformType.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewUniformType.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Volatile_Load.hpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Volatile_Load.hpp
 
-/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp
 iostream
 -
 sstream

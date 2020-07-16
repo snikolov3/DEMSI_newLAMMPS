@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # Utility rule file for interp_test_inputs.
 
@@ -58,8 +58,8 @@ testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs: testcases/parti
 
 
 testcases/particle_to_grid_interp/grid.nc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, particles_in.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp && python /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp/make_testcase.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, particles_in.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp && python /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp/make_testcase.py
 
 testcases/particle_to_grid_interp/particles_in.nc: testcases/particle_to_grid_interp/grid.nc
 	@$(CMAKE_COMMAND) -E touch_nocreate testcases/particle_to_grid_interp/particles_in.nc
@@ -77,10 +77,10 @@ testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs.dir/build: inter
 .PHONY : testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs.dir/build
 
 testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs.dir/clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp && $(CMAKE_COMMAND) -P CMakeFiles/interp_test_inputs.dir/cmake_clean.cmake
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp && $(CMAKE_COMMAND) -P CMakeFiles/interp_test_inputs.dir/cmake_clean.cmake
 .PHONY : testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs.dir/clean
 
 testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : testcases/particle_to_grid_interp/CMakeFiles/interp_test_inputs.dir/depend
 

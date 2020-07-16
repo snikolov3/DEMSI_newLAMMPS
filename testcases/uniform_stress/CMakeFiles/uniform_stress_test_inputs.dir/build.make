@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # Utility rule file for uniform_stress_test_inputs.
 
@@ -58,15 +58,15 @@ testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs: testcases/unifor
 
 
 testcases/uniform_stress/grid.nc: testcases/uniform_stress/particles_in_expand.nc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, particles_in.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/uniform_stress && python /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/uniform_stress/make_testcase.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, particles_in.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/uniform_stress && python /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/uniform_stress/make_testcase.py
 
 testcases/uniform_stress/particles_in.nc: testcases/uniform_stress/grid.nc
 	@$(CMAKE_COMMAND) -E touch_nocreate testcases/uniform_stress/particles_in.nc
 
 testcases/uniform_stress/particles_in_expand.nc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating particles_in_expand.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/uniform_stress && wget https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/testcases/uniform_stress/particles_in_expand.nc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating particles_in_expand.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/uniform_stress && wget https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/testcases/uniform_stress/particles_in_expand.nc
 
 uniform_stress_test_inputs: testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs
 uniform_stress_test_inputs: testcases/uniform_stress/grid.nc
@@ -82,10 +82,10 @@ testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs.dir/build: unifor
 .PHONY : testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs.dir/build
 
 testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs.dir/clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/uniform_stress && $(CMAKE_COMMAND) -P CMakeFiles/uniform_stress_test_inputs.dir/cmake_clean.cmake
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/uniform_stress && $(CMAKE_COMMAND) -P CMakeFiles/uniform_stress_test_inputs.dir/cmake_clean.cmake
 .PHONY : testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs.dir/clean
 
 testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/uniform_stress /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/uniform_stress /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/uniform_stress /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/uniform_stress /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : testcases/uniform_stress/CMakeFiles/uniform_stress_test_inputs.dir/depend
 

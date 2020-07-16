@@ -1,4 +1,4 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/single_particle
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/single_particle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

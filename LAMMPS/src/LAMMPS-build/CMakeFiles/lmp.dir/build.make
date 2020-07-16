@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lmp.dir/depend.make
@@ -57,31 +57,31 @@ include CMakeFiles/lmp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lmp.dir/flags.make
 
-CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.o: CMakeFiles/lmp.dir/flags.make
-CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.o"
-	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp
+CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.o: CMakeFiles/lmp.dir/flags.make
+CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.o"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp
 
-CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.i"
-	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp > CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.i
+CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.i"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp > CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.i
 
-CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.s"
-	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp -o CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.s
+CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.s"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp -o CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.s
 
 # Object files for target lmp
 lmp_OBJECTS = \
-"CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.o"
+"CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.o"
 
 # External object files for target lmp
 lmp_EXTERNAL_OBJECTS =
 
-lmp: CMakeFiles/lmp.dir/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/main.cpp.o
+lmp: CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.o
 lmp: CMakeFiles/lmp.dir/build.make
 lmp: liblammps.so.0
 lmp: CMakeFiles/lmp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lmp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/lmp.dir/clean:
 .PHONY : CMakeFiles/lmp.dir/clean
 
 CMakeFiles/lmp.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/lmp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/lmp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lmp.dir/depend
 

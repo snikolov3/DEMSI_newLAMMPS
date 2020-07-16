@@ -1,0 +1,32 @@
+# The fortran modules provided by this target.
+provides
+ icepack_aerosol.mod
+ icepack_age.mod
+ icepack_algae.mod
+ icepack_atmo.mod
+ icepack_brine.mod
+ icepack_firstyear.mod
+ icepack_flux.mod
+ icepack_intfc.mod
+ icepack_itd.mod
+ icepack_kinds.mod
+ icepack_mechred.mod
+ icepack_meltpond_cesm.mod
+ icepack_meltpond_lvl.mod
+ icepack_meltpond_topo.mod
+ icepack_mushy_physics.mod
+ icepack_ocean.mod
+ icepack_orbital.mod
+ icepack_parameters.mod
+ icepack_shortwave.mod
+ icepack_therm_0layer.mod
+ icepack_therm_bl99.mod
+ icepack_therm_itd.mod
+ icepack_therm_mushy.mod
+ icepack_therm_shared.mod
+ icepack_therm_vertical.mod
+ icepack_tracers.mod
+ icepack_warnings.mod
+ icepack_zbgc.mod
+ icepack_zbgc_shared.mod
+ icepack_zsalinity.mod

@@ -7,11 +7,11 @@ CXX_FLAGS = -g --std=c++11 -fopenmp -O3 -fPIC
 
 CXX_DEFINES = -Ddemsilib_EXPORTS
 
-CXX_INCLUDES = -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install/include -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install/include/kokkos -I/ascldap/users/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/include -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/permon/include -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/Icepack/columnphysics 
+CXX_INCLUDES = -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install/include -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install/include/kokkos -I/ascldap/users/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/include -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/include -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/Icepack/columnphysics 
 
 Fortran_FLAGS = -g -ffree-line-length-none -O3 -DNDEBUG -O3 -fPIC  
 
 Fortran_DEFINES = -Ddemsilib_EXPORTS
 
-Fortran_INCLUDES = -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install/include -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install/include/kokkos -I/ascldap/users/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/include -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/permon/include -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/Icepack/columnphysics 
+Fortran_INCLUDES = -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install/include -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install/include/kokkos -I/ascldap/users/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/include -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/include -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/Icepack/columnphysics 
 

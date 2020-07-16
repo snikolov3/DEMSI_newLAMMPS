@@ -1,4 +1,4 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/src/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/src/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

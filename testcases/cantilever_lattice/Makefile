@@ -48,10 +48,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/cantilever_lattice/CMakeFiles/progress.marks
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/cantilever_lattice/CMakeFiles/progress.marks
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/clean
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 testcases/cantilever_lattice/CMakeFiles/cantilever_test_inputs.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/CMakeFiles/cantilever_test_inputs.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 testcases/cantilever_lattice/CMakeFiles/cantilever_test_inputs.dir/rule
 .PHONY : testcases/cantilever_lattice/CMakeFiles/cantilever_test_inputs.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ cantilever_test_inputs: testcases/cantilever_lattice/CMakeFiles/cantilever_test_
 
 # fast build rule for target.
 cantilever_test_inputs/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f testcases/cantilever_lattice/CMakeFiles/cantilever_test_inputs.dir/build.make testcases/cantilever_lattice/CMakeFiles/cantilever_test_inputs.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f testcases/cantilever_lattice/CMakeFiles/cantilever_test_inputs.dir/build.make testcases/cantilever_lattice/CMakeFiles/cantilever_test_inputs.dir/build
 .PHONY : cantilever_test_inputs/fast
 
 # Help Target
@@ -157,6 +157,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

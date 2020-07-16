@@ -48,10 +48,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/src/CMakeFiles/progress.marks
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles /ascldap/users/snikolo/move/DEMSI_newLAMMPS/src/CMakeFiles/progress.marks
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/demsi.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/demsi.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/demsi.dir/rule
 .PHONY : src/CMakeFiles/demsi.dir/rule
 
 # Convenience name for target.
@@ -133,12 +133,12 @@ demsi: src/CMakeFiles/demsi.dir/rule
 
 # fast build rule for target.
 demsi/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsi.dir/build.make src/CMakeFiles/demsi.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsi.dir/build.make src/CMakeFiles/demsi.dir/build
 .PHONY : demsi/fast
 
 # Convenience name for target.
 src/CMakeFiles/demsilib.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/demsilib.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/demsilib.dir/rule
 .PHONY : src/CMakeFiles/demsilib.dir/rule
 
 # Convenience name for target.
@@ -148,7 +148,7 @@ demsilib: src/CMakeFiles/demsilib.dir/rule
 
 # fast build rule for target.
 demsilib/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/build
 .PHONY : demsilib/fast
 
 demsi.o: demsi.cpp.o
@@ -157,7 +157,7 @@ demsi.o: demsi.cpp.o
 
 # target to build an object file
 demsi.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsi.dir/build.make src/CMakeFiles/demsi.dir/demsi.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsi.dir/build.make src/CMakeFiles/demsi.dir/demsi.cpp.o
 .PHONY : demsi.cpp.o
 
 demsi.i: demsi.cpp.i
@@ -166,7 +166,7 @@ demsi.i: demsi.cpp.i
 
 # target to preprocess a source file
 demsi.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsi.dir/build.make src/CMakeFiles/demsi.dir/demsi.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsi.dir/build.make src/CMakeFiles/demsi.dir/demsi.cpp.i
 .PHONY : demsi.cpp.i
 
 demsi.s: demsi.cpp.s
@@ -175,7 +175,7 @@ demsi.s: demsi.cpp.s
 
 # target to generate assembly for a file
 demsi.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsi.dir/build.make src/CMakeFiles/demsi.dir/demsi.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsi.dir/build.make src/CMakeFiles/demsi.dir/demsi.cpp.s
 .PHONY : demsi.cpp.s
 
 demsi_column.o: demsi_column.cpp.o
@@ -184,7 +184,7 @@ demsi_column.o: demsi_column.cpp.o
 
 # target to build an object file
 demsi_column.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column.cpp.o
 .PHONY : demsi_column.cpp.o
 
 demsi_column.i: demsi_column.cpp.i
@@ -193,7 +193,7 @@ demsi_column.i: demsi_column.cpp.i
 
 # target to preprocess a source file
 demsi_column.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column.cpp.i
 .PHONY : demsi_column.cpp.i
 
 demsi_column.s: demsi_column.cpp.s
@@ -202,7 +202,7 @@ demsi_column.s: demsi_column.cpp.s
 
 # target to generate assembly for a file
 demsi_column.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column.cpp.s
 .PHONY : demsi_column.cpp.s
 
 demsi_column_icepack.o: demsi_column_icepack.F90.o
@@ -211,7 +211,7 @@ demsi_column_icepack.o: demsi_column_icepack.F90.o
 
 # target to build an object file
 demsi_column_icepack.F90.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_icepack.F90.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_icepack.F90.o
 .PHONY : demsi_column_icepack.F90.o
 
 demsi_column_icepack.i: demsi_column_icepack.F90.i
@@ -220,7 +220,7 @@ demsi_column_icepack.i: demsi_column_icepack.F90.i
 
 # target to preprocess a source file
 demsi_column_icepack.F90.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_icepack.F90.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_icepack.F90.i
 .PHONY : demsi_column_icepack.F90.i
 
 demsi_column_icepack.s: demsi_column_icepack.F90.s
@@ -229,7 +229,7 @@ demsi_column_icepack.s: demsi_column_icepack.F90.s
 
 # target to generate assembly for a file
 demsi_column_icepack.F90.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_icepack.F90.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_icepack.F90.s
 .PHONY : demsi_column_icepack.F90.s
 
 demsi_column_tracers.o: demsi_column_tracers.cpp.o
@@ -238,7 +238,7 @@ demsi_column_tracers.o: demsi_column_tracers.cpp.o
 
 # target to build an object file
 demsi_column_tracers.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_tracers.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_tracers.cpp.o
 .PHONY : demsi_column_tracers.cpp.o
 
 demsi_column_tracers.i: demsi_column_tracers.cpp.i
@@ -247,7 +247,7 @@ demsi_column_tracers.i: demsi_column_tracers.cpp.i
 
 # target to preprocess a source file
 demsi_column_tracers.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_tracers.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_tracers.cpp.i
 .PHONY : demsi_column_tracers.cpp.i
 
 demsi_column_tracers.s: demsi_column_tracers.cpp.s
@@ -256,7 +256,7 @@ demsi_column_tracers.s: demsi_column_tracers.cpp.s
 
 # target to generate assembly for a file
 demsi_column_tracers.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_tracers.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_tracers.cpp.s
 .PHONY : demsi_column_tracers.cpp.s
 
 demsi_column_transfer.o: demsi_column_transfer.cpp.o
@@ -265,7 +265,7 @@ demsi_column_transfer.o: demsi_column_transfer.cpp.o
 
 # target to build an object file
 demsi_column_transfer.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_transfer.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_transfer.cpp.o
 .PHONY : demsi_column_transfer.cpp.o
 
 demsi_column_transfer.i: demsi_column_transfer.cpp.i
@@ -274,7 +274,7 @@ demsi_column_transfer.i: demsi_column_transfer.cpp.i
 
 # target to preprocess a source file
 demsi_column_transfer.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_transfer.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_transfer.cpp.i
 .PHONY : demsi_column_transfer.cpp.i
 
 demsi_column_transfer.s: demsi_column_transfer.cpp.s
@@ -283,7 +283,7 @@ demsi_column_transfer.s: demsi_column_transfer.cpp.s
 
 # target to generate assembly for a file
 demsi_column_transfer.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_transfer.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_transfer.cpp.s
 .PHONY : demsi_column_transfer.cpp.s
 
 demsi_column_variables.o: demsi_column_variables.cpp.o
@@ -292,7 +292,7 @@ demsi_column_variables.o: demsi_column_variables.cpp.o
 
 # target to build an object file
 demsi_column_variables.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_variables.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_variables.cpp.o
 .PHONY : demsi_column_variables.cpp.o
 
 demsi_column_variables.i: demsi_column_variables.cpp.i
@@ -301,7 +301,7 @@ demsi_column_variables.i: demsi_column_variables.cpp.i
 
 # target to preprocess a source file
 demsi_column_variables.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_variables.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_variables.cpp.i
 .PHONY : demsi_column_variables.cpp.i
 
 demsi_column_variables.s: demsi_column_variables.cpp.s
@@ -310,7 +310,7 @@ demsi_column_variables.s: demsi_column_variables.cpp.s
 
 # target to generate assembly for a file
 demsi_column_variables.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_variables.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_column_variables.cpp.s
 .PHONY : demsi_column_variables.cpp.s
 
 demsi_communication.o: demsi_communication.cpp.o
@@ -319,7 +319,7 @@ demsi_communication.o: demsi_communication.cpp.o
 
 # target to build an object file
 demsi_communication.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_communication.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_communication.cpp.o
 .PHONY : demsi_communication.cpp.o
 
 demsi_communication.i: demsi_communication.cpp.i
@@ -328,7 +328,7 @@ demsi_communication.i: demsi_communication.cpp.i
 
 # target to preprocess a source file
 demsi_communication.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_communication.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_communication.cpp.i
 .PHONY : demsi_communication.cpp.i
 
 demsi_communication.s: demsi_communication.cpp.s
@@ -337,7 +337,7 @@ demsi_communication.s: demsi_communication.cpp.s
 
 # target to generate assembly for a file
 demsi_communication.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_communication.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_communication.cpp.s
 .PHONY : demsi_communication.cpp.s
 
 demsi_configs.o: demsi_configs.cpp.o
@@ -346,7 +346,7 @@ demsi_configs.o: demsi_configs.cpp.o
 
 # target to build an object file
 demsi_configs.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_configs.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_configs.cpp.o
 .PHONY : demsi_configs.cpp.o
 
 demsi_configs.i: demsi_configs.cpp.i
@@ -355,7 +355,7 @@ demsi_configs.i: demsi_configs.cpp.i
 
 # target to preprocess a source file
 demsi_configs.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_configs.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_configs.cpp.i
 .PHONY : demsi_configs.cpp.i
 
 demsi_configs.s: demsi_configs.cpp.s
@@ -364,7 +364,7 @@ demsi_configs.s: demsi_configs.cpp.s
 
 # target to generate assembly for a file
 demsi_configs.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_configs.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_configs.cpp.s
 .PHONY : demsi_configs.cpp.s
 
 demsi_contacts.o: demsi_contacts.cpp.o
@@ -373,7 +373,7 @@ demsi_contacts.o: demsi_contacts.cpp.o
 
 # target to build an object file
 demsi_contacts.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_contacts.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_contacts.cpp.o
 .PHONY : demsi_contacts.cpp.o
 
 demsi_contacts.i: demsi_contacts.cpp.i
@@ -382,7 +382,7 @@ demsi_contacts.i: demsi_contacts.cpp.i
 
 # target to preprocess a source file
 demsi_contacts.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_contacts.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_contacts.cpp.i
 .PHONY : demsi_contacts.cpp.i
 
 demsi_contacts.s: demsi_contacts.cpp.s
@@ -391,7 +391,7 @@ demsi_contacts.s: demsi_contacts.cpp.s
 
 # target to generate assembly for a file
 demsi_contacts.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_contacts.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_contacts.cpp.s
 .PHONY : demsi_contacts.cpp.s
 
 demsi_diagnostics.o: demsi_diagnostics.cpp.o
@@ -400,7 +400,7 @@ demsi_diagnostics.o: demsi_diagnostics.cpp.o
 
 # target to build an object file
 demsi_diagnostics.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_diagnostics.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_diagnostics.cpp.o
 .PHONY : demsi_diagnostics.cpp.o
 
 demsi_diagnostics.i: demsi_diagnostics.cpp.i
@@ -409,7 +409,7 @@ demsi_diagnostics.i: demsi_diagnostics.cpp.i
 
 # target to preprocess a source file
 demsi_diagnostics.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_diagnostics.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_diagnostics.cpp.i
 .PHONY : demsi_diagnostics.cpp.i
 
 demsi_diagnostics.s: demsi_diagnostics.cpp.s
@@ -418,7 +418,7 @@ demsi_diagnostics.s: demsi_diagnostics.cpp.s
 
 # target to generate assembly for a file
 demsi_diagnostics.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_diagnostics.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_diagnostics.cpp.s
 .PHONY : demsi_diagnostics.cpp.s
 
 demsi_external_force.o: demsi_external_force.cpp.o
@@ -427,7 +427,7 @@ demsi_external_force.o: demsi_external_force.cpp.o
 
 # target to build an object file
 demsi_external_force.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_external_force.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_external_force.cpp.o
 .PHONY : demsi_external_force.cpp.o
 
 demsi_external_force.i: demsi_external_force.cpp.i
@@ -436,7 +436,7 @@ demsi_external_force.i: demsi_external_force.cpp.i
 
 # target to preprocess a source file
 demsi_external_force.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_external_force.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_external_force.cpp.i
 .PHONY : demsi_external_force.cpp.i
 
 demsi_external_force.s: demsi_external_force.cpp.s
@@ -445,7 +445,7 @@ demsi_external_force.s: demsi_external_force.cpp.s
 
 # target to generate assembly for a file
 demsi_external_force.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_external_force.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_external_force.cpp.s
 .PHONY : demsi_external_force.cpp.s
 
 demsi_file_utils.o: demsi_file_utils.cpp.o
@@ -454,7 +454,7 @@ demsi_file_utils.o: demsi_file_utils.cpp.o
 
 # target to build an object file
 demsi_file_utils.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_file_utils.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_file_utils.cpp.o
 .PHONY : demsi_file_utils.cpp.o
 
 demsi_file_utils.i: demsi_file_utils.cpp.i
@@ -463,7 +463,7 @@ demsi_file_utils.i: demsi_file_utils.cpp.i
 
 # target to preprocess a source file
 demsi_file_utils.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_file_utils.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_file_utils.cpp.i
 .PHONY : demsi_file_utils.cpp.i
 
 demsi_file_utils.s: demsi_file_utils.cpp.s
@@ -472,7 +472,7 @@ demsi_file_utils.s: demsi_file_utils.cpp.s
 
 # target to generate assembly for a file
 demsi_file_utils.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_file_utils.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_file_utils.cpp.s
 .PHONY : demsi_file_utils.cpp.s
 
 demsi_forcing.o: demsi_forcing.cpp.o
@@ -481,7 +481,7 @@ demsi_forcing.o: demsi_forcing.cpp.o
 
 # target to build an object file
 demsi_forcing.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_forcing.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_forcing.cpp.o
 .PHONY : demsi_forcing.cpp.o
 
 demsi_forcing.i: demsi_forcing.cpp.i
@@ -490,7 +490,7 @@ demsi_forcing.i: demsi_forcing.cpp.i
 
 # target to preprocess a source file
 demsi_forcing.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_forcing.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_forcing.cpp.i
 .PHONY : demsi_forcing.cpp.i
 
 demsi_forcing.s: demsi_forcing.cpp.s
@@ -499,7 +499,7 @@ demsi_forcing.s: demsi_forcing.cpp.s
 
 # target to generate assembly for a file
 demsi_forcing.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_forcing.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_forcing.cpp.s
 .PHONY : demsi_forcing.cpp.s
 
 demsi_grid.o: demsi_grid.cpp.o
@@ -508,7 +508,7 @@ demsi_grid.o: demsi_grid.cpp.o
 
 # target to build an object file
 demsi_grid.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid.cpp.o
 .PHONY : demsi_grid.cpp.o
 
 demsi_grid.i: demsi_grid.cpp.i
@@ -517,7 +517,7 @@ demsi_grid.i: demsi_grid.cpp.i
 
 # target to preprocess a source file
 demsi_grid.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid.cpp.i
 .PHONY : demsi_grid.cpp.i
 
 demsi_grid.s: demsi_grid.cpp.s
@@ -526,7 +526,7 @@ demsi_grid.s: demsi_grid.cpp.s
 
 # target to generate assembly for a file
 demsi_grid.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid.cpp.s
 .PHONY : demsi_grid.cpp.s
 
 demsi_grid_io.o: demsi_grid_io.cpp.o
@@ -535,7 +535,7 @@ demsi_grid_io.o: demsi_grid_io.cpp.o
 
 # target to build an object file
 demsi_grid_io.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid_io.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid_io.cpp.o
 .PHONY : demsi_grid_io.cpp.o
 
 demsi_grid_io.i: demsi_grid_io.cpp.i
@@ -544,7 +544,7 @@ demsi_grid_io.i: demsi_grid_io.cpp.i
 
 # target to preprocess a source file
 demsi_grid_io.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid_io.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid_io.cpp.i
 .PHONY : demsi_grid_io.cpp.i
 
 demsi_grid_io.s: demsi_grid_io.cpp.s
@@ -553,7 +553,7 @@ demsi_grid_io.s: demsi_grid_io.cpp.s
 
 # target to generate assembly for a file
 demsi_grid_io.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid_io.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_grid_io.cpp.s
 .PHONY : demsi_grid_io.cpp.s
 
 demsi_initial_tessellation.o: demsi_initial_tessellation.cpp.o
@@ -562,7 +562,7 @@ demsi_initial_tessellation.o: demsi_initial_tessellation.cpp.o
 
 # target to build an object file
 demsi_initial_tessellation.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation.cpp.o
 .PHONY : demsi_initial_tessellation.cpp.o
 
 demsi_initial_tessellation.i: demsi_initial_tessellation.cpp.i
@@ -571,7 +571,7 @@ demsi_initial_tessellation.i: demsi_initial_tessellation.cpp.i
 
 # target to preprocess a source file
 demsi_initial_tessellation.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation.cpp.i
 .PHONY : demsi_initial_tessellation.cpp.i
 
 demsi_initial_tessellation.s: demsi_initial_tessellation.cpp.s
@@ -580,7 +580,7 @@ demsi_initial_tessellation.s: demsi_initial_tessellation.cpp.s
 
 # target to generate assembly for a file
 demsi_initial_tessellation.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation.cpp.s
 .PHONY : demsi_initial_tessellation.cpp.s
 
 demsi_initial_tessellation_io.o: demsi_initial_tessellation_io.cpp.o
@@ -589,7 +589,7 @@ demsi_initial_tessellation_io.o: demsi_initial_tessellation_io.cpp.o
 
 # target to build an object file
 demsi_initial_tessellation_io.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation_io.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation_io.cpp.o
 .PHONY : demsi_initial_tessellation_io.cpp.o
 
 demsi_initial_tessellation_io.i: demsi_initial_tessellation_io.cpp.i
@@ -598,7 +598,7 @@ demsi_initial_tessellation_io.i: demsi_initial_tessellation_io.cpp.i
 
 # target to preprocess a source file
 demsi_initial_tessellation_io.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation_io.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation_io.cpp.i
 .PHONY : demsi_initial_tessellation_io.cpp.i
 
 demsi_initial_tessellation_io.s: demsi_initial_tessellation_io.cpp.s
@@ -607,7 +607,7 @@ demsi_initial_tessellation_io.s: demsi_initial_tessellation_io.cpp.s
 
 # target to generate assembly for a file
 demsi_initial_tessellation_io.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation_io.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_initial_tessellation_io.cpp.s
 .PHONY : demsi_initial_tessellation_io.cpp.s
 
 demsi_interpolation.o: demsi_interpolation.cpp.o
@@ -616,7 +616,7 @@ demsi_interpolation.o: demsi_interpolation.cpp.o
 
 # target to build an object file
 demsi_interpolation.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_interpolation.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_interpolation.cpp.o
 .PHONY : demsi_interpolation.cpp.o
 
 demsi_interpolation.i: demsi_interpolation.cpp.i
@@ -625,7 +625,7 @@ demsi_interpolation.i: demsi_interpolation.cpp.i
 
 # target to preprocess a source file
 demsi_interpolation.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_interpolation.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_interpolation.cpp.i
 .PHONY : demsi_interpolation.cpp.i
 
 demsi_interpolation.s: demsi_interpolation.cpp.s
@@ -634,7 +634,7 @@ demsi_interpolation.s: demsi_interpolation.cpp.s
 
 # target to generate assembly for a file
 demsi_interpolation.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_interpolation.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_interpolation.cpp.s
 .PHONY : demsi_interpolation.cpp.s
 
 demsi_kokkosparser.o: demsi_kokkosparser.cpp.o
@@ -643,7 +643,7 @@ demsi_kokkosparser.o: demsi_kokkosparser.cpp.o
 
 # target to build an object file
 demsi_kokkosparser.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_kokkosparser.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_kokkosparser.cpp.o
 .PHONY : demsi_kokkosparser.cpp.o
 
 demsi_kokkosparser.i: demsi_kokkosparser.cpp.i
@@ -652,7 +652,7 @@ demsi_kokkosparser.i: demsi_kokkosparser.cpp.i
 
 # target to preprocess a source file
 demsi_kokkosparser.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_kokkosparser.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_kokkosparser.cpp.i
 .PHONY : demsi_kokkosparser.cpp.i
 
 demsi_kokkosparser.s: demsi_kokkosparser.cpp.s
@@ -661,7 +661,7 @@ demsi_kokkosparser.s: demsi_kokkosparser.cpp.s
 
 # target to generate assembly for a file
 demsi_kokkosparser.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_kokkosparser.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_kokkosparser.cpp.s
 .PHONY : demsi_kokkosparser.cpp.s
 
 demsi_lmp_instance.o: demsi_lmp_instance.cpp.o
@@ -670,7 +670,7 @@ demsi_lmp_instance.o: demsi_lmp_instance.cpp.o
 
 # target to build an object file
 demsi_lmp_instance.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_lmp_instance.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_lmp_instance.cpp.o
 .PHONY : demsi_lmp_instance.cpp.o
 
 demsi_lmp_instance.i: demsi_lmp_instance.cpp.i
@@ -679,7 +679,7 @@ demsi_lmp_instance.i: demsi_lmp_instance.cpp.i
 
 # target to preprocess a source file
 demsi_lmp_instance.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_lmp_instance.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_lmp_instance.cpp.i
 .PHONY : demsi_lmp_instance.cpp.i
 
 demsi_lmp_instance.s: demsi_lmp_instance.cpp.s
@@ -688,7 +688,7 @@ demsi_lmp_instance.s: demsi_lmp_instance.cpp.s
 
 # target to generate assembly for a file
 demsi_lmp_instance.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_lmp_instance.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_lmp_instance.cpp.s
 .PHONY : demsi_lmp_instance.cpp.s
 
 demsi_logging.o: demsi_logging.cpp.o
@@ -697,7 +697,7 @@ demsi_logging.o: demsi_logging.cpp.o
 
 # target to build an object file
 demsi_logging.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_logging.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_logging.cpp.o
 .PHONY : demsi_logging.cpp.o
 
 demsi_logging.i: demsi_logging.cpp.i
@@ -706,7 +706,7 @@ demsi_logging.i: demsi_logging.cpp.i
 
 # target to preprocess a source file
 demsi_logging.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_logging.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_logging.cpp.i
 .PHONY : demsi_logging.cpp.i
 
 demsi_logging.s: demsi_logging.cpp.s
@@ -715,7 +715,7 @@ demsi_logging.s: demsi_logging.cpp.s
 
 # target to generate assembly for a file
 demsi_logging.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_logging.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_logging.cpp.s
 .PHONY : demsi_logging.cpp.s
 
 demsi_ocean.o: demsi_ocean.cpp.o
@@ -724,7 +724,7 @@ demsi_ocean.o: demsi_ocean.cpp.o
 
 # target to build an object file
 demsi_ocean.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ocean.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ocean.cpp.o
 .PHONY : demsi_ocean.cpp.o
 
 demsi_ocean.i: demsi_ocean.cpp.i
@@ -733,7 +733,7 @@ demsi_ocean.i: demsi_ocean.cpp.i
 
 # target to preprocess a source file
 demsi_ocean.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ocean.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ocean.cpp.i
 .PHONY : demsi_ocean.cpp.i
 
 demsi_ocean.s: demsi_ocean.cpp.s
@@ -742,7 +742,7 @@ demsi_ocean.s: demsi_ocean.cpp.s
 
 # target to generate assembly for a file
 demsi_ocean.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ocean.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ocean.cpp.s
 .PHONY : demsi_ocean.cpp.s
 
 demsi_particles.o: demsi_particles.cpp.o
@@ -751,7 +751,7 @@ demsi_particles.o: demsi_particles.cpp.o
 
 # target to build an object file
 demsi_particles.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles.cpp.o
 .PHONY : demsi_particles.cpp.o
 
 demsi_particles.i: demsi_particles.cpp.i
@@ -760,7 +760,7 @@ demsi_particles.i: demsi_particles.cpp.i
 
 # target to preprocess a source file
 demsi_particles.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles.cpp.i
 .PHONY : demsi_particles.cpp.i
 
 demsi_particles.s: demsi_particles.cpp.s
@@ -769,7 +769,7 @@ demsi_particles.s: demsi_particles.cpp.s
 
 # target to generate assembly for a file
 demsi_particles.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles.cpp.s
 .PHONY : demsi_particles.cpp.s
 
 demsi_particles_io.o: demsi_particles_io.cpp.o
@@ -778,7 +778,7 @@ demsi_particles_io.o: demsi_particles_io.cpp.o
 
 # target to build an object file
 demsi_particles_io.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles_io.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles_io.cpp.o
 .PHONY : demsi_particles_io.cpp.o
 
 demsi_particles_io.i: demsi_particles_io.cpp.i
@@ -787,7 +787,7 @@ demsi_particles_io.i: demsi_particles_io.cpp.i
 
 # target to preprocess a source file
 demsi_particles_io.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles_io.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles_io.cpp.i
 .PHONY : demsi_particles_io.cpp.i
 
 demsi_particles_io.s: demsi_particles_io.cpp.s
@@ -796,7 +796,7 @@ demsi_particles_io.s: demsi_particles_io.cpp.s
 
 # target to generate assembly for a file
 demsi_particles_io.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles_io.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_particles_io.cpp.s
 .PHONY : demsi_particles_io.cpp.s
 
 demsi_partition.o: demsi_partition.cpp.o
@@ -805,7 +805,7 @@ demsi_partition.o: demsi_partition.cpp.o
 
 # target to build an object file
 demsi_partition.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_partition.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_partition.cpp.o
 .PHONY : demsi_partition.cpp.o
 
 demsi_partition.i: demsi_partition.cpp.i
@@ -814,7 +814,7 @@ demsi_partition.i: demsi_partition.cpp.i
 
 # target to preprocess a source file
 demsi_partition.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_partition.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_partition.cpp.i
 .PHONY : demsi_partition.cpp.i
 
 demsi_partition.s: demsi_partition.cpp.s
@@ -823,7 +823,7 @@ demsi_partition.s: demsi_partition.cpp.s
 
 # target to generate assembly for a file
 demsi_partition.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_partition.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_partition.cpp.s
 .PHONY : demsi_partition.cpp.s
 
 demsi_polygon.o: demsi_polygon.cpp.o
@@ -832,7 +832,7 @@ demsi_polygon.o: demsi_polygon.cpp.o
 
 # target to build an object file
 demsi_polygon.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_polygon.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_polygon.cpp.o
 .PHONY : demsi_polygon.cpp.o
 
 demsi_polygon.i: demsi_polygon.cpp.i
@@ -841,7 +841,7 @@ demsi_polygon.i: demsi_polygon.cpp.i
 
 # target to preprocess a source file
 demsi_polygon.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_polygon.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_polygon.cpp.i
 .PHONY : demsi_polygon.cpp.i
 
 demsi_polygon.s: demsi_polygon.cpp.s
@@ -850,7 +850,7 @@ demsi_polygon.s: demsi_polygon.cpp.s
 
 # target to generate assembly for a file
 demsi_polygon.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_polygon.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_polygon.cpp.s
 .PHONY : demsi_polygon.cpp.s
 
 demsi_remapping.o: demsi_remapping.cpp.o
@@ -859,7 +859,7 @@ demsi_remapping.o: demsi_remapping.cpp.o
 
 # target to build an object file
 demsi_remapping.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping.cpp.o
 .PHONY : demsi_remapping.cpp.o
 
 demsi_remapping.i: demsi_remapping.cpp.i
@@ -868,7 +868,7 @@ demsi_remapping.i: demsi_remapping.cpp.i
 
 # target to preprocess a source file
 demsi_remapping.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping.cpp.i
 .PHONY : demsi_remapping.cpp.i
 
 demsi_remapping.s: demsi_remapping.cpp.s
@@ -877,7 +877,7 @@ demsi_remapping.s: demsi_remapping.cpp.s
 
 # target to generate assembly for a file
 demsi_remapping.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping.cpp.s
 .PHONY : demsi_remapping.cpp.s
 
 demsi_remapping_debug.o: demsi_remapping_debug.cpp.o
@@ -886,7 +886,7 @@ demsi_remapping_debug.o: demsi_remapping_debug.cpp.o
 
 # target to build an object file
 demsi_remapping_debug.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_debug.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_debug.cpp.o
 .PHONY : demsi_remapping_debug.cpp.o
 
 demsi_remapping_debug.i: demsi_remapping_debug.cpp.i
@@ -895,7 +895,7 @@ demsi_remapping_debug.i: demsi_remapping_debug.cpp.i
 
 # target to preprocess a source file
 demsi_remapping_debug.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_debug.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_debug.cpp.i
 .PHONY : demsi_remapping_debug.cpp.i
 
 demsi_remapping_debug.s: demsi_remapping_debug.cpp.s
@@ -904,7 +904,7 @@ demsi_remapping_debug.s: demsi_remapping_debug.cpp.s
 
 # target to generate assembly for a file
 demsi_remapping_debug.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_debug.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_debug.cpp.s
 .PHONY : demsi_remapping_debug.cpp.s
 
 demsi_remapping_flux.o: demsi_remapping_flux.cpp.o
@@ -913,7 +913,7 @@ demsi_remapping_flux.o: demsi_remapping_flux.cpp.o
 
 # target to build an object file
 demsi_remapping_flux.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_flux.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_flux.cpp.o
 .PHONY : demsi_remapping_flux.cpp.o
 
 demsi_remapping_flux.i: demsi_remapping_flux.cpp.i
@@ -922,7 +922,7 @@ demsi_remapping_flux.i: demsi_remapping_flux.cpp.i
 
 # target to preprocess a source file
 demsi_remapping_flux.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_flux.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_flux.cpp.i
 .PHONY : demsi_remapping_flux.cpp.i
 
 demsi_remapping_flux.s: demsi_remapping_flux.cpp.s
@@ -931,7 +931,7 @@ demsi_remapping_flux.s: demsi_remapping_flux.cpp.s
 
 # target to generate assembly for a file
 demsi_remapping_flux.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_flux.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_flux.cpp.s
 .PHONY : demsi_remapping_flux.cpp.s
 
 demsi_remapping_obr.o: demsi_remapping_obr.cpp.o
@@ -940,7 +940,7 @@ demsi_remapping_obr.o: demsi_remapping_obr.cpp.o
 
 # target to build an object file
 demsi_remapping_obr.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_obr.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_obr.cpp.o
 .PHONY : demsi_remapping_obr.cpp.o
 
 demsi_remapping_obr.i: demsi_remapping_obr.cpp.i
@@ -949,7 +949,7 @@ demsi_remapping_obr.i: demsi_remapping_obr.cpp.i
 
 # target to preprocess a source file
 demsi_remapping_obr.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_obr.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_obr.cpp.i
 .PHONY : demsi_remapping_obr.cpp.i
 
 demsi_remapping_obr.s: demsi_remapping_obr.cpp.s
@@ -958,7 +958,7 @@ demsi_remapping_obr.s: demsi_remapping_obr.cpp.s
 
 # target to generate assembly for a file
 demsi_remapping_obr.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_obr.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_remapping_obr.cpp.s
 .PHONY : demsi_remapping_obr.cpp.s
 
 demsi_ridging.o: demsi_ridging.F90.o
@@ -967,7 +967,7 @@ demsi_ridging.o: demsi_ridging.F90.o
 
 # target to build an object file
 demsi_ridging.F90.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.F90.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.F90.o
 .PHONY : demsi_ridging.F90.o
 
 demsi_ridging.i: demsi_ridging.F90.i
@@ -976,7 +976,7 @@ demsi_ridging.i: demsi_ridging.F90.i
 
 # target to preprocess a source file
 demsi_ridging.F90.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.F90.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.F90.i
 .PHONY : demsi_ridging.F90.i
 
 demsi_ridging.s: demsi_ridging.F90.s
@@ -985,7 +985,7 @@ demsi_ridging.s: demsi_ridging.F90.s
 
 # target to generate assembly for a file
 demsi_ridging.F90.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.F90.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.F90.s
 .PHONY : demsi_ridging.F90.s
 
 demsi_ridging.o: demsi_ridging.cpp.o
@@ -994,7 +994,7 @@ demsi_ridging.o: demsi_ridging.cpp.o
 
 # target to build an object file
 demsi_ridging.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.cpp.o
 .PHONY : demsi_ridging.cpp.o
 
 demsi_ridging.i: demsi_ridging.cpp.i
@@ -1003,7 +1003,7 @@ demsi_ridging.i: demsi_ridging.cpp.i
 
 # target to preprocess a source file
 demsi_ridging.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.cpp.i
 .PHONY : demsi_ridging.cpp.i
 
 demsi_ridging.s: demsi_ridging.cpp.s
@@ -1012,7 +1012,7 @@ demsi_ridging.s: demsi_ridging.cpp.s
 
 # target to generate assembly for a file
 demsi_ridging.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_ridging.cpp.s
 .PHONY : demsi_ridging.cpp.s
 
 demsi_time.o: demsi_time.cpp.o
@@ -1021,7 +1021,7 @@ demsi_time.o: demsi_time.cpp.o
 
 # target to build an object file
 demsi_time.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_time.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_time.cpp.o
 .PHONY : demsi_time.cpp.o
 
 demsi_time.i: demsi_time.cpp.i
@@ -1030,7 +1030,7 @@ demsi_time.i: demsi_time.cpp.i
 
 # target to preprocess a source file
 demsi_time.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_time.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_time.cpp.i
 .PHONY : demsi_time.cpp.i
 
 demsi_time.s: demsi_time.cpp.s
@@ -1039,7 +1039,7 @@ demsi_time.s: demsi_time.cpp.s
 
 # target to generate assembly for a file
 demsi_time.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_time.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_time.cpp.s
 .PHONY : demsi_time.cpp.s
 
 demsi_tinyxml2.o: demsi_tinyxml2.cpp.o
@@ -1048,7 +1048,7 @@ demsi_tinyxml2.o: demsi_tinyxml2.cpp.o
 
 # target to build an object file
 demsi_tinyxml2.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_tinyxml2.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_tinyxml2.cpp.o
 .PHONY : demsi_tinyxml2.cpp.o
 
 demsi_tinyxml2.i: demsi_tinyxml2.cpp.i
@@ -1057,7 +1057,7 @@ demsi_tinyxml2.i: demsi_tinyxml2.cpp.i
 
 # target to preprocess a source file
 demsi_tinyxml2.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_tinyxml2.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_tinyxml2.cpp.i
 .PHONY : demsi_tinyxml2.cpp.i
 
 demsi_tinyxml2.s: demsi_tinyxml2.cpp.s
@@ -1066,7 +1066,7 @@ demsi_tinyxml2.s: demsi_tinyxml2.cpp.s
 
 # target to generate assembly for a file
 demsi_tinyxml2.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_tinyxml2.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(MAKE) -f src/CMakeFiles/demsilib.dir/build.make src/CMakeFiles/demsilib.dir/demsi_tinyxml2.cpp.s
 .PHONY : demsi_tinyxml2.cpp.s
 
 # Help Target
@@ -1193,6 +1193,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

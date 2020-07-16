@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/petsc"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/petsc.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/petsc-complete.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc/src/petsc-stamp/petsc-install.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc/src/petsc-stamp/petsc-mkdir.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc/src/petsc-stamp/petsc-download.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc/src/petsc-stamp/petsc-update.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc/src/petsc-stamp/petsc-patch.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc/src/petsc-stamp/petsc-configure.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc/src/petsc-stamp/petsc-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"petsc"
+		],
+		"name" : "petsc"
+	}
+}

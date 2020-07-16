@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/permon"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/permon.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/permon-complete.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-install.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-mkdir.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-download.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-update.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-patch.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-configure.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"permon"
+		],
+		"name" : "permon"
+	}
+}

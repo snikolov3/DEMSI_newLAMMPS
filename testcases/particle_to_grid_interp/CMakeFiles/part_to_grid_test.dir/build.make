@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # Include any dependencies generated for this target.
 include testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/depend.make
@@ -59,16 +59,16 @@ include testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/flags
 
 testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.o: testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/flags.make
 testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.o: testcases/particle_to_grid_interp/part_to_grid_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp/part_to_grid_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp/part_to_grid_test.cpp
 
 testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp/part_to_grid_test.cpp > CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp/part_to_grid_test.cpp > CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.i
 
 testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp/part_to_grid_test.cpp -o CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp/part_to_grid_test.cpp -o CMakeFiles/part_to_grid_test.dir/part_to_grid_test.cpp.s
 
 # Object files for target part_to_grid_test
 part_to_grid_test_OBJECTS = \
@@ -87,8 +87,8 @@ testcases/particle_to_grid_interp/part_to_grid_test: /ascldap/users/projects/ppc
 testcases/particle_to_grid_interp/part_to_grid_test: petsc-install/lib/libpetsc.so
 testcases/particle_to_grid_interp/part_to_grid_test: permon/lib/libpermon.so
 testcases/particle_to_grid_interp/part_to_grid_test: testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable part_to_grid_test"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/part_to_grid_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable part_to_grid_test"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/part_to_grid_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/build: testcases/particle_to_grid_interp/part_to_grid_test
@@ -96,10 +96,10 @@ testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/build: testca
 .PHONY : testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/build
 
 testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp && $(CMAKE_COMMAND) -P CMakeFiles/part_to_grid_test.dir/cmake_clean.cmake
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp && $(CMAKE_COMMAND) -P CMakeFiles/part_to_grid_test.dir/cmake_clean.cmake
 .PHONY : testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/clean
 
 testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : testcases/particle_to_grid_interp/CMakeFiles/part_to_grid_test.dir/depend
 

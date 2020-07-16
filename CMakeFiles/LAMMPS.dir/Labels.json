@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/LAMMPS"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/LAMMPS.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/LAMMPS-complete.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-install.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-mkdir.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-download.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-update.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-patch.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-configure.rule"
+		},
+		{
+			"file" : "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-stamp/LAMMPS-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"LAMMPS"
+		],
+		"name" : "LAMMPS"
+	}
+}

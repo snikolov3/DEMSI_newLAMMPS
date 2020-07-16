@@ -8,8 +8,8 @@
 # PETSC_[C,F]CPPFLAGS    -  preprocessor flags for *.c, *.F preprocessing
 # PETSC_[C,F]SH_LIB_PATH - linker_add_sh_lib_path:sh_lib_path pairs for all the shared library locations
 #
-PETSC_LIB_DIR	     = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib
-PETSCCONF_H          = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/include/petscconf.h
+PETSC_LIB_DIR	     = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib
+PETSCCONF_H          = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/include/petscconf.h
 
 PETSC_CCPPFLAGS     = ${PETSC_CC_INCLUDES} ${PETSCFLAGS} ${PCPP_FLAGS} ${PPPFLAGS}
 PETSC_CXXCPPFLAGS   = ${PETSC_CC_INCLUDES} ${PETSCFLAGS} ${CXXPP_FLAGS} ${CXXPPFLAGS}
@@ -117,4 +117,4 @@ SHLIBS   = libpetscsys libpetscmat libpetscvec libpetscdm libpetscksp libpetscsn
 # The following include files set customized site, optimization, and version
 # options.
 #
-include /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install/lib/petsc/conf/petscvariables
+include /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install/lib/petsc/conf/petscvariables

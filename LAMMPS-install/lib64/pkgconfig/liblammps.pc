@@ -2,7 +2,7 @@
 # https://people.freedesktop.org/~dbn/pkg-config-guide.html
 
 # Add the directory where lammps.pc got installed to your PKG_CONFIG_PATH
-# e.g. export PKG_CONFIG_PATH=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install/lib64/pkgconfig
+# e.g. export PKG_CONFIG_PATH=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install/lib64/pkgconfig
 
 # Use this on commandline with:
 # c++ `pkg-config --cflags --libs lammps` -o myapp myapp.cpp
@@ -18,9 +18,9 @@
 # myapp_CFLAGS = $(LAMMPS_CFLAGS)
 # myapp_LDADD = $(LAMMPS_LIBS)
 
-prefix=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install
-libdir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install/lib64
-includedir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS-install/include
+prefix=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install
+libdir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install/lib64
+includedir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install/include
 
 Name: liblammps
 Description: Large-scale Atomic/Molecular Massively Parallel Simulator Library

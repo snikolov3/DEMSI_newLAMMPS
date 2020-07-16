@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
-BuildDirectory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+SourceDirectory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS
+BuildDirectory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/home/projects/ppc64le/cmake/3.12.3/bin/cmake" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI"
+ConfigureCommand: "/home/projects/ppc64le/cmake/3.12.3/bin/cmake" "/ascldap/users/snikolo/move/DEMSI_newLAMMPS"
 MakeCommand: /home/projects/ppc64le/cmake/3.12.3/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

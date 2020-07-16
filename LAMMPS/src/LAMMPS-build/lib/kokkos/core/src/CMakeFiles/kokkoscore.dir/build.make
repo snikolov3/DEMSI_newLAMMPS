@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 # Include any dependencies generated for this target.
 include lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/depend.make
@@ -58,225 +58,225 @@ include lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/progress.make
 include lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Core.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MemoryPool.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Stacktrace.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp > CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_hwloc.cpp -o CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp > CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp > CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp -o CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.cpp -o CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.s
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/flags.make
-lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp
+lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.i"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp > CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp > CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.i
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.s"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp -o CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.cpp -o CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.s
 
 # Object files for target kokkoscore
 kokkoscore_OBJECTS = \
@@ -321,9 +321,9 @@ lib/kokkos/core/src/libkokkoscore.so.3.1.1: lib/kokkos/core/src/CMakeFiles/kokko
 lib/kokkos/core/src/libkokkoscore.so.3.1.1: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make
 lib/kokkos/core/src/libkokkoscore.so.3.1.1: /usr/lib64/libdl.so
 lib/kokkos/core/src/libkokkoscore.so.3.1.1: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library libkokkoscore.so"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kokkoscore.dir/link.txt --verbose=$(VERBOSE)
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && $(CMAKE_COMMAND) -E cmake_symlink_library libkokkoscore.so.3.1.1 libkokkoscore.so.3.1.1 libkokkoscore.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library libkokkoscore.so"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kokkoscore.dir/link.txt --verbose=$(VERBOSE)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && $(CMAKE_COMMAND) -E cmake_symlink_library libkokkoscore.so.3.1.1 libkokkoscore.so.3.1.1 libkokkoscore.so
 
 lib/kokkos/core/src/libkokkoscore.so: lib/kokkos/core/src/libkokkoscore.so.3.1.1
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/kokkos/core/src/libkokkoscore.so
@@ -334,10 +334,10 @@ lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build: lib/kokkos/core/src/libkokk
 .PHONY : lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && $(CMAKE_COMMAND) -P CMakeFiles/kokkoscore.dir/cmake_clean.cmake
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src && $(CMAKE_COMMAND) -P CMakeFiles/kokkoscore.dir/cmake_clean.cmake
 .PHONY : lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/clean
 
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/depend
 

@@ -48,10 +48,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src/CMakeFiles/progress.marks
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src/CMakeFiles/progress.marks
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/clean
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/rule
 .PHONY : lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ kokkoscore: lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/rule
 
 # fast build rule for target.
 kokkoscore/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build
 .PHONY : kokkoscore/fast
 
 OpenMP/Kokkos_OpenMP_Exec.o: OpenMP/Kokkos_OpenMP_Exec.cpp.o
@@ -177,7 +177,7 @@ OpenMP/Kokkos_OpenMP_Exec.o: OpenMP/Kokkos_OpenMP_Exec.cpp.o
 
 # target to build an object file
 OpenMP/Kokkos_OpenMP_Exec.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.o
 .PHONY : OpenMP/Kokkos_OpenMP_Exec.cpp.o
 
 OpenMP/Kokkos_OpenMP_Exec.i: OpenMP/Kokkos_OpenMP_Exec.cpp.i
@@ -186,7 +186,7 @@ OpenMP/Kokkos_OpenMP_Exec.i: OpenMP/Kokkos_OpenMP_Exec.cpp.i
 
 # target to preprocess a source file
 OpenMP/Kokkos_OpenMP_Exec.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.i
 .PHONY : OpenMP/Kokkos_OpenMP_Exec.cpp.i
 
 OpenMP/Kokkos_OpenMP_Exec.s: OpenMP/Kokkos_OpenMP_Exec.cpp.s
@@ -195,7 +195,7 @@ OpenMP/Kokkos_OpenMP_Exec.s: OpenMP/Kokkos_OpenMP_Exec.cpp.s
 
 # target to generate assembly for a file
 OpenMP/Kokkos_OpenMP_Exec.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Exec.cpp.s
 .PHONY : OpenMP/Kokkos_OpenMP_Exec.cpp.s
 
 OpenMP/Kokkos_OpenMP_Task.o: OpenMP/Kokkos_OpenMP_Task.cpp.o
@@ -204,7 +204,7 @@ OpenMP/Kokkos_OpenMP_Task.o: OpenMP/Kokkos_OpenMP_Task.cpp.o
 
 # target to build an object file
 OpenMP/Kokkos_OpenMP_Task.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.o
 .PHONY : OpenMP/Kokkos_OpenMP_Task.cpp.o
 
 OpenMP/Kokkos_OpenMP_Task.i: OpenMP/Kokkos_OpenMP_Task.cpp.i
@@ -213,7 +213,7 @@ OpenMP/Kokkos_OpenMP_Task.i: OpenMP/Kokkos_OpenMP_Task.cpp.i
 
 # target to preprocess a source file
 OpenMP/Kokkos_OpenMP_Task.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.i
 .PHONY : OpenMP/Kokkos_OpenMP_Task.cpp.i
 
 OpenMP/Kokkos_OpenMP_Task.s: OpenMP/Kokkos_OpenMP_Task.cpp.s
@@ -222,7 +222,7 @@ OpenMP/Kokkos_OpenMP_Task.s: OpenMP/Kokkos_OpenMP_Task.cpp.s
 
 # target to generate assembly for a file
 OpenMP/Kokkos_OpenMP_Task.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/OpenMP/Kokkos_OpenMP_Task.cpp.s
 .PHONY : OpenMP/Kokkos_OpenMP_Task.cpp.s
 
 impl/Kokkos_CPUDiscovery.o: impl/Kokkos_CPUDiscovery.cpp.o
@@ -231,7 +231,7 @@ impl/Kokkos_CPUDiscovery.o: impl/Kokkos_CPUDiscovery.cpp.o
 
 # target to build an object file
 impl/Kokkos_CPUDiscovery.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o
 .PHONY : impl/Kokkos_CPUDiscovery.cpp.o
 
 impl/Kokkos_CPUDiscovery.i: impl/Kokkos_CPUDiscovery.cpp.i
@@ -240,7 +240,7 @@ impl/Kokkos_CPUDiscovery.i: impl/Kokkos_CPUDiscovery.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_CPUDiscovery.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.i
 .PHONY : impl/Kokkos_CPUDiscovery.cpp.i
 
 impl/Kokkos_CPUDiscovery.s: impl/Kokkos_CPUDiscovery.cpp.s
@@ -249,7 +249,7 @@ impl/Kokkos_CPUDiscovery.s: impl/Kokkos_CPUDiscovery.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_CPUDiscovery.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.s
 .PHONY : impl/Kokkos_CPUDiscovery.cpp.s
 
 impl/Kokkos_Core.o: impl/Kokkos_Core.cpp.o
@@ -258,7 +258,7 @@ impl/Kokkos_Core.o: impl/Kokkos_Core.cpp.o
 
 # target to build an object file
 impl/Kokkos_Core.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o
 .PHONY : impl/Kokkos_Core.cpp.o
 
 impl/Kokkos_Core.i: impl/Kokkos_Core.cpp.i
@@ -267,7 +267,7 @@ impl/Kokkos_Core.i: impl/Kokkos_Core.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_Core.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.i
 .PHONY : impl/Kokkos_Core.cpp.i
 
 impl/Kokkos_Core.s: impl/Kokkos_Core.cpp.s
@@ -276,7 +276,7 @@ impl/Kokkos_Core.s: impl/Kokkos_Core.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_Core.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.s
 .PHONY : impl/Kokkos_Core.cpp.s
 
 impl/Kokkos_Error.o: impl/Kokkos_Error.cpp.o
@@ -285,7 +285,7 @@ impl/Kokkos_Error.o: impl/Kokkos_Error.cpp.o
 
 # target to build an object file
 impl/Kokkos_Error.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o
 .PHONY : impl/Kokkos_Error.cpp.o
 
 impl/Kokkos_Error.i: impl/Kokkos_Error.cpp.i
@@ -294,7 +294,7 @@ impl/Kokkos_Error.i: impl/Kokkos_Error.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_Error.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.i
 .PHONY : impl/Kokkos_Error.cpp.i
 
 impl/Kokkos_Error.s: impl/Kokkos_Error.cpp.s
@@ -303,7 +303,7 @@ impl/Kokkos_Error.s: impl/Kokkos_Error.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_Error.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.s
 .PHONY : impl/Kokkos_Error.cpp.s
 
 impl/Kokkos_ExecPolicy.o: impl/Kokkos_ExecPolicy.cpp.o
@@ -312,7 +312,7 @@ impl/Kokkos_ExecPolicy.o: impl/Kokkos_ExecPolicy.cpp.o
 
 # target to build an object file
 impl/Kokkos_ExecPolicy.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o
 .PHONY : impl/Kokkos_ExecPolicy.cpp.o
 
 impl/Kokkos_ExecPolicy.i: impl/Kokkos_ExecPolicy.cpp.i
@@ -321,7 +321,7 @@ impl/Kokkos_ExecPolicy.i: impl/Kokkos_ExecPolicy.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_ExecPolicy.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.i
 .PHONY : impl/Kokkos_ExecPolicy.cpp.i
 
 impl/Kokkos_ExecPolicy.s: impl/Kokkos_ExecPolicy.cpp.s
@@ -330,7 +330,7 @@ impl/Kokkos_ExecPolicy.s: impl/Kokkos_ExecPolicy.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_ExecPolicy.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.s
 .PHONY : impl/Kokkos_ExecPolicy.cpp.s
 
 impl/Kokkos_HostBarrier.o: impl/Kokkos_HostBarrier.cpp.o
@@ -339,7 +339,7 @@ impl/Kokkos_HostBarrier.o: impl/Kokkos_HostBarrier.cpp.o
 
 # target to build an object file
 impl/Kokkos_HostBarrier.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o
 .PHONY : impl/Kokkos_HostBarrier.cpp.o
 
 impl/Kokkos_HostBarrier.i: impl/Kokkos_HostBarrier.cpp.i
@@ -348,7 +348,7 @@ impl/Kokkos_HostBarrier.i: impl/Kokkos_HostBarrier.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_HostBarrier.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.i
 .PHONY : impl/Kokkos_HostBarrier.cpp.i
 
 impl/Kokkos_HostBarrier.s: impl/Kokkos_HostBarrier.cpp.s
@@ -357,7 +357,7 @@ impl/Kokkos_HostBarrier.s: impl/Kokkos_HostBarrier.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_HostBarrier.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.s
 .PHONY : impl/Kokkos_HostBarrier.cpp.s
 
 impl/Kokkos_HostSpace.o: impl/Kokkos_HostSpace.cpp.o
@@ -366,7 +366,7 @@ impl/Kokkos_HostSpace.o: impl/Kokkos_HostSpace.cpp.o
 
 # target to build an object file
 impl/Kokkos_HostSpace.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o
 .PHONY : impl/Kokkos_HostSpace.cpp.o
 
 impl/Kokkos_HostSpace.i: impl/Kokkos_HostSpace.cpp.i
@@ -375,7 +375,7 @@ impl/Kokkos_HostSpace.i: impl/Kokkos_HostSpace.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_HostSpace.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.i
 .PHONY : impl/Kokkos_HostSpace.cpp.i
 
 impl/Kokkos_HostSpace.s: impl/Kokkos_HostSpace.cpp.s
@@ -384,7 +384,7 @@ impl/Kokkos_HostSpace.s: impl/Kokkos_HostSpace.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_HostSpace.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.s
 .PHONY : impl/Kokkos_HostSpace.cpp.s
 
 impl/Kokkos_HostSpace_deepcopy.o: impl/Kokkos_HostSpace_deepcopy.cpp.o
@@ -393,7 +393,7 @@ impl/Kokkos_HostSpace_deepcopy.o: impl/Kokkos_HostSpace_deepcopy.cpp.o
 
 # target to build an object file
 impl/Kokkos_HostSpace_deepcopy.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o
 .PHONY : impl/Kokkos_HostSpace_deepcopy.cpp.o
 
 impl/Kokkos_HostSpace_deepcopy.i: impl/Kokkos_HostSpace_deepcopy.cpp.i
@@ -402,7 +402,7 @@ impl/Kokkos_HostSpace_deepcopy.i: impl/Kokkos_HostSpace_deepcopy.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_HostSpace_deepcopy.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.i
 .PHONY : impl/Kokkos_HostSpace_deepcopy.cpp.i
 
 impl/Kokkos_HostSpace_deepcopy.s: impl/Kokkos_HostSpace_deepcopy.cpp.s
@@ -411,7 +411,7 @@ impl/Kokkos_HostSpace_deepcopy.s: impl/Kokkos_HostSpace_deepcopy.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_HostSpace_deepcopy.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.s
 .PHONY : impl/Kokkos_HostSpace_deepcopy.cpp.s
 
 impl/Kokkos_HostThreadTeam.o: impl/Kokkos_HostThreadTeam.cpp.o
@@ -420,7 +420,7 @@ impl/Kokkos_HostThreadTeam.o: impl/Kokkos_HostThreadTeam.cpp.o
 
 # target to build an object file
 impl/Kokkos_HostThreadTeam.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o
 .PHONY : impl/Kokkos_HostThreadTeam.cpp.o
 
 impl/Kokkos_HostThreadTeam.i: impl/Kokkos_HostThreadTeam.cpp.i
@@ -429,7 +429,7 @@ impl/Kokkos_HostThreadTeam.i: impl/Kokkos_HostThreadTeam.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_HostThreadTeam.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.i
 .PHONY : impl/Kokkos_HostThreadTeam.cpp.i
 
 impl/Kokkos_HostThreadTeam.s: impl/Kokkos_HostThreadTeam.cpp.s
@@ -438,7 +438,7 @@ impl/Kokkos_HostThreadTeam.s: impl/Kokkos_HostThreadTeam.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_HostThreadTeam.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.s
 .PHONY : impl/Kokkos_HostThreadTeam.cpp.s
 
 impl/Kokkos_MemoryPool.o: impl/Kokkos_MemoryPool.cpp.o
@@ -447,7 +447,7 @@ impl/Kokkos_MemoryPool.o: impl/Kokkos_MemoryPool.cpp.o
 
 # target to build an object file
 impl/Kokkos_MemoryPool.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o
 .PHONY : impl/Kokkos_MemoryPool.cpp.o
 
 impl/Kokkos_MemoryPool.i: impl/Kokkos_MemoryPool.cpp.i
@@ -456,7 +456,7 @@ impl/Kokkos_MemoryPool.i: impl/Kokkos_MemoryPool.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_MemoryPool.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.i
 .PHONY : impl/Kokkos_MemoryPool.cpp.i
 
 impl/Kokkos_MemoryPool.s: impl/Kokkos_MemoryPool.cpp.s
@@ -465,7 +465,7 @@ impl/Kokkos_MemoryPool.s: impl/Kokkos_MemoryPool.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_MemoryPool.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.s
 .PHONY : impl/Kokkos_MemoryPool.cpp.s
 
 impl/Kokkos_Profiling_Interface.o: impl/Kokkos_Profiling_Interface.cpp.o
@@ -474,7 +474,7 @@ impl/Kokkos_Profiling_Interface.o: impl/Kokkos_Profiling_Interface.cpp.o
 
 # target to build an object file
 impl/Kokkos_Profiling_Interface.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.o
 .PHONY : impl/Kokkos_Profiling_Interface.cpp.o
 
 impl/Kokkos_Profiling_Interface.i: impl/Kokkos_Profiling_Interface.cpp.i
@@ -483,7 +483,7 @@ impl/Kokkos_Profiling_Interface.i: impl/Kokkos_Profiling_Interface.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_Profiling_Interface.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.i
 .PHONY : impl/Kokkos_Profiling_Interface.cpp.i
 
 impl/Kokkos_Profiling_Interface.s: impl/Kokkos_Profiling_Interface.cpp.s
@@ -492,7 +492,7 @@ impl/Kokkos_Profiling_Interface.s: impl/Kokkos_Profiling_Interface.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_Profiling_Interface.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling_Interface.cpp.s
 .PHONY : impl/Kokkos_Profiling_Interface.cpp.s
 
 impl/Kokkos_Serial_Task.o: impl/Kokkos_Serial_Task.cpp.o
@@ -501,7 +501,7 @@ impl/Kokkos_Serial_Task.o: impl/Kokkos_Serial_Task.cpp.o
 
 # target to build an object file
 impl/Kokkos_Serial_Task.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.o
 .PHONY : impl/Kokkos_Serial_Task.cpp.o
 
 impl/Kokkos_Serial_Task.i: impl/Kokkos_Serial_Task.cpp.i
@@ -510,7 +510,7 @@ impl/Kokkos_Serial_Task.i: impl/Kokkos_Serial_Task.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_Serial_Task.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.i
 .PHONY : impl/Kokkos_Serial_Task.cpp.i
 
 impl/Kokkos_Serial_Task.s: impl/Kokkos_Serial_Task.cpp.s
@@ -519,7 +519,7 @@ impl/Kokkos_Serial_Task.s: impl/Kokkos_Serial_Task.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_Serial_Task.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Serial_Task.cpp.s
 .PHONY : impl/Kokkos_Serial_Task.cpp.s
 
 impl/Kokkos_SharedAlloc.o: impl/Kokkos_SharedAlloc.cpp.o
@@ -528,7 +528,7 @@ impl/Kokkos_SharedAlloc.o: impl/Kokkos_SharedAlloc.cpp.o
 
 # target to build an object file
 impl/Kokkos_SharedAlloc.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o
 .PHONY : impl/Kokkos_SharedAlloc.cpp.o
 
 impl/Kokkos_SharedAlloc.i: impl/Kokkos_SharedAlloc.cpp.i
@@ -537,7 +537,7 @@ impl/Kokkos_SharedAlloc.i: impl/Kokkos_SharedAlloc.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_SharedAlloc.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.i
 .PHONY : impl/Kokkos_SharedAlloc.cpp.i
 
 impl/Kokkos_SharedAlloc.s: impl/Kokkos_SharedAlloc.cpp.s
@@ -546,7 +546,7 @@ impl/Kokkos_SharedAlloc.s: impl/Kokkos_SharedAlloc.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_SharedAlloc.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.s
 .PHONY : impl/Kokkos_SharedAlloc.cpp.s
 
 impl/Kokkos_Spinwait.o: impl/Kokkos_Spinwait.cpp.o
@@ -555,7 +555,7 @@ impl/Kokkos_Spinwait.o: impl/Kokkos_Spinwait.cpp.o
 
 # target to build an object file
 impl/Kokkos_Spinwait.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o
 .PHONY : impl/Kokkos_Spinwait.cpp.o
 
 impl/Kokkos_Spinwait.i: impl/Kokkos_Spinwait.cpp.i
@@ -564,7 +564,7 @@ impl/Kokkos_Spinwait.i: impl/Kokkos_Spinwait.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_Spinwait.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.i
 .PHONY : impl/Kokkos_Spinwait.cpp.i
 
 impl/Kokkos_Spinwait.s: impl/Kokkos_Spinwait.cpp.s
@@ -573,7 +573,7 @@ impl/Kokkos_Spinwait.s: impl/Kokkos_Spinwait.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_Spinwait.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.s
 .PHONY : impl/Kokkos_Spinwait.cpp.s
 
 impl/Kokkos_Stacktrace.o: impl/Kokkos_Stacktrace.cpp.o
@@ -582,7 +582,7 @@ impl/Kokkos_Stacktrace.o: impl/Kokkos_Stacktrace.cpp.o
 
 # target to build an object file
 impl/Kokkos_Stacktrace.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o
 .PHONY : impl/Kokkos_Stacktrace.cpp.o
 
 impl/Kokkos_Stacktrace.i: impl/Kokkos_Stacktrace.cpp.i
@@ -591,7 +591,7 @@ impl/Kokkos_Stacktrace.i: impl/Kokkos_Stacktrace.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_Stacktrace.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.i
 .PHONY : impl/Kokkos_Stacktrace.cpp.i
 
 impl/Kokkos_Stacktrace.s: impl/Kokkos_Stacktrace.cpp.s
@@ -600,7 +600,7 @@ impl/Kokkos_Stacktrace.s: impl/Kokkos_Stacktrace.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_Stacktrace.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.s
 .PHONY : impl/Kokkos_Stacktrace.cpp.s
 
 impl/Kokkos_hwloc.o: impl/Kokkos_hwloc.cpp.o
@@ -609,7 +609,7 @@ impl/Kokkos_hwloc.o: impl/Kokkos_hwloc.cpp.o
 
 # target to build an object file
 impl/Kokkos_hwloc.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o
 .PHONY : impl/Kokkos_hwloc.cpp.o
 
 impl/Kokkos_hwloc.i: impl/Kokkos_hwloc.cpp.i
@@ -618,7 +618,7 @@ impl/Kokkos_hwloc.i: impl/Kokkos_hwloc.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_hwloc.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.i
 .PHONY : impl/Kokkos_hwloc.cpp.i
 
 impl/Kokkos_hwloc.s: impl/Kokkos_hwloc.cpp.s
@@ -627,7 +627,7 @@ impl/Kokkos_hwloc.s: impl/Kokkos_hwloc.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_hwloc.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/build.make lib/kokkos/core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.s
 .PHONY : impl/Kokkos_hwloc.cpp.s
 
 # Help Target
@@ -705,6 +705,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

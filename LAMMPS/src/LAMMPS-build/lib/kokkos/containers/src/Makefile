@@ -48,10 +48,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/cmake
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src/CMakeFiles/progress.marks
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src/CMakeFiles/progress.marks
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/clean
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/preinstall
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/rule:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/rule
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f CMakeFiles/Makefile2 lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/rule
 .PHONY : lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ kokkoscontainers: lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/rule
 
 # fast build rule for target.
 kokkoscontainers/fast:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build.make lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build.make lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build
 .PHONY : kokkoscontainers/fast
 
 impl/Kokkos_UnorderedMap_impl.o: impl/Kokkos_UnorderedMap_impl.cpp.o
@@ -177,7 +177,7 @@ impl/Kokkos_UnorderedMap_impl.o: impl/Kokkos_UnorderedMap_impl.cpp.o
 
 # target to build an object file
 impl/Kokkos_UnorderedMap_impl.cpp.o:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build.make lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build.make lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o
 .PHONY : impl/Kokkos_UnorderedMap_impl.cpp.o
 
 impl/Kokkos_UnorderedMap_impl.i: impl/Kokkos_UnorderedMap_impl.cpp.i
@@ -186,7 +186,7 @@ impl/Kokkos_UnorderedMap_impl.i: impl/Kokkos_UnorderedMap_impl.cpp.i
 
 # target to preprocess a source file
 impl/Kokkos_UnorderedMap_impl.cpp.i:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build.make lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.i
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build.make lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.i
 .PHONY : impl/Kokkos_UnorderedMap_impl.cpp.i
 
 impl/Kokkos_UnorderedMap_impl.s: impl/Kokkos_UnorderedMap_impl.cpp.s
@@ -195,7 +195,7 @@ impl/Kokkos_UnorderedMap_impl.s: impl/Kokkos_UnorderedMap_impl.cpp.s
 
 # target to generate assembly for a file
 impl/Kokkos_UnorderedMap_impl.cpp.s:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build.make lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.s
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(MAKE) -f lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/build.make lib/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.s
 .PHONY : impl/Kokkos_UnorderedMap_impl.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

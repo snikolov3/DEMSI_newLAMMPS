@@ -1,4 +1,4 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

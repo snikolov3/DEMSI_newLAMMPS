@@ -7,7 +7,7 @@ if __name__ == '__main__':
   configure_options = [
     ')',
     '--download-fblaslapack',
-    '--prefix=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install',
+    '--prefix=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install',
     'PETSC_ARCH=arch-linux-c-debug',
   ]
   configure.petsc_configure(configure_options)

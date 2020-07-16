@@ -1,4 +1,4 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

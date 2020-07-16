@@ -4,7 +4,7 @@ args:
     (
     )
     --download-fblaslapack
-    --prefix=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install
+    --prefix=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install
     APPLE
     else
     endif

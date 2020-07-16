@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # Utility rule file for ridging_island_test_inputs.
 
@@ -59,8 +59,8 @@ testcases/ridging_island/CMakeFiles/ridging_island_test_inputs: testcases/ridgin
 
 
 testcases/ridging_island/grid.nc: testcases/ridging_island/particles_in_expand.nc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, forcing_fixed.nc, particles_in_init.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island && python /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island/make_testcase.py -i particles_in_expand.nc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, forcing_fixed.nc, particles_in_init.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island && python /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island/make_testcase.py -i particles_in_expand.nc
 
 testcases/ridging_island/forcing_fixed.nc: testcases/ridging_island/grid.nc
 	@$(CMAKE_COMMAND) -E touch_nocreate testcases/ridging_island/forcing_fixed.nc
@@ -69,8 +69,8 @@ testcases/ridging_island/particles_in_init.nc: testcases/ridging_island/grid.nc
 	@$(CMAKE_COMMAND) -E touch_nocreate testcases/ridging_island/particles_in_init.nc
 
 testcases/ridging_island/particles_in_expand.nc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating particles_in_expand.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island && wget https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/testcases/ridging_island/particles_in_expand.nc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating particles_in_expand.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island && wget https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/testcases/ridging_island/particles_in_expand.nc
 
 ridging_island_test_inputs: testcases/ridging_island/CMakeFiles/ridging_island_test_inputs
 ridging_island_test_inputs: testcases/ridging_island/grid.nc
@@ -87,10 +87,10 @@ testcases/ridging_island/CMakeFiles/ridging_island_test_inputs.dir/build: ridgin
 .PHONY : testcases/ridging_island/CMakeFiles/ridging_island_test_inputs.dir/build
 
 testcases/ridging_island/CMakeFiles/ridging_island_test_inputs.dir/clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island && $(CMAKE_COMMAND) -P CMakeFiles/ridging_island_test_inputs.dir/cmake_clean.cmake
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island && $(CMAKE_COMMAND) -P CMakeFiles/ridging_island_test_inputs.dir/cmake_clean.cmake
 .PHONY : testcases/ridging_island/CMakeFiles/ridging_island_test_inputs.dir/clean
 
 testcases/ridging_island/CMakeFiles/ridging_island_test_inputs.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island/CMakeFiles/ridging_island_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island/CMakeFiles/ridging_island_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : testcases/ridging_island/CMakeFiles/ridging_island_test_inputs.dir/depend
 

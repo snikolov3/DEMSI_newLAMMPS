@@ -1,0 +1,13 @@
+# Target labels
+ permon
+# Source files and their labels
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/permon
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/permon.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/permon-complete.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-install.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-mkdir.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-download.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-update.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-patch.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-configure.rule
+/ascldap/users/snikolo/move/DEMSI_newLAMMPS/permon/src/permon-stamp/permon-build.rule

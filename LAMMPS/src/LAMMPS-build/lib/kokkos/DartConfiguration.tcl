@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos
-BuildDirectory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos
+SourceDirectory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos
+BuildDirectory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/home/projects/ppc64le/cmake/3.12.3/bin/cmake" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos"
+ConfigureCommand: "/home/projects/ppc64le/cmake/3.12.3/bin/cmake" "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos"
 MakeCommand: /home/projects/ppc64le/cmake/3.12.3/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

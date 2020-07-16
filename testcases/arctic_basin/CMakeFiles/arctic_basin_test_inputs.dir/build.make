@@ -43,10 +43,10 @@ RM = /ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_SOURCE_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ascldap/users/snikolo/DEMSI_cpu3/DEMSI
+CMAKE_BINARY_DIR = /ascldap/users/snikolo/move/DEMSI_newLAMMPS
 
 # Utility rule file for arctic_basin_test_inputs.
 
@@ -63,15 +63,15 @@ testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs: testcases/arctic_bas
 
 
 testcases/arctic_basin/grid.nc: testcases/arctic_basin/particles_in_expand.nc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, particles_in_init.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin && python /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin/make_testcase_init.py -i particles_in_expand.nc -w 11000000.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating grid.nc, particles_in_init.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin && python /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin/make_testcase_init.py -i particles_in_expand.nc -w 11000000.0
 
 testcases/arctic_basin/particles_in_init.nc: testcases/arctic_basin/grid.nc
 	@$(CMAKE_COMMAND) -E touch_nocreate testcases/arctic_basin/particles_in_init.nc
 
 testcases/arctic_basin/forcing_CORE_monthly_clim_atmos.0000.nc: testcases/arctic_basin/grid.nc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating forcing_CORE_monthly_clim_atmos.0000.nc, forcing_CORE_monthly_clim_ocean.0000.nc, forcing_CORE_six_hourly.1999.nc, forcing_CORE_six_hourly.2000.nc, forcing_CORE_six_hourly.2001.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin && python /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin/make_testcase_forcing.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating forcing_CORE_monthly_clim_atmos.0000.nc, forcing_CORE_monthly_clim_ocean.0000.nc, forcing_CORE_six_hourly.1999.nc, forcing_CORE_six_hourly.2000.nc, forcing_CORE_six_hourly.2001.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin && python /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin/make_testcase_forcing.py
 
 testcases/arctic_basin/forcing_CORE_monthly_clim_ocean.0000.nc: testcases/arctic_basin/forcing_CORE_monthly_clim_atmos.0000.nc
 	@$(CMAKE_COMMAND) -E touch_nocreate testcases/arctic_basin/forcing_CORE_monthly_clim_ocean.0000.nc
@@ -86,8 +86,8 @@ testcases/arctic_basin/forcing_CORE_six_hourly.2001.nc: testcases/arctic_basin/f
 	@$(CMAKE_COMMAND) -E touch_nocreate testcases/arctic_basin/forcing_CORE_six_hourly.2001.nc
 
 testcases/arctic_basin/particles_in_expand.nc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating particles_in_expand.nc"
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin && wget https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/testcases/arctic_basin/particles_in_expand.nc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating particles_in_expand.nc"
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin && wget https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/testcases/arctic_basin/particles_in_expand.nc
 
 arctic_basin_test_inputs: testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs
 arctic_basin_test_inputs: testcases/arctic_basin/grid.nc
@@ -108,10 +108,10 @@ testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs.dir/build: arctic_bas
 .PHONY : testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs.dir/build
 
 testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs.dir/clean:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin && $(CMAKE_COMMAND) -P CMakeFiles/arctic_basin_test_inputs.dir/cmake_clean.cmake
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin && $(CMAKE_COMMAND) -P CMakeFiles/arctic_basin_test_inputs.dir/cmake_clean.cmake
 .PHONY : testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs.dir/clean
 
 testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs.dir/depend:
-	cd /ascldap/users/snikolo/DEMSI_cpu3/DEMSI && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin /ascldap/users/snikolo/DEMSI_cpu3/DEMSI /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ascldap/users/snikolo/move/DEMSI_newLAMMPS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin /ascldap/users/snikolo/move/DEMSI_newLAMMPS /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : testcases/arctic_basin/CMakeFiles/arctic_basin_test_inputs.dir/depend
 

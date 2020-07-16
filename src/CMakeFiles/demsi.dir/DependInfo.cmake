@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/src/demsi.cpp" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/src/CMakeFiles/demsi.dir/demsi.cpp.o"
+  "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/src/demsi.cpp" "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/src/CMakeFiles/demsi.dir/demsi.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,8 +20,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/src/CMakeFiles/demsilib.dir/DependInfo.cmake"
-  "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/CMakeFiles/Icepack.dir/DependInfo.cmake"
+  "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/src/CMakeFiles/demsilib.dir/DependInfo.cmake"
+  "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/CMakeFiles/Icepack.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

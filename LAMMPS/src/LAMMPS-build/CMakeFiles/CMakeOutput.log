@@ -10,36 +10,36 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/3.12.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/3.12.3/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_38598/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_38598.dir/build.make CMakeFiles/cmTC_38598.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_38598.dir/testCXXCompiler.cxx.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -o CMakeFiles/cmTC_38598.dir/testCXXCompiler.cxx.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_38598
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38598.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_38598.dir/testCXXCompiler.cxx.o  -o cmTC_38598 
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_43b12/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_43b12.dir/build.make CMakeFiles/cmTC_43b12.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43b12.dir/testCXXCompiler.cxx.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -o CMakeFiles/cmTC_43b12.dir/testCXXCompiler.cxx.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_43b12
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b12.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_43b12.dir/testCXXCompiler.cxx.o  -o cmTC_43b12 
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_585e4/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_585e4.dir/build.make CMakeFiles/cmTC_585e4.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -o CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o -c /ascldap/users/projects/ppc64le/cmake/3.12.3/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_585e4
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_585e4.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g    -v CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_585e4 
+Run Build Command:"/usr/bin/gmake" "cmTC_d9135/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_d9135.dir/build.make CMakeFiles/cmTC_d9135.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -o CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o -c /ascldap/users/projects/ppc64le/cmake/3.12.3/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d9135
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9135.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g    -v CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d9135 
 Using built-in specs.
 COLLECT_GCC=/home/projects/ppc64le/gcc/7.2.0/bin/g++
 COLLECT_LTO_WRAPPER=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper
@@ -49,8 +49,8 @@ Thread model: posix
 gcc version 7.2.0 (GCC) 
 COMPILER_PATH=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/
 LIBRARY_PATH=/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib/:/home/projects/ppc64le/git/2.10.1/lib/:/home/projects/ppc64le/python/2.7.12/lib/:/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/zlib/1.2.8/lib/:/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib/:/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib/:/home/projects/ppc64le/papi/5.5.1/lib/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-g' '-v' '-o' 'cmTC_585e4' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc'
- /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2 -plugin /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9fNphe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_585e4 /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib -L/home/projects/ppc64le/git/2.10.1/lib -L/home/projects/ppc64le/python/2.7.12/lib -L/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/zlib/1.2.8/lib -L/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib -L/home/projects/ppc64le/papi/5.5.1/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64 -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0 -L/home/projects/ppc64le/binutils/2.30.0/lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../.. CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib --enable-new-dtags -lmpi -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-O3' '-g' '-v' '-o' 'cmTC_d9135' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc'
+ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2 -plugin /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9Uz91r.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_d9135 /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib -L/home/projects/ppc64le/git/2.10.1/lib -L/home/projects/ppc64le/python/2.7.12/lib -L/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/zlib/1.2.8/lib -L/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib -L/home/projects/ppc64le/papi/5.5.1/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64 -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0 -L/home/projects/ppc64le/binutils/2.30.0/lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../.. CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib --enable-new-dtags -lmpi -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtend.o /lib/../lib64/crtn.o
 GNU ld (GNU Binutils) 2.30
   Supported emulations:
    elf64lppc
@@ -61,24 +61,24 @@ GNU ld (GNU Binutils) 2.30
    elf32ppc
    elf32ppclinux
    elf32ppcsim
-COLLECT_GCC_OPTIONS='-O3' '-g' '-v' '-o' 'cmTC_585e4' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc'
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-O3' '-g' '-v' '-o' 'cmTC_d9135' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc'
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_585e4/fast"]
-  ignore line: [gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_585e4.dir/build.make CMakeFiles/cmTC_585e4.dir/build]
-  ignore line: [gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -o CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o -c /ascldap/users/projects/ppc64le/cmake/3.12.3/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_585e4]
-  ignore line: [/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_585e4.dir/link.txt --verbose=1]
-  ignore line: [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g    -v CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_585e4 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d9135/fast"]
+  ignore line: [gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d9135.dir/build.make CMakeFiles/cmTC_d9135.dir/build]
+  ignore line: [gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -o CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o -c /ascldap/users/projects/ppc64le/cmake/3.12.3/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d9135]
+  ignore line: [/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9135.dir/link.txt --verbose=1]
+  ignore line: [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g    -v CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d9135 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/projects/ppc64le/gcc/7.2.0/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper]
@@ -88,13 +88,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib/:/home/projects/ppc64le/git/2.10.1/lib/:/home/projects/ppc64le/python/2.7.12/lib/:/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/zlib/1.2.8/lib/:/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib/:/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib/:/home/projects/ppc64le/papi/5.5.1/lib/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-v' '-o' 'cmTC_585e4' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc']
-  link line: [ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2 -plugin /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9fNphe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_585e4 /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib -L/home/projects/ppc64le/git/2.10.1/lib -L/home/projects/ppc64le/python/2.7.12/lib -L/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/zlib/1.2.8/lib -L/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib -L/home/projects/ppc64le/papi/5.5.1/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64 -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0 -L/home/projects/ppc64le/binutils/2.30.0/lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../.. CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib --enable-new-dtags -lmpi -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-v' '-o' 'cmTC_d9135' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc']
+  link line: [ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2 -plugin /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9Uz91r.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_d9135 /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib -L/home/projects/ppc64le/git/2.10.1/lib -L/home/projects/ppc64le/python/2.7.12/lib -L/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/zlib/1.2.8/lib -L/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib -L/home/projects/ppc64le/papi/5.5.1/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64 -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0 -L/home/projects/ppc64le/binutils/2.30.0/lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../.. CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib --enable-new-dtags -lmpi -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtend.o /lib/../lib64/crtn.o]
     arg [/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9fNphe.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9Uz91r.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -108,7 +108,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_585e4] ==> ignore
+    arg [cmTC_d9135] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o] ==> ignore
@@ -139,7 +139,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
     arg [-L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib] ==> dir [/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib]
     arg [-L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../..] ==> dir [/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../..]
-    arg [CMakeFiles/cmTC_585e4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d9135.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-rpath] ==> ignore
     arg [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib] ==> ignore
     arg [--enable-new-dtags] ==> ignore
@@ -189,19 +189,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_bdc91/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_bdc91.dir/build.make CMakeFiles/cmTC_bdc91.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bdc91.dir/feature_tests.cxx.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -std=c++1z -o CMakeFiles/cmTC_bdc91.dir/feature_tests.cxx.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bdc91
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdc91.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_bdc91.dir/feature_tests.cxx.o  -o cmTC_bdc91 
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_ebed2/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_ebed2.dir/build.make CMakeFiles/cmTC_ebed2.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ebed2.dir/feature_tests.cxx.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -std=c++1z -o CMakeFiles/cmTC_ebed2.dir/feature_tests.cxx.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ebed2
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebed2.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_ebed2.dir/feature_tests.cxx.o  -o cmTC_ebed2 
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -264,19 +264,19 @@ gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-bu
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_5564e/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_5564e.dir/build.make CMakeFiles/cmTC_5564e.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5564e.dir/feature_tests.cxx.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -std=c++14 -o CMakeFiles/cmTC_5564e.dir/feature_tests.cxx.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5564e
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5564e.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_5564e.dir/feature_tests.cxx.o  -o cmTC_5564e 
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_8d9c3/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_8d9c3.dir/build.make CMakeFiles/cmTC_8d9c3.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8d9c3.dir/feature_tests.cxx.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -std=c++14 -o CMakeFiles/cmTC_8d9c3.dir/feature_tests.cxx.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8d9c3
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d9c3.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_8d9c3.dir/feature_tests.cxx.o  -o cmTC_8d9c3 
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -339,19 +339,19 @@ gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-bu
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_17fd3/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_17fd3.dir/build.make CMakeFiles/cmTC_17fd3.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_17fd3.dir/feature_tests.cxx.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -std=c++11 -o CMakeFiles/cmTC_17fd3.dir/feature_tests.cxx.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_17fd3
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17fd3.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_17fd3.dir/feature_tests.cxx.o  -o cmTC_17fd3 
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_55aad/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_55aad.dir/build.make CMakeFiles/cmTC_55aad.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55aad.dir/feature_tests.cxx.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -std=c++11 -o CMakeFiles/cmTC_55aad.dir/feature_tests.cxx.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_55aad
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55aad.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_55aad.dir/feature_tests.cxx.o  -o cmTC_55aad 
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -414,19 +414,19 @@ gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-bu
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_add02/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_add02.dir/build.make CMakeFiles/cmTC_add02.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_add02.dir/feature_tests.cxx.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -std=c++98 -o CMakeFiles/cmTC_add02.dir/feature_tests.cxx.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_add02
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_add02.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_add02.dir/feature_tests.cxx.o  -o cmTC_add02 
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_0eb4b/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_0eb4b.dir/build.make CMakeFiles/cmTC_0eb4b.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0eb4b.dir/feature_tests.cxx.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g    -std=c++98 -o CMakeFiles/cmTC_0eb4b.dir/feature_tests.cxx.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0eb4b
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eb4b.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_0eb4b.dir/feature_tests.cxx.o  -o cmTC_0eb4b 
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -487,22 +487,22 @@ gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-bu
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_fdce9/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_fdce9.dir/build.make CMakeFiles/cmTC_fdce9.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g -fopenmp -v -fPIE   -std=c++11 -o CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Run Build Command:"/usr/bin/gmake" "cmTC_a375a/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_a375a.dir/build.make CMakeFiles/cmTC_a375a.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g -fopenmp -v -fPIE   -std=c++11 -o CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
 Using built-in specs.
 COLLECT_GCC=/home/projects/ppc64le/gcc/7.2.0/bin/g++
 Target: powerpc64le-unknown-linux-gnu
 Configured with: ./configure --prefix=/home/projects/ppc64le/gcc/7.2.0 --with-gmp=/home/projects/ppc64le/gmp/6.1.2 --with-mpfr=/home/projects/ppc64le/mpfr/3.1.5 --with-mpc=/home/projects/ppc64le/mpc/1.0.3 --with-isl=/home/projects/ppc64le/isl/0.17.1 --enable-lto --enable-gold --enable-ld --disable-multilib
 Thread model: posix
 gcc version 7.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread'
- /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/cc1plus -quiet -v -I /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -D_GNU_SOURCE -D__unix__ -D__gnu_linux__ -D__linux__ -Asystem=linux -Asystem=unix -Asystem=posix -D_REENTRANT /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -auxbase-strip CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o -g -O3 -std=c++11 -version -fopenmp -fPIE -o /tmp/ccthj2dA.s
+COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread'
+ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/cc1plus -quiet -v -I /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -D_GNU_SOURCE -D__unix__ -D__gnu_linux__ -D__linux__ -Asystem=linux -Asystem=unix -Asystem=posix -D_REENTRANT /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -auxbase-strip CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o -g -O3 -std=c++11 -version -fopenmp -fPIE -o /tmp/ccvNvVue.s
 GNU C++11 (GCC) version 7.2.0 (powerpc64le-unknown-linux-gnu)
 	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.17.1-GMP
 
@@ -540,15 +540,15 @@ GNU C++11 (GCC) version 7.2.0 (powerpc64le-unknown-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 05dbdcb859b43ede2d35d5b543bb9227
-COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread'
- /home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/as -v -I /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -a64 -mppc64 -many -mlittle -o CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o /tmp/ccthj2dA.s
+COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread'
+ /home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/as -v -I /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -a64 -mppc64 -many -mlittle -o CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o /tmp/ccvNvVue.s
 GNU assembler version 2.30 (powerpc64le-unknown-linux-gnu) using BFD version (GNU Binutils) 2.30
 COMPILER_PATH=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/
 LIBRARY_PATH=/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib/:/home/projects/ppc64le/git/2.10.1/lib/:/home/projects/ppc64le/python/2.7.12/lib/:/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/zlib/1.2.8/lib/:/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib/:/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib/:/home/projects/ppc64le/papi/5.5.1/lib/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread'
-Linking CXX executable cmTC_fdce9
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdce9.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g -fopenmp -v    CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o  -o cmTC_fdce9 -v 
+COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread'
+Linking CXX executable cmTC_a375a
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a375a.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g -fopenmp -v    CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o  -o cmTC_a375a -v 
 Using built-in specs.
 COLLECT_GCC=/home/projects/ppc64le/gcc/7.2.0/bin/g++
 COLLECT_LTO_WRAPPER=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper
@@ -559,8 +559,8 @@ gcc version 7.2.0 (GCC)
 COMPILER_PATH=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/
 LIBRARY_PATH=/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib/:/home/projects/ppc64le/git/2.10.1/lib/:/home/projects/ppc64le/python/2.7.12/lib/:/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/zlib/1.2.8/lib/:/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib/:/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib/:/home/projects/ppc64le/papi/5.5.1/lib/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/
 Reading specs from /home/projects/ppc64le/gcc/7.2.0/lib64/../lib64/libgomp.spec
-COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-o' 'cmTC_fdce9' '-v' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc' '-pthread'
- /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2 -plugin /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbTOxHE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_fdce9 /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib -L/home/projects/ppc64le/git/2.10.1/lib -L/home/projects/ppc64le/python/2.7.12/lib -L/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/zlib/1.2.8/lib -L/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib -L/home/projects/ppc64le/papi/5.5.1/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64 -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0 -L/home/projects/ppc64le/binutils/2.30.0/lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../.. CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o -rpath /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib --enable-new-dtags -lmpi -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-o' 'cmTC_a375a' '-v' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc' '-pthread'
+ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2 -plugin /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRojh4i.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_a375a /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib -L/home/projects/ppc64le/git/2.10.1/lib -L/home/projects/ppc64le/python/2.7.12/lib -L/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/zlib/1.2.8/lib -L/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib -L/home/projects/ppc64le/papi/5.5.1/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64 -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0 -L/home/projects/ppc64le/binutils/2.30.0/lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../.. CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o -rpath /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib --enable-new-dtags -lmpi -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtend.o /lib/../lib64/crtn.o
 GNU ld (GNU Binutils) 2.30
   Supported emulations:
    elf64lppc
@@ -571,29 +571,29 @@ GNU ld (GNU Binutils) 2.30
    elf32ppc
    elf32ppclinux
    elf32ppcsim
-COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-o' 'cmTC_fdce9' '-v' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc' '-pthread'
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-o' 'cmTC_a375a' '-v' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc' '-pthread'
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_fdce9/fast"]
-  ignore line: [gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_fdce9.dir/build.make CMakeFiles/cmTC_fdce9.dir/build]
-  ignore line: [gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o]
-  ignore line: [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g -fopenmp -v -fPIE   -std=c++11 -o CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_a375a/fast"]
+  ignore line: [gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a375a.dir/build.make CMakeFiles/cmTC_a375a.dir/build]
+  ignore line: [gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g -fopenmp -v -fPIE   -std=c++11 -o CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/projects/ppc64le/gcc/7.2.0/bin/g++]
   ignore line: [Target: powerpc64le-unknown-linux-gnu]
   ignore line: [Configured with: ./configure --prefix=/home/projects/ppc64le/gcc/7.2.0 --with-gmp=/home/projects/ppc64le/gmp/6.1.2 --with-mpfr=/home/projects/ppc64le/mpfr/3.1.5 --with-mpc=/home/projects/ppc64le/mpc/1.0.3 --with-isl=/home/projects/ppc64le/isl/0.17.1 --enable-lto --enable-gold --enable-ld --disable-multilib]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread']
-  ignore line: [ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/cc1plus -quiet -v -I /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -D_GNU_SOURCE -D__unix__ -D__gnu_linux__ -D__linux__ -Asystem=linux -Asystem=unix -Asystem=posix -D_REENTRANT /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -auxbase-strip CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o -g -O3 -std=c++11 -version -fopenmp -fPIE -o /tmp/ccthj2dA.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread']
+  ignore line: [ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/cc1plus -quiet -v -I /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -D_GNU_SOURCE -D__unix__ -D__gnu_linux__ -D__linux__ -Asystem=linux -Asystem=unix -Asystem=posix -D_REENTRANT /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -auxbase-strip CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o -g -O3 -std=c++11 -version -fopenmp -fPIE -o /tmp/ccvNvVue.s]
   ignore line: [GNU C++11 (GCC) version 7.2.0 (powerpc64le-unknown-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.17.1-GMP]
   ignore line: []
@@ -631,15 +631,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 05dbdcb859b43ede2d35d5b543bb9227]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread']
-  ignore line: [ /home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/as -v -I /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -a64 -mppc64 -many -mlittle -o CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o /tmp/ccthj2dA.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread']
+  ignore line: [ /home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/as -v -I /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include -a64 -mppc64 -many -mlittle -o CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o /tmp/ccvNvVue.s]
   ignore line: [GNU assembler version 2.30 (powerpc64le-unknown-linux-gnu) using BFD version (GNU Binutils) 2.30]
   ignore line: [COMPILER_PATH=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib/:/home/projects/ppc64le/git/2.10.1/lib/:/home/projects/ppc64le/python/2.7.12/lib/:/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/zlib/1.2.8/lib/:/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib/:/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib/:/home/projects/ppc64le/papi/5.5.1/lib/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread']
-  ignore line: [Linking CXX executable cmTC_fdce9]
-  ignore line: [/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdce9.dir/link.txt --verbose=1]
-  ignore line: [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g -fopenmp -v    CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o  -o cmTC_fdce9 -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-fPIE' '-std=c++11' '-o' 'CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o' '-c' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-shared-libgcc' '-pthread']
+  ignore line: [Linking CXX executable cmTC_a375a]
+  ignore line: [/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a375a.dir/link.txt --verbose=1]
+  ignore line: [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g -fopenmp -v    CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o  -o cmTC_a375a -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/projects/ppc64le/gcc/7.2.0/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper]
@@ -650,13 +650,13 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/../lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib/:/home/projects/ppc64le/git/2.10.1/lib/:/home/projects/ppc64le/python/2.7.12/lib/:/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/zlib/1.2.8/lib/:/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib/:/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/:/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib/:/home/projects/ppc64le/papi/5.5.1/lib/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/:/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib64/:/home/projects/ppc64le/gcc/7.2.0/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/:/home/projects/ppc64le/binutils/2.30.0/lib/:/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/:/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib/:/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /home/projects/ppc64le/gcc/7.2.0/lib64/../lib64/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-o' 'cmTC_fdce9' '-v' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc' '-pthread']
-  link line: [ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2 -plugin /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbTOxHE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_fdce9 /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib -L/home/projects/ppc64le/git/2.10.1/lib -L/home/projects/ppc64le/python/2.7.12/lib -L/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/zlib/1.2.8/lib -L/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib -L/home/projects/ppc64le/papi/5.5.1/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64 -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0 -L/home/projects/ppc64le/binutils/2.30.0/lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../.. CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o -rpath /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib --enable-new-dtags -lmpi -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-fopenmp' '-v' '-o' 'cmTC_a375a' '-v' '-I' '/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/include' '-pthread' '-L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib' '-shared-libgcc' '-pthread']
+  link line: [ /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2 -plugin /home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRojh4i.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -V -m elf64lppc -dynamic-linker /lib64/ld64.so.2 -o cmTC_a375a /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/../lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/projects/ppc64le-pwr8/openblas/0.3.1/gcc/7.2.0/lib -L/home/projects/ppc64le/git/2.10.1/lib -L/home/projects/ppc64le/python/2.7.12/lib -L/home/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8-nvidia/hdf5/1.8.20/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/zlib/1.2.8/lib -L/home/projects/ppc64le-pwr8-nvidia/pnetcdf-exo/1.9.0/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le-pwr8/boost/1.65.1/gcc/7.2.0/lib -L/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib -L/home/projects/ppc64le/java/ibm/sdk/8.0.0/lib -L/home/projects/ppc64le/papi/5.5.1/lib -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/extras/CUPTI/lib64 -L/home/projects/ppc64le-pwr8-nvidia/cuda/9.2.88/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib64 -L/home/projects/ppc64le/gcc/7.2.0/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0 -L/home/projects/ppc64le/binutils/2.30.0/lib -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5 -L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib -L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../.. CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o -rpath /home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib --enable-new-dtags -lmpi -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtend.o /lib/../lib64/crtn.o]
     arg [/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/projects/ppc64le/gcc/7.2.0/libexec/gcc/powerpc64le-unknown-linux-gnu/7.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccbTOxHE.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRojh4i.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -670,7 +670,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fdce9] ==> ignore
+    arg [cmTC_a375a] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/crtbegin.o] ==> ignore
@@ -701,7 +701,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/ppc64le-redhat-linux/4.8.5]
     arg [-L/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib] ==> dir [/home/projects/ppc64le/binutils/2.30.0/lib/../powerpc64le-unknown-linux-gnu/lib]
     arg [-L/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../..] ==> dir [/home/projects/ppc64le/gcc/7.2.0/lib/gcc/powerpc64le-unknown-linux-gnu/7.2.0/../../..]
-    arg [CMakeFiles/cmTC_fdce9.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a375a.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-rpath] ==> ignore
     arg [/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib] ==> ignore
     arg [--enable-new-dtags] ==> ignore
@@ -750,34 +750,34 @@ Parsed CXX OpenMP implicit link information from above output:
 
 
 Determining if the include file omp.h exists passed with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7cc4a/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_7cc4a.dir/build.make CMakeFiles/cmTC_7cc4a.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7cc4a.dir/CheckIncludeFile.cxx.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g  -fPIE   -std=c++11 -o CMakeFiles/cmTC_7cc4a.dir/CheckIncludeFile.cxx.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_7cc4a
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cc4a.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_7cc4a.dir/CheckIncludeFile.cxx.o  -o cmTC_7cc4a 
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_dc8f5/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_dc8f5.dir/build.make CMakeFiles/cmTC_dc8f5.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc8f5.dir/CheckIncludeFile.cxx.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g  -fPIE   -std=c++11 -o CMakeFiles/cmTC_dc8f5.dir/CheckIncludeFile.cxx.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_dc8f5
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc8f5.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_dc8f5.dir/CheckIncludeFile.cxx.o  -o cmTC_dc8f5 
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file cmath exists passed with the following output:
-Change Dir: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
+Change Dir: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_60c65/fast"
-gmake[3]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_60c65.dir/build.make CMakeFiles/cmTC_60c65.dir/build
-gmake[4]: Entering directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_60c65.dir/CheckIncludeFile.cxx.o
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g  -fPIE   -std=c++11 -o CMakeFiles/cmTC_60c65.dir/CheckIncludeFile.cxx.o -c /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_60c65
-/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60c65.dir/link.txt --verbose=1
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_60c65.dir/CheckIncludeFile.cxx.o  -o cmTC_60c65 
-gmake[4]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory `/home/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_d33a6/fast"
+gmake[3]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_d33a6.dir/build.make CMakeFiles/cmTC_d33a6.dir/build
+gmake[4]: Entering directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d33a6.dir/CheckIncludeFile.cxx.o
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx    -O3 -g  -fPIE   -std=c++11 -o CMakeFiles/cmTC_d33a6.dir/CheckIncludeFile.cxx.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d33a6
+/ascldap/users/projects/ppc64le/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d33a6.dir/link.txt --verbose=1
+/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g     CMakeFiles/cmTC_d33a6.dir/CheckIncludeFile.cxx.o  -o cmTC_d33a6 
+gmake[4]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/home/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles/CMakeTmp'
 
 

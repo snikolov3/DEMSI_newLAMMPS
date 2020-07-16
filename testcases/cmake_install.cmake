@@ -1,4 +1,4 @@
-# Install script for directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases
+# Install script for directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/vortex/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/particle_to_grid_interp/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/cantilever_lattice/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/two_particles/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/single_particle/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/single_particle_column/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/one_dimensional_ridging/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/ridging_island/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/uniform_stress/cmake_install.cmake")
-  include("/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/arctic_basin/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/vortex/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/particle_to_grid_interp/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/cantilever_lattice/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/two_particles/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/single_particle/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/single_particle_column/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/one_dimensional_ridging/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/ridging_island/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/uniform_stress/cmake_install.cmake")
+  include("/ascldap/users/snikolo/move/DEMSI_newLAMMPS/testcases/arctic_basin/cmake_install.cmake")
 
 endif()
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -g -O3 -DNDEBUG -fPIC   -fopenmp -mcpu=power8 -mtune=power8 -std
 
 CXX_DEFINES = -Dkokkoscontainers_EXPORTS
 
-CXX_INCLUDES = -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/containers/src -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src -I/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/LAMMPS/lib/kokkos/core/src 
+CXX_INCLUDES = -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/containers/src -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/lib/kokkos/core/src -I/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src 
 

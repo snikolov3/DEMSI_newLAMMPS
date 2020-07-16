@@ -1,6 +1,6 @@
 print_mesg_after_build: 
 	-@echo "Now to install the libraries do:"
-	-@echo "make PETSC_DIR=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install  install"
+	-@echo "make PETSC_DIR=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install  install"
 	-@echo "========================================="
 
 libc: ${LIBNAME}(${OBJSC})
