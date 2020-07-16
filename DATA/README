@@ -1,0 +1,23 @@
+This directory stores data needed for some of the DEMSI test cases. Running the get_data.py script downloads the needed data from public sources using wget.
+
+To download data run the get_data.py script:
+>python get_data.py
+
+Test cases use the DEMSI_DATA_DIR environment variable to determine where these datasets are downloaded to. After running get_data.py set this environment variable to this directory.
+
+Data:
+=====
+
+1) CORE-II
+----------
+Atmospheric forcing data used by the Arctic Basin test case.
+
+
+2) etopo1
+---------
+Bathymetry dataset used by the Arctic Basin test case.
+
+
+3) mpas-seaice
+--------------
+MPAS-Seaice grid and output data used by the Arctic Basin and single particle column test cases.

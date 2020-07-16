@@ -1,0 +1,7 @@
+*.nc
+*log*
+*.dat
+*.dump
+*.mov
+*.mp4
+tmp

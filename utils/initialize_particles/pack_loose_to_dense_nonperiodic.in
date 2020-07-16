@@ -1,0 +1,126 @@
+log 		${name}_compress.log
+dimension	2
+
+units 		si
+variable	PI equal 3.141592653589
+variable	seed equal 14314
+
+
+################################################
+# Misc. simulation parameters
+################################################
+
+variable	dumpfreq equal 1000
+variable	logfreq equal 1000
+
+newton 		off
+
+atom_style	sphere
+
+boundary	f f p
+
+read_data	${name}.data
+
+atom_modify	sort 1000 1000.0
+
+### Clunky way to have LAMMPS compute min/max radius, min mass
+compute		1 all property/atom radius
+compute		2 all property/atom mass
+
+compute		minrad all reduce min c_1
+compute		maxrad all reduce max c_1
+compute		minmass all reduce min c_2
+
+run 		0 pre no post no every 1 &
+		"variable minrad equal $(c_minrad)" &
+		"variable maxrad equal $(c_maxrad)" &
+		"variable minmass equal $(c_minmass)"
+
+uncompute	minrad
+uncompute	maxrad
+uncompute 	minmass
+uncompute	1
+uncompute	2
+
+variable	skin equal ${minrad}*0.5
+neighbor	${minrad} bin
+neigh_modify	delay 0 every 1 check yes binsize ${minrad}
+comm_modify	mode multi group all vel yes
+
+################################################
+# Particle properties
+# Eventually use Hopkins contact model for packing, for
+# now just hooke w/ friction
+################################################
+variable        elastic_modulus equal 10^10
+variable        poisson_ratio equal 2.0/7.0
+variable        shear_modulus equal ${elastic_modulus}/(2*(1+${poisson_ratio})) 
+variable        friction_coeff equal 0.0
+variable	restitution equal 0.2
+
+variable        kn equal 4.0*${shear_modulus}/(3*(1-${poisson_ratio}))
+variable        kt equal 4.0*${shear_modulus}/(2-${poisson_ratio})
+
+variable        gamma_n equal 1e-10
+variable        gamma_t equal ${gamma_n}*0.5
+
+variable        tcol equal ${PI}/sqrt(2*${kn}/${minmass})
+timestep	$(v_tcol*0.02)
+
+##############################################################
+#### Fixes, pair styles, dumps, run ####
+##############################################################
+fix		1 all nve/sphere disc
+#fix		2 all langevin 1e29 1e29 $(v_tcol*0.02*1000) ${seed} 
+
+pair_style	gran/hooke ${kn} ${kt} ${gamma_n} ${gamma_t} ${friction_coeff} 0
+pair_coeff	* *
+
+
+##############################################################
+#### Wall movement. Somewhat awkward with fix/wall/gran/region,
+#### but it works. (because fix wall/gran does not have variable 
+#### coordinate options yet)
+##############################################################
+
+variable	wall_vel_x equal (xhi-xlo)*(1-${compress_factor})/(${num_steps}*dt)
+variable	wall_disp_xlo equal ${wall_vel_x}*elapsed*dt
+variable	wall_disp_xhi equal -${wall_vel_x}*elapsed*dt
+
+variable	wall_vel_y equal (yhi-ylo)*(1-${compress_factor})/(${num_steps}*dt)
+variable	wall_disp_ylo equal ${wall_vel_y}*elapsed*dt
+variable	wall_disp_yhi equal -${wall_vel_y}*elapsed*dt
+
+region		xwall_lo block $(xlo-1.0) $(xlo) INF INF INF INF move v_wall_disp_xlo NULL NULL side out
+region		xwall_hi block $(xhi) $(xhi+1.0) INF INF INF INF move v_wall_disp_xhi NULL NULL side out
+region		ywall_lo block INF INF $(ylo-1.0) $(ylo) INF INF move NULL v_wall_disp_ylo NULL side out
+region		ywall_hi block INF INF $(yhi) $(yhi+1.0) INF INF move NULL v_wall_disp_yhi NULL side out
+
+fix		w1 all wall/gran/region hooke ${kn} ${kt} ${gamma_n} ${gamma_t} ${friction_coeff} 0 region xwall_lo
+fix		w2 all wall/gran/region hooke ${kn} ${kt} ${gamma_n} ${gamma_t} ${friction_coeff} 0 region xwall_hi
+fix		w3 all wall/gran/region hooke ${kn} ${kt} ${gamma_n} ${gamma_t} ${friction_coeff} 0 region ywall_lo
+fix		w4 all wall/gran/region hooke ${kn} ${kt} ${gamma_n} ${gamma_t} ${friction_coeff} 0 region ywall_hi
+
+dump		1 all custom ${dumpfreq} ${name}_compress.dump id type mass radius x y z
+
+compute 	stressnoKE all pressure NULL virial
+thermo 		${logfreq}
+thermo_style	custom step cpu atoms ke pe c_stressnoKE elapsed v_wall_disp_xlo v_wall_disp_xhi 
+thermo_modify	flush yes lost warn
+
+
+# Initial compression w/ langevin 'heating' - the more steps, the better
+run 		${num_steps}
+
+# Turn off deformation, langevin dynamics
+#variable      	wall_disp_xlo equal ${wall_vel_x}*${num_steps}*dt
+#variable      	wall_disp_xhi equal -${wall_vel_y}*${num_steps}*dt
+#variable      	wall_disp_ylo equal ${wall_vel_y}*${num_steps}*dt
+#variable      	wall_disp_yhi equal -${wall_vel_y}*${num_steps}*dt
+#unfix		2
+
+#run		$(floor(0.1*v_num_steps))
+
+write_data	${name}_final.data 
+
+

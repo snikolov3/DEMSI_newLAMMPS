@@ -1,0 +1,126 @@
+<Downloads>
+
+  <Download name="etopo1">
+    <url>https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/ice_surface/grid_registered/netcdf/</url>
+    <destination>./etopo1/</destination>
+    <filenames>
+      <filename>
+	<input>ETOPO1_Ice_g_gmt4.grd.gz</input>
+	<output>ETOPO1_Ice_g_gmt4.grd.gz</output>
+      </filename>
+    </filenames>
+  </Download>
+
+  <Download name="CORE-II">
+    <url>https://data1.gfdl.noaa.gov/~nnz/mom4/COREv2/data_IAF/CORRECTED/calendar_years/</url>
+    <destination>./CORE-II/</destination>
+    <filenames>
+      <filename>
+	<input>u_10.1999.05APR2010.nc</input>
+	<output>u_10.1999.nc</output>
+      </filename>
+      <filename>
+	<input>u_10.2000.05APR2010.nc</input>
+	<output>u_10.2000.nc</output>
+      </filename>
+      <filename>
+	<input>u_10.2001.05APR2010.nc</input>
+	<output>u_10.2001.nc</output>
+      </filename>
+      <filename>
+	<input>v_10.1999.05APR2010.nc</input>
+	<output>v_10.1999.nc</output>
+      </filename>
+      <filename>
+	<input>v_10.2000.05APR2010.nc</input>
+	<output>v_10.2000.nc</output>
+      </filename>
+      <filename>
+	<input>v_10.2001.05APR2010.nc</input>
+	<output>v_10.2001.nc</output>
+      </filename>
+      <filename>
+	<input>t_10.1999.05APR2010.nc</input>
+	<output>t_10.1999.nc</output>
+      </filename>
+      <filename>
+	<input>t_10.2000.05APR2010.nc</input>
+	<output>t_10.2000.nc</output>
+      </filename>
+      <filename>
+	<input>t_10.2001.05APR2010.nc</input>
+	<output>t_10.2001.nc</output>
+      </filename>
+      <filename>
+	<input>q_10.1999.05APR2010.nc</input>
+	<output>q_10.1999.nc</output>
+      </filename>
+      <filename>
+	<input>q_10.2000.05APR2010.nc</input>
+	<output>q_10.2000.nc</output>
+      </filename>
+      <filename>
+	<input>q_10.2001.05APR2010.nc</input>
+	<output>q_10.2001.nc</output>
+      </filename>
+    </filenames>
+  </Download>
+
+  <Download name="monthly climatology">
+    <url>https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/monthly_clim_forcing/</url>
+    <destination>./CORE-II/</destination>
+    <filenames>
+      <filename>
+	<input>cldf.omip.nc</input>
+	<output>cldf.omip.nc</output>
+      </filename>
+      <filename>
+	<input>prec.nmyr.nc</input>
+	<output>prec.nmyr.nc</output>
+      </filename>
+    </filenames>
+  </Download>
+
+  <Download name="QU60km_polar">
+    <url>https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/mpas-seaice/QU60km_polar/</url>
+    <destination>./mpas-seaice/QU60km_polar/</destination>
+    <filenames>
+      <filename>
+	<input>seaice_QU_60km_polar.nc</input>
+	<output>seaice_QU_60km_polar.nc</output>
+      </filename>
+      <filename>
+	<input>timeSeriesStatsMonthly.2000-01.nc</input>
+	<output>timeSeriesStatsMonthly.2000-01.nc</output>
+      </filename>
+    </filenames>
+  </Download>
+
+  <Download name="sc_71.35_-156.5">
+    <url>https://web.lcrc.anl.gov/public/e3sm/mpas_standalonedata/DEMSI/DATA/mpas-seaice/sc_71.35_-156.5/</url>
+    <destination>./mpas-seaice/sc_71.35_-156.5/</destination>
+    <filenames>
+      <filename>
+	<input>LYq_monthly.nc</input>
+	<output>LYq_monthly.nc</output>
+      </filename>
+      <filename>
+	<input>LYq_six_hourly.1989.nc</input>
+	<output>LYq_six_hourly.1989.nc</output>
+      </filename>
+      <filename>
+	<input>LYq_six_hourly.1990.nc</input>
+	<output>LYq_six_hourly.1990.nc</output>
+      </filename>
+      <filename>
+	<input>LYq_six_hourly.1991.nc</input>
+	<output>LYq_six_hourly.1991.nc</output>
+      </filename>
+      <filename>
+	<input>oceanmixed_ice_depth_sc_71.35_-156.5.nc</input>
+	<output>oceanmixed_ice_depth_sc_71.35_-156.5.nc</output>
+      </filename>
+    </filenames>
+  </Download>
+
+</Downloads>

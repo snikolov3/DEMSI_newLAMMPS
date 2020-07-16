@@ -1,0 +1,13 @@
+# CMake generated Testfile for 
+# Source directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/vortex
+# Build directory: /ascldap/users/snikolo/DEMSI_cpu3/DEMSI/testcases/vortex
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(smoke_vortex_1 "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/utils/testing/smoke.py" "--testName" "smoke_vortex_1" "--executable" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/demsi" "--configFile" "config_fixed_forcing.xml" "--nProcs" "1" "--nThreads" "1" "--simulationDuration" "HOURS:1")
+add_test(smoke_vortex_varying_1 "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/utils/testing/smoke.py" "--testName" "smoke_vortex_varying_1" "--executable" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/demsi" "--configFile" "config_varying_forcing.xml" "--nProcs" "1" "--nThreads" "4" "--simulationDuration" "HOURS:1")
+add_test(smoke_vortex_4 "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/utils/testing/smoke.py" "--testName" "smoke_vortex_4" "--executable" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/demsi" "--configFile" "config_fixed_forcing.xml" "--nProcs" "4" "--nThreads" "2" "--simulationDuration" "HOURS:12")
+add_test(smoke_vortex_stability_1 "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/utils/testing/smoke.py" "--testName" "smoke_vortex_stability_1" "--executable" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/demsi" "--configFile" "config_fixed_forcing_stability.xml" "--nProcs" "1" "--simulationDuration" "HOURS:1")
+add_test(regression_vortex_1 "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/utils/testing/regression.py" "--testName" "regression_vortex_1" "--baseline" "" "--testdir" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI" "--cmpfile" "particles_out.0001-01-01_04.nc" "--configFile" "config_fixed_forcing.xml" "--nProcs" "1" "--nThreads" "1" "--simulationDuration" "HOURS:4")
+add_test(regression_vortex_varying_1 "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/utils/testing/regression.py" "--testName" "regression_vortex_varying_1" "--baseline" "" "--testdir" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI" "--cmpfile" "particles_out.0001-01-01_04.nc" "--configFile" "config_varying_forcing.xml" "--nProcs" "1" "--nThreads" "1" "--simulationDuration" "HOURS:4")
+add_test(regression_vortex_fixed_random_4 "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/utils/testing/regression.py" "--testName" "regression_vortex_fixed_random_4" "--baseline" "" "--testdir" "/ascldap/users/snikolo/DEMSI_cpu3/DEMSI" "--cmpfile" "particles_out.0001-01-01_12.nc" "--configFile" "config_fixed_forcing_random.xml" "--nProcs" "4" "--nThreads" "1" "--simulationDuration" "HOURS:12")

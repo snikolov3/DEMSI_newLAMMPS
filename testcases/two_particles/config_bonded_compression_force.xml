@@ -1,0 +1,191 @@
+<Configs>
+
+  <!-- Simulations timing -->
+  <ConfigGroup name="simulationTiming">
+    <Config name="calendarType" type="String" value="proleptic_gregorian" units="none"
+	    description="Type of calendar to use for time."
+	    possible_values="'360_day', 'noleap', or 'proleptic_gregorian'"/>
+    <Config name="startTime" type="String" value="0001-01-01_00:00:00" units="none"
+	    description="Start time of the simulation."
+	    possible_values="Time string in 'YYYY-MM-DD_dd:hh:ss' format"/>
+    <Config name="timeStep" type="Integer" value="1" units="seconds"
+	    description="Length of thermodynamic time step in seconds."
+	    possible_values="Any positive integer."/>
+    <Config name="simulationStopType" type="String" value="simulationDuration" units="none"
+	    description="Method for determining the length of the simulation."
+	    possible_values="'stopTime', 'nSteps', or 'simulationDuration'"/>
+    <Config name="stopTime" type="String" value="" units="none"
+	    description="Stop time of the simulation."
+	    possible_values="Time string in 'YYYY-MM-DD_dd:hh:ss' format"/>
+    <Config name="nSteps" type="Integer" value="0" units="none"
+	    description="Length of the simulation in number of time steps."
+	    possible_values="Any positive integer."/>
+    <Config name="simulationDuration" type="String" value="SECONDS:100" units="none"
+	    description="Length of the simulation in time interval format."
+	    possible_values="Time interval string format."/>
+    <Config name="nDynamicsSubcycles" type="Integer" value="1" units="none"
+	    description="Number of dynamics subcycles per thermodynamics time step"
+	    possible_values="Any positive integer"/>
+  </ConfigGroup>
+
+  <!-- use sections -->
+  <ConfigGroup name="useSections">
+    <Config name="useForcing" type="Boolean" value="false" units="none"
+	    description="Use the forcing system."
+	    possible_values="'true', or 'false'"/>
+    <Config name="useDynamics" type="Boolean" value="true" units="none"
+	    description="Use the dynamics."
+	    possible_values="'true', or 'false'"/>
+    <Config name="useExternalForces" type="Boolean" value="false" units="none"
+	    description="Use the external forces calculations."
+	    possible_values="'true', or 'false'"/>
+    <Config name="useTestcaseExternalForces" type="Boolean" value="false" units="none"
+	    description="Use the external forces calculations for test cases."
+	    possible_values="'true', or 'false'"/>
+    <Config name="useColumn" type="Boolean" value="false" units="none"
+	    description="Use the column icepack."
+	    possible_values="'true', or 'false'"/>
+  </ConfigGroup>
+
+  <!-- Grid -->
+  <ConfigGroup name="grid">
+    <Config name="gridFile" type="String" value="./grid.nc" units="none"
+	    description="Name of NetCDF grid file."
+	    possible_values='Path to file name'/>
+  </ConfigGroup>
+
+  <!-- lammps set up scripts -->
+  <ConfigGroup name="lammps">
+   <Config name="integrateMotion" type="Boolean" value="false" units="none"
+	    description="Have lammps integrate the equations of motion."
+	    possible_values="'true' or 'false'"/>
+   <Config name="useCoastlineElements" type="Boolean" value="false" units="none"
+	    description="Use fixed type 2 elements representing coastlines."
+	    possible_values="'true' or 'false'"/>
+   <Config name="skinFraction" type="Double" value="100.0" units="none"
+	    description="Fraction of largest initial particle diameter to set skin thickness to"
+	    possible_values="Any positive real number."/>
+   <Config name="timestepThickness" type="Double" value="0.1" units="none"
+	    description="Scale density by this thickness in time step calculation."
+	    possible_values="Any positive real number."/>
+   <Config name="lostAtomsType" type="String" value="error" units="none"
+	    description="What to do if atmos are lost from the domain."
+	    possible_values="'error', 'warn', or 'ignore'"/>
+   <Array name="lammpsGroups">
+     <LammpsGroup>group left type 1</LammpsGroup>
+     <LammpsGroup>group right type 2</LammpsGroup>
+   </Array>
+   <Array name="lammpsFixes">
+     <LammpsFix>fix 2 right move linear -60.0 0.0 0.0</LammpsFix>
+   </Array>
+  </ConfigGroup>
+
+  <!-- Contacts -->
+  <ConfigGroup name="contacts">
+    <Config name="contactType" type="String" value="hopkins" units="none"
+	    description="Contact type."
+	    possible_values="'hopkins', 'hooke', 'hooke_thickness', and 'none'"/>
+    <Config name="bondThickness" type="Double" value="0.2" units="m"
+	    description="Thickness of Hopkins bonds."
+	    possible_values='Any positive real number'/>
+    <Config name="elasticModulus" type="Double" value="1.0e9" units="Pa"
+	    description="elastic modulus for Hopkins contact."
+	    possible_values="Any positive real number."/>
+    <Config name="poissonRatio" type="Double" value="0.3" units="none"
+	    description="Poisson ratio."
+	    possible_values="Any positive real number."/>
+    <Config name="compressiveBreakingStressType" type="String" value="constant" units="none"
+	    description="Type of compressive breaking stress formulation."
+	    possible_values="'KovacsSodhi'"/>
+    <Config name="compressiveBreakingStress" type="Double" value="2.5e8" units="Pa"
+	    description="Compressive breaking stress limit."
+	    possible_values="Any positive real number."/>
+    <Config name="tensileBreakingStressType" type="String" value="constant" units="none"
+	    description="Type of tensile breaking stress formulation."
+	    possible_values="'multiply_sig_c0'"/>
+    <Config name="tensileBreakingStress" type="Double" value="1.0e30" units="Pa"
+	    description="Tensile breaking stress limit."
+	    possible_values="Any positive real number."/>
+    <Config name="frictionAngle" type="Double" value="13.0" units="degrees"
+	    description="Friction angle."
+	    possible_values="Any positive real number."/>
+    <Config name="bondedDamping" type="Double" value="1.0e4" units="none"
+	    description="Bonded damping coefficient."
+	    possible_values="Any positive real number."/>
+    <Config name="tangentialFriction" type="Double" value="0.3" units="none"
+	    description="Tangential friction coefficient."
+	    possible_values="Any positive real number."/>
+    <Config name="nonbondedNormalDamping" type="Double" value="0.1" units="none"
+	    description="Nonbonded normal damping coefficient."
+	    possible_values="Any positive real number."/>
+    <Config name="nonbondedTangentialDamping" type="Double" value="1.0e5" units="none"
+	    description="Nonbonded tangential damping coefficient."
+	    possible_values="Any positive real number."/>
+    <Config name="criticalCrushingThickness" type="Double" value="0.2" units="m"
+	    description="Thickness for transition from ridge crushing to buckling."
+	    possible_values="Any positive real number."/>
+  </ConfigGroup>
+
+  <!-- Particle input -->
+  <ConfigGroup name="particleInput">
+    <Config name="particleInputFile" type="String" value="./particles_in_bonded.nc" units="none"
+	    description="Name of NetCDF particle input file."
+	    possible_values='Path to file name, or "none"'/>
+  </ConfigGroup>
+
+  <!-- Contacts -->
+  <ConfigGroup name="contacts">
+    <Config name="bondThickness" type="Double" value="1.0" units="m"
+	    description="Thickness of Hopkins bonds."
+	    possible_values='Any positive real number'/>
+  </ConfigGroup>
+
+  <!-- Particle output -->
+  <ConfigGroup name="particleOutput">
+    <Array name="particleOutputStreams">
+      <ParticleOutputStream name="particleOutput">
+	<Config name="particleWriteFilenameTemplate" type="String" value="particles_out.$Y-$M-$D_$h:$m:$s.nc" units="none"
+		description="Name of NetCDF particle output filename template."
+		possible_values='File name, or "none"'/>
+	<Config name="particleWriteOutputDirectory" type="String" value="./output/" units="none"
+		description="Name of NetCDF particle output directory."
+		possible_values='Directory name, or "none"'/>
+	<Config name="particleWriteInterval" type="String" value="SECONDS:1" units="none"
+		description="Interval for particle output."
+		possible_values="Time interval string format."/>
+	<Config name="particleWriteClobber" type="Boolean" value="true" units="none"
+		description="If true clobber particle output files."
+		possible_values="'True', or 'False'"/>
+	<Config name="particleWriteBonds" type="Boolean" value="true" units="none"
+		description="If true write bond info."
+		possible_values="'True', or 'False'"/>
+	<Array name="OutputFields"></Array>
+      </ParticleOutputStream>
+    </Array>
+  </ConfigGroup>
+
+  <!-- Logging -->
+  <ConfigGroup name="logging">
+    <Config name="writeLogAllProcs" type="Boolean" value="false" units="none"
+	    description="Write log files for all processors."
+	    possible_values="'true', or 'false'"/>
+    <Config name="writeLogDebug" type="Boolean" value="false" units="none"
+	    description="Write debug messages."
+	    possible_values="'true', or 'false'"/>
+  </ConfigGroup>
+
+  <!-- Initialization -->
+  <ConfigGroup name="initialization">
+    <Config name="massInitType" type="String" value="file" units="none"
+	    description="Method to read in mass variables."
+	    possible_values="'file', 'const', 'thickness_dist', or 'cice'"/>
+  </ConfigGroup>
+
+  <!-- Testing -->
+  <ConfigGroup name="testing">
+    <Config name="testColumnProcTransfer" type="Boolean" value="true" units="none"
+	    description="If true perform test on column communication."
+	    possible_values="'true', or 'false'"/>
+  </ConfigGroup>
+
+</Configs>

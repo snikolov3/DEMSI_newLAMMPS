@@ -1,0 +1,249 @@
+# -*- mode: makefile -*-
+
+
+#
+# Basic targets to build PERMON library
+permon-all: permon_chk_all
+	@mkdir -p ./${PETSC_ARCH}/lib/permon/conf
+	${OMAKE_PRINTDIR} PETSC_ARCH=${PETSC_ARCH} PETSC_DIR=${PETSC_DIR} PERMON_DIR=${PERMON_DIR} PERMON_PKG_DIR=${PERMON_PKG_DIR} permon-all-local 2>&1 | tee ${PERMON_LOG};
+	@egrep -i "( error | error: |no such file or directory)" ${PERMON_LOG} | tee ${PERMON_ERRLOG} > /dev/null
+	+@if test -s ${PERMON_ERRLOG}; then \
+           printf ${PETSC_TEXT_HILIGHT}"*******************************ERROR************************************\n" 2>&1 | tee -a ${PERMON_LOG}; \
+           echo "  Error during compile, check ${PERMON_LOG}" 2>&1 | tee -a ${PERMON_LOG}; \
+           echo "  Send all contents of ./${PETSC_ARCH}/lib/permon/conf to vaclav.hapla@vsb.cz" 2>&1 | tee -a ${PERMON_LOG};\
+           printf "************************************************************************"${PETSC_TEXT_NORMAL}"\n" 2>&1 | tee -a ${PERMON_LOG}; \
+					 exit 1; \
+	 else \
+		 echo "Completed building libraries in ${PERMON_PKG_DIR}/${PETSC_ARCH}" | tee -a ${PERMON_LOG}; \
+ echo "=========================================" | tee -a ${PERMON_LOG}; \
+	 fi
+
+permon-all-local: permon_info permon_libs
+
+permon_chk_all: chk_permon_pkg_dir chk_permon_petsc_dir chklib_dir
+
+#
+# Builds the PERMON library using PETSc GNU Make parallel buildsystem
+#
+permon_libs:
+	+@cd ${PERMON_PKG_DIR} && MAKEFLAGS="-j$(MAKE_NP) -l$(MAKE_LOAD) $(MAKEFLAGS)" ${OMAKE_PRINTDIR} -f gmakefile ${MAKE_PAR_OUT_FLG} V=${V}
+
+# Deletes PERMON library
+deletelibs:
+	-@${RM} -r ${PERMON_PKG_LIB_DIR}/lib*.*
+
+# Cleans up build
+allclean:
+	-@${OMAKE} -f gmakefile clean
+
+#
+# Check if PETSC_DIR variable specified is valid
+#
+chk_permon_petsc_dir:
+	@if [ -z ${PETSC_DIR} ]; then \
+          printf ${PETSC_TEXT_HILIGHT}"*************************ERROR**************************************\n"; \
+	  echo "PETSC_DIR not specified!"; \
+          printf "********************************************************************"${PETSC_TEXT_NORMAL}"\n"; \
+  false; fi
+	@if [ ! -f ${PETSC_DIR}/include/petscversion.h ]; then \
+          printf ${PETSC_TEXT_HILIGHT}"*************************ERROR**************************************\n"; \
+	  echo "Incorrect PETSC_DIR specified: ${PETSC_DIR}!"; \
+    echo 'File ${PETSC_DIR}/include/petscversion.h does not exist.'; \
+	  echo "Note you need to use / to separate directories, not \\"; \
+          printf "********************************************************************"${PETSC_TEXT_NORMAL}"\n"; \
+    false; fi
+	@if [ ! -f ${PETSC_DIR}/${PETSC_ARCH}/lib/lib*petsc*.a ] && [ ! -f ${PETSC_DIR}/${PETSC_ARCH}/lib/lib*petsc*.${SL_LINKER_SUFFIX} ]; then \
+          printf ${PETSC_TEXT_HILIGHT}"*************************ERROR**************************************\n"; \
+	  echo "Given PETSC_DIR=${PETSC_DIR} and PETSC_ARCH=${PETSC_ARCH}"; \
+    echo "  (directory ${PETSC_DIR}/${PETSC_ARCH}/lib)"; \
+    echo "  does not contain compiled PETSc library (libpetsc.so or libpetsc.a)!"; \
+	  echo "You may need to run configure and make in ${PETSC_DIR}"; \
+	  echo "Note you need to use / to separate directories, not \\"; \
+          printf "********************************************************************"${PETSC_TEXT_NORMAL}"\n"; \
+	  false; fi
+
+#
+# Check if PERMON_PKG_DIR variable specified is valid
+#
+chk_permon_pkg_dir: true_PERMON_PKG_DIR := $(realpath $(PERMON_PKG_DIR))
+chk_permon_pkg_dir: mypwd := $(realpath .)
+chk_permon_pkg_dir:
+	@if [ -z ${PERMON_PKG_DIR} ]; then \
+          printf ${PETSC_TEXT_HILIGHT}"*************************ERROR**************************************\n"; \
+	  echo "${PERMON_PKG_PREFIX}_DIR not specified!"; \
+          printf "********************************************************************"${PETSC_TEXT_NORMAL}"\n"; \
+    false; fi
+	@if [ ! -f ${PERMON_PKG_DIR}/${PERMON_PKG_MAIN_HEADER} ]; then \
+          printf ${PETSC_TEXT_HILIGHT}"*************************ERROR**************************************\n"; \
+	  echo "Incorrect ${PERMON_PKG_PREFIX}_DIR specified: ${PERMON_PKG_DIR}!"; \
+    echo 'File ${PERMON_PKG_DIR}/${PERMON_PKG_MAIN_HEADER} does not exist.'; \
+	  echo "Note: You need to use / to separate directories, not \\"; \
+          printf "********************************************************************"${PETSC_TEXT_NORMAL}"\n"; \
+	  false; fi
+	@if [ "${true_PERMON_PKG_DIR}" != "${mypwd}" ]; then \
+          printf ${PETSC_TEXT_HILIGHT}"*************************ERROR**************************************\n"; \
+	  echo "Your ${PERMON_PKG_PREFIX}_DIR does not match the directory you are in"; \
+	  echo "${PERMON_PKG_PREFIX}_DIR: "${true_PERMON_PKG_DIR}; \
+	  echo "Current directory: "${mypwd}; \
+          printf "********************************************************************"${PETSC_TEXT_NORMAL}"\n"; \
+	  false; fi
+
+#
+# Prints information about the system and version of PERMON being compiled
+#
+permon_info:
+	-@echo "=========================================="
+	-@echo Starting on `hostname` at `date`
+	-@echo Machine characteristics: `uname -a`
+	-@echo "-----------------------------------------"
+	-@echo "Using PERMON directory: ${PERMON_DIR}"
+	-@echo "Using PETSc directory: ${PETSC_DIR}"
+	-@echo "Using PETSc arch: ${PETSC_ARCH}"
+	-@echo "-----------------------------------------"
+	-@grep "define PETSC_VERSION" ${PETSC_DIR}/include/petscversion.h | ${SED} "s/........//"
+	-@echo "-----------------------------------------"
+	-@echo "Using PETSc configure options: ${CONFIGURE_OPTIONS}"
+	-@echo "-----------------------------------------"
+	-@echo "Using C/C++ include paths: ${PERMON_CC_INCLUDES}"
+	-@echo "Using C/C++ compiler: ${PCC} ${PCC_FLAGS} ${COPTFLAGS} ${CFLAGS}"
+	-@echo "-----------------------------------------"
+	-@echo "Using C/C++ linker: ${PCC_LINKER}"
+	-@echo "Using C/C++ flags: ${PCC_LINKER_FLAGS}"
+	-@echo "-----------------------------------------"
+	-@echo "Using libraries: ${PERMON_LIB}"
+	-@echo "------------------------------------------"
+	-@echo "Using mpiexec: ${MPIEXEC}"
+	-@echo "------------------------------------------"
+	-@echo "Using MAKEFLAGS: -j$(MAKE_NP) -l$(MAKE_LOAD) $(MAKEFLAGS)"
+	-@echo "=========================================="
+
+# Builds all the documentation
+alldoc: alldoc1 alldoc2
+
+# Build everything that goes into 'doc' dir except html sources
+alldoc1: chk_loc deletemanualpages
+	-${OMAKE} ACTION=manualpages_buildcite tree_basic LOC=${LOC}
+	-@sed -e s%man+../%man+manualpages/% ${LOC}/docs/manualpages/manualpages.cit > ${LOC}/docs/manualpages/htmlmap
+	-@cat ${PETSC_DIR}/src/docs/mpi.www.index >> ${LOC}/docs/manualpages/htmlmap
+	-${OMAKE} ACTION=permon_manualpages tree_basic LOC=${LOC}
+	-${PYTHON} ${PETSC_DIR}/lib/petsc/bin/maint/wwwindex.py ${PERMON_PKG_DIR} ${LOC}
+	-${OMAKE} ACTION=permon_manexamples tree_basic LOC=${LOC}
+
+# Builds .html versions of the source
+alldoc2: chk_loc
+	-${OMAKE} ACTION=permon_html PETSC_DIR=${PETSC_DIR} alltree LOC=${LOC}
+
+# Deletes documentation
+alldocclean: deletemanualpages allcleanhtml
+deletemanualpages: chk_loc
+	-@if [ -d ${LOC} -a -d ${LOC}/docs/manualpages ]; then \
+          find ${LOC}/docs/manualpages -type f -name "*.html" -exec ${RM} {} \; ;\
+          ${RM} ${LOC}/docs/manualpages/manualpages.cit ;\
+        fi
+allcleanhtml:
+	-${OMAKE} ACTION=cleanhtml PETSC_DIR=${PETSC_DIR} alltree
+
+permon_manualpages:
+	-@if [ "${MANSEC}" != "" ] ; then \
+	DOCTEXT_PATH=${PETSC_DIR}/src/docs/tex/doctext; export DOCTEXT_PATH; \
+	${DOCTEXT} -html \
+	-mpath ${LOC}/docs/manualpages/${MANSEC} -heading PERMON \
+	-defn ${PETSC_DIR}/src/docs/tex/doctext/html.def \
+	-locdir ${LOCDIR} -mapref ${LOC}/docs/manualpages/manualpages.cit \
+	${SOURCEC} ${SOURCEH}; \
+	chmod -f g+w ${LOC}/docs/manualpages/${MANSEC}/*; fi
+
+permon_manexamples:
+	-@base=`basename ${LOCDIR}`; \
+        if [ "$${base}" = "tutorials" ] ; then \
+          echo "Generating manual example links" ; \
+          for i in ${EXAMPLESC} ${EXAMPLESF} foo ; do \
+            if [ "$$i" != "foo" ] ; then \
+              a=`cat $$i | ${MAPNAMES} -map ${LOC}/docs/manualpages/manualpages.cit \
+                   -printmatch -o /dev/null | sort | uniq` ;  \
+              for j in $$a ; do \
+                b=`ls ${LOC}/docs/manualpages/*/$${j}.html | cut -f9` ; \
+                l=`grep -e tutorials -e nlevp $${b} | wc -l`; \
+                if [ $$l -le 10 ] ; then \
+                  if [ $$l -eq 0 ] ; then \
+                    echo "<P><H3><FONT COLOR=\"#883300\">Examples</FONT></H3>" >> $$b; \
+                  fi; \
+                  echo  "<A HREF=\"../../../BB\">BB</A><BR>" | sed s?BB?${LOCDIR}$$i.html?g >> $$b; \
+                  grep -v /BODY $$b > ltmp; \
+                  echo "</BODY></HTML>" >> ltmp; \
+                  mv -f ltmp $$b; \
+                fi; \
+              done; \
+            fi; \
+	  done; \
+        fi
+
+permon_html: chk_c2html
+	-@sed -e s?man+../?man+ROOT/docs/manualpages/? ${LOC}/docs/manualpages/manualpages.cit > /tmp/$$USER.htmlmap
+	-@cat ${PETSC_DIR}/src/docs/mpi.www.index >> /tmp/$$USER.htmlmap
+	-@ROOT=`echo ${LOCDIR} | sed -e s?/[a-z]*?/..?g -e s?src/??g -e s?include/??g` ;\
+          loc=`pwd | sed -e s?\$${PETSC_DIR}?$${LOC}/?g -e s?/disks??g`;  \
+          ${MKDIR} -p $${loc} ;\
+          for i in ${SOURCEC} ${SOURCEF} ${SOURCEH} ${EXAMPLESC} ${EXAMPLESF} ${EXAMPLESCH} ${EXAMPLESFH} ${EXAMPLESMATLAB} foo ; do\
+	    if [ -f $$i ]; then \
+              iroot=`echo $$i | sed -e "s?[a-z.]*/??g"`;\
+              IROOT=`echo $${i} | sed -e s?[.][.]??g` ;\
+              if [ "$${IROOT}" != "$${i}" ] ; then \
+                IROOT=".."; \
+              else \
+                IROOT=$${ROOT};\
+              fi;\
+              ${RM} $${loc}/$$i.html; \
+              echo "<center><a href=\"$${iroot}\">Actual source code: $${iroot}</a></center><br>" > $${loc}/$$i.html; \
+              sed -e "s/CHKERRQ(ierr);//g" -e "s/PetscFunctionReturn(0)/return(0)/g"  \
+              -e "s/ierr [ ]*= //g"  $$i | ${C2HTML} -n  | ${PETSC_DIR}/lib/petsc/bin/maint/fixinclude $$i $${ROOT} | \
+              egrep -v '(PetscValid|PetscFunctionBegin|PetscCheck|PetscErrorCode ierr;|#if !defined\(__|#define __|#undef __|EXTERN_C )' | \
+              ${MAPNAMES} -map /tmp/$$USER.htmlmap -inhtml | sed -e s?ROOT?$${IROOT}?g >> $${loc}/$$i.html ; \
+	    fi; \
+         done
+	-@ROOT=`echo ${LOCDIR} | sed -e s?/[a-z]*?/..?g -e s?src/??g -e s?include/??g` ;\
+          loc=`pwd | sed -e s?\$${PETSC_DIR}?$${LOC}/?g -e s?/disks??g`; ${RM} $${loc}/index.html; \
+          cat ${PERMON_PKG_DIR}/src/docs/manualpages-sec/header_${MANSEC} | sed -e "s?<A HREF=\"PERMON_DIR[a-z/]*\">Examples</A>?<A HREF=\"$${ROOT}/docs/manualpages/${MANSEC}\">Manual pages</A>?g" -e "s?PERMON_DIR?$${ROOT}/?g"> $${loc}/index.html; \
+          echo "<p>" >> $${loc}/index.html
+	-@loc=`pwd | sed -e s?\$${PETSC_DIR}?$${LOC}/?g -e s?/disks??g`;\
+            if [ "${EXAMPLESC}" != "" ] ; then \
+               for file in ${EXAMPLESC} foo ; do \
+		if [ -f $$file ]; then \
+                   cmess=`grep "static char help" $${file} | cut -d\" -f2 | cut -d\. -f1`; \
+                   echo "<a href=\"$${file}.html\">$${file}: $${cmess}</a><br>" >> $${loc}/index.html;\
+		fi; \
+               done ;\
+            else \
+               for file in ${DIRS} foo; do \
+		 if [ -d $$file ]; then \
+                   echo "<a href=\"$${file}/\">$${file}/</a><br>" >> $${loc}/index.html; \
+		 fi; \
+               done; \
+               echo " " >> $${loc}/index.html; \
+               for file in ${SOURCEH} ${SOURCEC} ${SOURCEF} foo ; do \
+		 if [ -f $$file ]; then \
+                   echo "<a href=\"$${file}.html\">$${file}</a><br>" >> $${loc}/index.html; \
+		 fi; \
+               done; \
+            fi ;\
+            echo " " >> $${loc}/index.html; \
+            echo "<a href=\"makefile.html\">makefile</a><br>" >> $${loc}/index.html
+	-@loc=`pwd | sed -e s?\$${PETSC_DIR}?$${LOC}/?g -e s?/disks??g`;  \
+	   echo "$${loc}"; cat makefile | ${C2HTML}  | ${MAPNAMES} -map /tmp/$$USER.htmlmap -inhtml > $${loc}/makefile.html
+	-@${RM} /tmp/$$USER.htmlmap tmp
+
+
+# include PETSc rules at the end only if rules and petscrules files exist
+# - this is checked by the chk_permon_petsc_dir rule
+ifneq ("$(wildcard ${PETSC_DIR}/lib/petsc/conf/rules)","")
+ifneq ("$(wildcard ${PETSC_DIR}/${PETSC_ARCH}/lib/petsc/conf/petscrules)","")
+include ${PETSC_DIR}/lib/petsc/conf/rules
+endif
+endif
+
+gcov:
+	-@$(PYTHON) ${PERMON_DIR}/lib/permon/bin/gcov.py -run_gcov
+
+mergegcov:
+	-@$(PYTHON) ${PERMON_DIR}/lib/permon/bin/gcov.py -merge_gcov ${LOC} *.tar.gz
+

@@ -1,0 +1,7 @@
+*.nc
+*log*
+*.dat
+*.dump
+*.mov
+tmp
+part_to_grid_test

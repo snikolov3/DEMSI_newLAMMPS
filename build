@@ -1,0 +1,58 @@
+#!/bin/bash -ex
+
+buildType=Release
+verbose=0
+makeOptions="";
+while getopts ":dcj:v" opt; do
+    case ${opt} in
+	d )
+	    buildType=Debug
+	    ;;
+	c )
+	    buildType=Column
+	    ;;
+	j )
+	    makeOptions="${makeOptions} -j ${OPTARG}"
+	    ;;
+	v )
+	    verbose=1
+	    ;;
+	\? )
+	    echo "Invalid option: $OPTARG" 1>&2
+	    ;;
+    esac
+done
+shift $((OPTIND -1))
+
+export DEMSI_USE_CUDA=OFF # ON or OFF
+if [ "$DEMSI_USE_CUDA" = "ON" ] || [ "$DEMSI_USE_CUDA" = "on" ] ; then
+  # relative location of nvcc_wrapper needed for GPU inside of LAMMPS
+  PWD=`pwd`
+  export OMPI_CXX=$PWD/LAMMPS/lib/kokkos/bin/nvcc_wrapper
+fi
+#
+# DEMSI_GPU_ARCH is only used if DEMSI_USE_CUDA is ON
+# DEMSI_CPU_ARCH is optional
+# examples can be found at: ./LAMMPS/lib/kokkos/generate_makefile.bash
+#
+
+mpicc --version
+mpicxx --version
+mpif90 --version
+
+cmake . \
+-DCMAKE_C_COMPILER:FILEPATH=`which mpicc` \
+-DCMAKE_CXX_COMPILER:FILEPATH=`which mpicxx` \
+-DCMAKE_Fortran_COMPILER:FILEPATH=`which mpif90` \
+-DBUILD_SHARED_LIBS:BOOL=ON \
+-DDEMSI_USE_OPENMP:BOOL=ON \
+-DDEMSI_GPU_ARCH:STRING="" \
+-DDEMSI_CPU_ARCH:STRING="Power8" \
+-DCMAKE_BUILD_TYPE=${buildType}
+
+if [ ${verbose} -eq 1 ]
+then
+    make ${makeOptions} "$@" VERBOSE=1
+else
+    make ${makeOptions} "$@"
+fi

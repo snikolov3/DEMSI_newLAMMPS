@@ -1,0 +1,843 @@
+<Configs>
+
+  <!-- Simulations timing -->
+  <ConfigGroup name="simulationTiming">
+    <Config name="calendarType" type="String" value="proleptic_gregorian" units="none"
+	    description="Type of calendar to use for time."
+	    possible_values="'360_day', 'noleap', or 'proleptic_gregorian'"/>
+    <Config name="startTime" type="String" value="1990-01-01_00:00:00" units="none"
+	    description="Start time of the simulation."
+	    possible_values="Time string in 'YYYY-MM-DD_dd:hh:ss' format"/>
+    <Config name="timeStep" type="Integer" value="3600" units="seconds"
+	    description="Length of thermodynamic time step in seconds."
+	    possible_values="Any positive integer."/>
+    <Config name="simulationStopType" type="String" value="simulationDuration" units="none"
+	    description="Method for determining the length of the simulation."
+	    possible_values="'stopTime', 'nSteps', or 'simulationDuration'"/>
+    <Config name="stopTime" type="String" value="" units="none"
+	    description="Stop time of the simulation."
+	    possible_values="Time string in 'YYYY-MM-DD_dd:hh:ss' format"/>
+    <Config name="nSteps" type="Integer" value="0" units="none"
+	    description="Length of the simulation in number of time steps."
+	    possible_values="Any positive integer."/>
+    <Config name="simulationDuration" type="String" value="DAYS:180" units="none"
+	    description="Length of the simulation in time interval format."
+	    possible_values="Time interval string format."/>
+    <Config name="nDynamicsSubcycles" type="Integer" value="60" units="none"
+	    description="Number of dynamics subcycles per thermodynamics time step"
+	    possible_values="Any positive integer"/>
+    <Config name="doRestart" type="Boolean" value="false" units="none"
+	    description="If true start model from restart."
+	    possible_values="'true', or 'false'"/>
+  </ConfigGroup>
+
+  <!-- use sections -->
+  <ConfigGroup name="useSections">
+    <Config name="useForcing" type="Boolean" value="true" units="none"
+	    description="Use the forcing system."
+	    possible_values="'true', or 'false'"/>
+    <Config name="useDynamics" type="Boolean" value="false" units="none"
+	    description="Use the dynamics."
+	    possible_values="'true', or 'false'"/>
+    <Config name="useExternalForces" type="Boolean" value="false" units="none"
+	    description="Use the external forces calculations."
+	    possible_values="'true', or 'false'"/>
+    <Config name="useColumn" type="Boolean" value="true" units="none"
+	    description="Use the column icepack."
+	    possible_values="'true', or 'false'"/>
+  </ConfigGroup>
+
+  <!-- Grid -->
+  <ConfigGroup name="grid">
+    <Config name="gridFile" type="String" value="./grid.nc" units="none"
+	    description="Name of NetCDF grid file."
+	    possible_values='Path to file name'/>
+  </ConfigGroup>
+
+  <!-- lammps set up scripts -->
+  <ConfigGroup name="lammps">
+   <Config name="integrateMotion" type="Boolean" value="true" units="none"
+	    description="Have lammps integrate the equations of motion."
+	    possible_values="'true' or 'false'"/>
+   <Config name="timeStep" type="Double" value="0.59061037296459" units="s"
+	    description="Time step for lammps integration."
+	    possible_values="Any positive real number."/>
+   <Config name="useCoastlineElements" type="Boolean" value="false" units="none"
+	    description="Use fixed type 2 elements representing coastlines."
+	    possible_values="'true' or 'false'"/>
+   <Config name="skinFraction" type="Double" value="0.3" units="none"
+	    description="Fraction of largest initial particle diameter to set skin thickness to"
+	    possible_values="Any positive real number."/>
+   <Config name="timestepThickness" type="Double" value="1.0" units="none"
+	    description="Scale density by this thickness in time step calculation."
+	    possible_values="Any positive real number."/>
+   <Config name="lostAtomsType" type="String" value="error" units="none"
+	    description="What to do if atmos are lost from the domain."
+	    possible_values="'error', 'warn', or 'ignore'"/>
+  </ConfigGroup>
+
+  <!-- Contacts -->
+  <ConfigGroup name="contacts">
+   <Config name="contactType" type="String" value="none" units="none"
+	    description="Contact type."
+	    possible_values="'hopkins', 'hooke', 'hooke_thickness', and 'none'"/>
+  </ConfigGroup>
+
+  <!-- Particle input -->
+  <ConfigGroup name="particleInput">
+    <Config name="particleInputFile" type="String" value="./particles_in.nc" units="none"
+	    description="Name of NetCDF particle input file."
+	    possible_values='Path to file name, or "none"'/>
+  </ConfigGroup>
+
+  <!-- Particle output -->
+  <ConfigGroup name="particleOutput">
+    <Array name="particleOutputStreams">
+      <ParticleOutputStream name="particleOutput">
+	<Config name="particleWriteFilenameTemplate" type="String" value="particles_out.$Y-$M-$D_$h.nc" units="none"
+		description="Name of NetCDF particle output filename template."
+		possible_values='File name, or "none"'/>
+	<Config name="particleWriteOutputDirectory" type="String" value="./output_remap/" units="none"
+		description="Name of NetCDF particle output directory."
+		possible_values='Directory name, or "none"'/>
+	<Config name="particleWriteInterval" type="String" value="HOURS:1" units="none"
+		description="Interval for particle output."
+		possible_values="Time interval string format."/>
+	<Config name="particleWriteClobber" type="Boolean" value="true" units="none"
+		description="If true clobber particle output files."
+		possible_values="'True', or 'False'"/>
+	<Config name="particleWriteBonds" type="Boolean" value="true" units="none"
+		description="If true write bond info."
+		possible_values="'True', or 'False'"/>
+	<Array name="OutputFields">
+	  <OutputField>iceAreaCategory</OutputField>
+	  <OutputField>iceVolumeCategory</OutputField>
+	  <OutputField>snowVolumeCategory</OutputField>
+	  <OutputField>surfaceTemperature</OutputField>
+	  <OutputField>iceEnthalpy</OutputField>
+	  <OutputField>iceSalinity</OutputField>
+	  <OutputField>snowEnthalpy</OutputField>
+	  <OutputField>iceAge</OutputField>
+	  <OutputField>firstYearIceArea</OutputField>
+	  <OutputField>levelIceArea</OutputField>
+	  <OutputField>levelIceVolume</OutputField>
+	  <OutputField>pondArea</OutputField>
+	  <OutputField>pondDepth</OutputField>
+	  <OutputField>pondLidThickness</OutputField>
+	  <OutputField>snowScatteringAerosol</OutputField>
+	  <OutputField>snowBodyAerosol</OutputField>
+	  <OutputField>iceScatteringAerosol</OutputField>
+	  <OutputField>iceBodyAerosol</OutputField>
+	  <OutputField>iceAreaCell</OutputField>
+	  <OutputField>iceVolumeCell</OutputField>
+	  <OutputField>snowVolumeCell</OutputField>
+	  <OutputField>surfaceTemperatureCell</OutputField>
+	  <OutputField>iceEnthalpyCell</OutputField>
+	  <OutputField>iceSalinityCell</OutputField>
+	  <OutputField>snowEnthalpyCell</OutputField>
+	  <OutputField>iceAgeCell</OutputField>
+	  <OutputField>firstYearIceAreaCell</OutputField>
+	  <OutputField>levelIceAreaCell</OutputField>
+	  <OutputField>levelIceVolumeCell</OutputField>
+	  <OutputField>pondAreaCell</OutputField>
+	  <OutputField>pondDepthCell</OutputField>
+	  <OutputField>pondLidThicknessCell</OutputField>
+	  <OutputField>snowScatteringAerosolCell</OutputField>
+	  <OutputField>snowBodyAerosolCell</OutputField>
+	  <OutputField>iceScatteringAerosolCell</OutputField>
+	  <OutputField>iceBodyAerosolCell</OutputField>
+	  <OutputField>iceAreaCellInitial</OutputField>
+	  <OutputField>iceAreaCategoryInitial</OutputField>
+	  <OutputField>iceVolumeCategoryInitial</OutputField>
+	  <OutputField>iceThicknessCategoryInitial</OutputField>
+	  <OutputField>snowVolumeCategoryInitial</OutputField>
+	  <OutputField>openWaterArea</OutputField>
+	  <OutputField>totalMassCell</OutputField>
+	  <OutputField>iceAreaCategoryTend</OutputField>
+	  <OutputField>iceVolumeCategoryTend</OutputField>
+	  <OutputField>snowVolumeCategoryTend</OutputField>
+	  <OutputField>surfaceTemperatureTend</OutputField>
+	  <OutputField>iceEnthalpyTend</OutputField>
+	  <OutputField>iceSalinityTend</OutputField>
+	  <OutputField>snowEnthalpyTend</OutputField>
+	  <OutputField>airLevelHeight</OutputField>
+	  <OutputField>airPotentialTemperature</OutputField>
+	  <OutputField>airTemperature</OutputField>
+	  <OutputField>airSpecificHumidity</OutputField>
+	  <OutputField>airDensity</OutputField>
+	  <OutputField>shortwaveVisibleDirectDown</OutputField>
+	  <OutputField>shortwaveVisibleDiffuseDown</OutputField>
+	  <OutputField>shortwaveIRDirectDown</OutputField>
+	  <OutputField>shortwaveIRDiffuseDown</OutputField>
+	  <OutputField>longwaveDown</OutputField>
+	  <OutputField>rainfallRate</OutputField>
+	  <OutputField>snowfallRate</OutputField>
+	  <OutputField>uAirVelocity</OutputField>
+	  <OutputField>vAirVelocity</OutputField>
+	  <OutputField>atmosReferenceSpeed10m</OutputField>
+	  <OutputField>atmosReferenceTemperature2m</OutputField>
+	  <OutputField>atmosReferenceHumidity2m</OutputField>
+	  <OutputField>windSpeed</OutputField>
+	  <OutputField>uAirStress</OutputField>
+	  <OutputField>vAirStress</OutputField>
+	  <OutputField>shortwaveDown</OutputField>
+	  <OutputField>cloudFraction</OutputField>
+	  <OutputField>sensibleTransferCoefficient</OutputField>
+	  <OutputField>latentTransferCoefficient</OutputField>
+	  <OutputField>precipitationRate</OutputField>
+	  <OutputField>latentHeatFluxCouple</OutputField>
+	  <OutputField>sensibleHeatFluxCouple</OutputField>
+	  <OutputField>surfaceHeatFluxCouple</OutputField>
+	  <OutputField>surfaceConductiveFluxCouple</OutputField>
+	  <OutputField>airStressForcingU</OutputField>
+	  <OutputField>airStressForcingV</OutputField>
+	  <OutputField>seaSurfaceTemperature</OutputField>
+	  <OutputField>seaSurfaceSalinity</OutputField>
+	  <OutputField>seaFreezingTemperature</OutputField>
+	  <OutputField>freezingMeltingPotential</OutputField>
+	  <OutputField>uOceanVelocity</OutputField>
+	  <OutputField>vOceanVelocity</OutputField>
+	  <OutputField>seaSurfaceTiltU</OutputField>
+	  <OutputField>seaSurfaceTiltV</OutputField>
+	  <OutputField>oceanMixedLayerDepth</OutputField>
+	  <OutputField>oceanHeatFluxConvergence</OutputField>
+	  <OutputField>ridgeConvergence</OutputField>
+	  <OutputField>ridgeShear</OutputField>
+	  <OutputField>areaLossRidge</OutputField>
+	  <OutputField>areaGainRidge</OutputField>
+	  <OutputField>iceVolumeRidged</OutputField>
+	  <OutputField>openingRateRidge</OutputField>
+	  <OutputField>ridgeParticipationFunction</OutputField>
+	  <OutputField>ratioRidgeThicknessToIce</OutputField>
+	  <OutputField>fractionNewRidgeArea</OutputField>
+	  <OutputField>fractionNewRidgeVolume</OutputField>
+	  <OutputField>areaLossRidgeCategory</OutputField>
+	  <OutputField>areaGainRidgeCategory</OutputField>
+	  <OutputField>iceVolumeRidgedCategory</OutputField>
+	  <OutputField>raftingIceArea</OutputField>
+	  <OutputField>raftingIceVolume</OutputField>
+	  <OutputField>lateralIceMeltFraction</OutputField>
+	  <OutputField>surfaceIceMelt</OutputField>
+	  <OutputField>surfaceIceMeltCategory</OutputField>
+	  <OutputField>basalIceMelt</OutputField>
+	  <OutputField>basalIceMeltCategory</OutputField>
+	  <OutputField>lateralIceMelt</OutputField>
+	  <OutputField>snowMelt</OutputField>
+	  <OutputField>snowMeltCategory</OutputField>
+	  <OutputField>congelation</OutputField>
+	  <OutputField>congelationCategory</OutputField>
+	  <OutputField>snowiceFormation</OutputField>
+	  <OutputField>snowiceFormationCategory</OutputField>
+	  <OutputField>snowThicknessChange</OutputField>
+	  <OutputField>snowThicknessChangeCategory</OutputField>
+	  <OutputField>frazilFormation</OutputField>
+	  <OutputField>frazilGrowthDiagnostic</OutputField>
+	  <OutputField>surfaceHeatFlux</OutputField>
+	  <OutputField>surfaceHeatFluxCategory</OutputField>
+	  <OutputField>surfaceConductiveFlux</OutputField>
+	  <OutputField>surfaceConductiveFluxCategory</OutputField>
+	  <OutputField>longwaveUp</OutputField>
+	  <OutputField>sensibleHeatFlux</OutputField>
+	  <OutputField>sensibleHeatFluxCategory</OutputField>
+	  <OutputField>latentHeatFlux</OutputField>
+	  <OutputField>latentHeatFluxCategory</OutputField>
+	  <OutputField>evaporativeWaterFlux</OutputField>
+	  <OutputField>oceanFreshWaterFlux</OutputField>
+	  <OutputField>oceanSaltFlux</OutputField>
+	  <OutputField>oceanHeatFlux</OutputField>
+	  <OutputField>oceanShortwaveFlux</OutputField>
+	  <OutputField>oceanFreshWaterFluxArea</OutputField>
+	  <OutputField>oceanSaltFluxArea</OutputField>
+	  <OutputField>oceanHeatFluxArea</OutputField>
+	  <OutputField>oceanShortwaveFluxArea</OutputField>
+	  <OutputField>oceanHeatFluxIceBottom</OutputField>
+	  <OutputField>airStressOceanU</OutputField>
+	  <OutputField>airStressOceanV</OutputField>
+	  <OutputField>atmosReferenceTemperature2mOcean</OutputField>
+	  <OutputField>atmosReferenceHumidity2mOcean</OutputField>
+	  <OutputField>albedoVisibleDirectOcean</OutputField>
+	  <OutputField>albedoVisibleDiffuseOcean</OutputField>
+	  <OutputField>albedoIRDirectOcean</OutputField>
+	  <OutputField>albedoIRDiffuseOcean</OutputField>
+	  <OutputField>longwaveUpOcean</OutputField>
+	  <OutputField>sensibleHeatFluxOcean</OutputField>
+	  <OutputField>latentHeatFluxOcean</OutputField>
+	  <OutputField>evaporativeWaterFluxOcean</OutputField>
+	  <OutputField>solarZenithAngleCosine</OutputField>
+	  <OutputField>albedoVisibleDirectCategory</OutputField>
+	  <OutputField>albedoVisibleDiffuseCategory</OutputField>
+	  <OutputField>albedoIRDirectCategory</OutputField>
+	  <OutputField>albedoIRDiffuseCategory</OutputField>
+	  <OutputField>albedoVisibleDirectCell</OutputField>
+	  <OutputField>albedoVisibleDiffuseCell</OutputField>
+	  <OutputField>albedoIRDirectCell</OutputField>
+	  <OutputField>albedoIRDiffuseCell</OutputField>
+	  <OutputField>albedoVisibleDirectArea</OutputField>
+	  <OutputField>albedoVisibleDiffuseArea</OutputField>
+	  <OutputField>albedoIRDirectArea</OutputField>
+	  <OutputField>albedoIRDiffuseArea</OutputField>
+	  <OutputField>shortwaveScalingFactor</OutputField>
+	  <OutputField>surfaceShortwaveFlux</OutputField>
+	  <OutputField>interiorShortwaveFlux</OutputField>
+	  <OutputField>penetratingShortwaveFlux</OutputField>
+	  <OutputField>shortwaveLayerPenetration</OutputField>
+	  <OutputField>absorbedShortwaveFlux</OutputField>
+	  <OutputField>absorbedShortwaveSnowLayer</OutputField>
+	  <OutputField>absorbedShortwaveIceLayer</OutputField>
+	  <OutputField>bareIceAlbedoCategory</OutputField>
+	  <OutputField>snowAlbedoCategory</OutputField>
+	  <OutputField>pondAlbedoCategory</OutputField>
+	  <OutputField>bareIceAlbedoCell</OutputField>
+	  <OutputField>snowAlbedoCell</OutputField>
+	  <OutputField>pondAlbedoCell</OutputField>
+	  <OutputField>effectivePondAreaCategory</OutputField>
+	  <OutputField>effectivePondAreaCell</OutputField>
+	  <OutputField>snowFractionCategory</OutputField>
+	  <OutputField>airOceanDragCoefficientRatio</OutputField>
+	  <OutputField>oceanDragCoefficient</OutputField>
+	  <OutputField>oceanDragCoefficientSkin</OutputField>
+	  <OutputField>oceanDragCoefficientFloe</OutputField>
+	  <OutputField>oceanDragCoefficientKeel</OutputField>
+	  <OutputField>airDragCoefficient</OutputField>
+	  <OutputField>airDragCoefficientSkin</OutputField>
+	  <OutputField>airDragCoefficientFloe</OutputField>
+	  <OutputField>airDragCoefficientPond</OutputField>
+	  <OutputField>airDragCoefficientRidge</OutputField>
+	  <OutputField>dragFreeboard</OutputField>
+	  <OutputField>dragIceSnowDraft</OutputField>
+	  <OutputField>dragRidgeHeight</OutputField>
+	  <OutputField>dragRidgeSeparation</OutputField>
+	  <OutputField>dragKeelDepth</OutputField>
+	  <OutputField>dragKeelSeparation</OutputField>
+	  <OutputField>dragFloeLength</OutputField>
+	  <OutputField>dragFloeSeparation</OutputField>
+	  <OutputField>pondFreshWaterFlux</OutputField>
+	  <OutputField>pondSnowDepthDifference</OutputField>
+	  <OutputField>pondLidMeltFluxFraction</OutputField>
+	  <OutputField>atmosAerosolFlux</OutputField>
+	  <OutputField>oceanAerosolFlux</OutputField>
+	  <OutputField>initialSalinityProfile</OutputField>
+	  <OutputField>initialMeltingTemperatureProfile</OutputField>
+	  <OutputField>airStressCellU</OutputField>
+	  <OutputField>airStressCellV</OutputField>
+	  <OutputField>oceanStressCellU</OutputField>
+	  <OutputField>oceanStressCellV</OutputField>
+	  <OutputField>meltOnset</OutputField>
+	  <OutputField>freezeOnset</OutputField>
+	  <OutputField>freezingMeltingPotentialInitial</OutputField>
+	  <OutputField>iceAreaTendencyThermodynamics</OutputField>
+	  <OutputField>iceVolumeTendencyThermodynamics</OutputField>
+	  <OutputField>iceAgeTendencyThermodynamics</OutputField>
+	  <OutputField>latitude</OutputField>
+	  <OutputField>longitude</OutputField>
+	  <OutputField>verticesInit</OutputField>
+	  <OutputField>areaInit</OutputField>
+	  <OutputField>areaInitRemap</OutputField>
+	  <OutputField>effectiveElementArea</OutputField>
+	</Array>
+      </ParticleOutputStream>
+    </Array>
+  </ConfigGroup>
+
+  <!-- Logging -->
+  <ConfigGroup name="logging">
+    <Config name="writeLogAllProcs" type="Boolean" value="false" units="none"
+	    description="Write log files for all processors."
+	    possible_values="'true', or 'false'"/>
+    <Config name="writeLogDebug" type="Boolean" value="false" units="none"
+	    description="Write debug messages."
+	    possible_values="'true', or 'false'"/>
+  </ConfigGroup>
+
+  <!-- Forcing -->
+  <ConfigGroup name="forcing">
+    <Array name="ForcingGroups">
+      <ForcingGroup name="six_hourly_atmos">
+	<Config name="forcingFilenameTemplate" type="String" value="forcing_CORE_six_hourly.nc" units="none"
+		description="The forcing filename template."
+		possible_values="Any filename template, or 'none'"/>
+	<Config name="timeVaryingForcing" type="Boolean" value="true" units="none"
+		description="If true forcing is time varying."
+		possible_values="'true', or 'false'"/>
+	<Config name="forcingReferenceTime" type="String" value="1990-01-01_00:00:00" units="none"
+		description="Reference time for forcing data reads."
+		possible_values="Time string in 'YYYY-MM-DD_dd:hh:ss' format"/>
+	<Config name="forcingInterval" type="String" value="HOURS:6" units="none"
+		description="Time interval between forcing data."
+		possible_values="Time interval string format."/>
+	<Array name="ForcingFields">
+	  <ForcingField>airTemperature</ForcingField>
+	  <ForcingField>specificHumidity</ForcingField>
+	  <ForcingField>xAtmWind</ForcingField>
+	  <ForcingField>yAtmWind</ForcingField>
+	</Array>
+      </ForcingGroup>
+      <ForcingGroup name="monthly_clim_atmos">
+	<Config name="forcingFilenameTemplate" type="String" value="forcing_CORE_monthly_clim_atmos.0000.nc" units="none"
+		description="The forcing filename template."
+		possible_values="Any filename template, or 'none'"/>
+	<Config name="timeVaryingForcing" type="Boolean" value="true" units="none"
+		description="If true forcing is time varying."
+		possible_values="'true', or 'false'"/>
+	<Config name="forcingReferenceTime" type="String" value="0000-01-15_00:00:00" units="none"
+		description="Reference time for forcing data reads."
+		possible_values="Time string in 'YYYY-MM-DD_dd:hh:ss' format"/>
+	<Config name="forcingInterval" type="String" value="MONTHS:1" units="none"
+		description="Time interval between forcing data."
+		possible_values="Time interval string format."/>
+	<Array name="ForcingFields">
+	  <ForcingField>cloudFraction</ForcingField>
+	  <ForcingField>precipitationRate</ForcingField>
+	</Array>
+      </ForcingGroup>
+      <ForcingGroup name="monthly_clim_ocean">
+	<Config name="forcingFilenameTemplate" type="String" value="forcing_CORE_monthly_clim_ocean.0000.nc" units="none"
+		description="The forcing filename template."
+		possible_values="Any filename template, or 'none'"/>
+	<Config name="timeVaryingForcing" type="Boolean" value="true" units="none"
+		description="If true forcing is time varying."
+		possible_values="'true', or 'false'"/>
+	<Config name="forcingReferenceTime" type="String" value="0000-01-15_00:00:00" units="none"
+		description="Reference time for forcing data reads."
+		possible_values="Time string in 'YYYY-MM-DD_dd:hh:ss' format"/>
+	<Config name="forcingInterval" type="String" value="MONTHS:1" units="none"
+		description="Time interval between forcing data."
+		possible_values="Time interval string format."/>
+	<Array name="ForcingFields">
+	  <ForcingField>seaSurfaceSalinity</ForcingField>
+	  <ForcingField>xOcnCurrents</ForcingField>
+	  <ForcingField>yOcnCurrents</ForcingField>
+	  <ForcingField>seaSurfaceTiltU</ForcingField>
+	  <ForcingField>seaSurfaceTiltV</ForcingField>
+	  <ForcingField>oceanMixedLayerDepth</ForcingField>
+	  <ForcingField>oceanHeatFluxConvergence</ForcingField>
+	</Array>
+      </ForcingGroup>
+      <ForcingGroup name="sst_init">
+	<Config name="forcingFilenameTemplate" type="String" value="forcing_CORE_monthly_clim_ocean.0000.nc" units="none"
+		description="The forcing filename template."
+		possible_values="Any filename template, or 'none'"/>
+	<Config name="timeVaryingForcing" type="Boolean" value="true" units="none"
+		description="If true forcing is time varying."
+		possible_values="'true', or 'false'"/>
+	<Config name="forcingReferenceTime" type="String" value="0000-01-15_00:00:00" units="none"
+		description="Reference time for forcing data reads."
+		possible_values="Time string in 'YYYY-MM-DD_dd:hh:ss' format"/>
+	<Config name="forcingInterval" type="String" value="MONTHS:1" units="none"
+		description="Time interval between forcing data."
+		possible_values="Time interval string format."/>
+	<Array name="ForcingFields">
+	  <ForcingField>seaSurfaceTemperature</ForcingField>
+	</Array>
+      </ForcingGroup>
+    </Array>
+    <Config name="useLimitTemperature" type="Boolean" value="true" units="none"
+	    description="Limit temperature to near freezing if ice present."
+	    possible_values="'true', or 'false'"/>
+     <Config name="useLimitHumidity" type="Boolean" value="true" units="none"
+	    description="Limit specific Humidity."
+	    possible_values="'true', or 'false'"/>
+     <Config name="useGetShortwaveFromCloudiness" type="Boolean" value="true" units="none"
+	    description="Calculate the downwelling shortwave radiation from the cloudiness."
+	    possible_values="'true', or 'false'"/>
+     <Config name="useSplitShortwave" type="Boolean" value="true" units="none"
+	    description="Split shortwave radiation between bands"
+	    possible_values="'true', or 'false'"/>
+     <Config name="useApplyPhysicalLimits" type="Boolean" value="true" units="none"
+	    description="Apply physical limits to forcing variables."
+	    possible_values="'true', or 'false'"/>
+     <Config name= "longwaveType" type="String" value="rosati_miyakoda" units="none"
+	    description="Type of longwave calculation"
+	    possible_values="'rosati_miyakoda', 'parkinson_and_washington', or 'none'"/>
+     <Config name= "useSplitPrecipitation" type="Boolean" value="true" units="none"
+	    description="Split precipitation between rain and snow from temperature"
+	    possible_values="'true', or 'false'"/>
+     <Config name= "precipitationUnits" type="String" value="mm_per_sec" units="none"
+	    description="scaling type for precipitation"
+	    possible_values="'mm_per_month', 'mm_per_day','mm_per_sec', or 'mks'"/>
+   </ConfigGroup>
+
+  <!-- Initialization -->
+  <ConfigGroup name="initialization">
+    <Config name="massInitType" type="String" value="const" units="none"
+	    description="The forcing filename template."
+	    possible_values="Any filename template, or 'none'"/>
+    <Config name="iceFraction" type="Double" value="1.0" units="none"
+	    description="Initial ice fraction of elements"
+	    possible_values="Any positive real number."/>
+    <Config name="iceThickness" type="Double" value="1.0" units="m"
+	    description="Initial ice thickness of elements"
+	    possible_values="Any positive real number."/>
+    <Config name="snowThickness" type="Double" value="0.0" units="m"
+	    description="Initial snow thickness of elements"
+	    possible_values="Any positive real number."/>
+  </ConfigGroup>
+
+  <!-- Testing -->
+  <ConfigGroup name="testing">
+    <Config name="testColumnProcTransfer" type="Boolean" value="false" units="none"
+	    description="If true perform test on column communication."
+	    possible_values="'true', or 'false'"/>
+  </ConfigGroup>
+
+  <!-- Column -->
+  <ConfigGroup name="column_dimensions">
+    <Config name="nCategories" type="Integer" value="1" units="-"
+	    description="The number of ice thickness categories."
+	    possible_values="Any positive integer."/>
+    <Config name="nIceLayers" type="Integer" value="7" units="-"
+	    description="The number of vertical ice layers."
+	    possible_values="Any positive integer."/>
+    <Config name="nSnowLayers" type="Integer" value="1" units="-"
+	    description="The number of vertical snow layers."
+	    possible_values="Any positive integer."/>
+    <Config name="nAerosols" type="Integer" value="1" units="-"
+	    description="The number of aerosol types."
+	    possible_values="Any positive integer."/>
+  </ConfigGroup>
+
+  <!-- Column use sections-->
+  <ConfigGroup name="columnUseSections">
+     <Config name= "useColumnShortwave" type="Boolean" value="true" units="none"
+	    description="Use the shortwave radiation with the column physics"
+	    possible_values="'true', or 'false'"/>
+     <Config name= "useColumnVerticalThermodynamics" type="Boolean" value="true" units="none"
+	    description="Use the vertical thermodynamics with the column physics"
+	    possible_values="'true', or 'false'"/>
+     <Config name= "useColumnItdThermodynamics" type="Boolean" value="false" units="none"
+	    description="Use the itd thermodynamics with the column physics"
+	    possible_values="'true', or 'false'"/>
+     <Config name= "useColumnRidging" type="Boolean" value="false" units="none"
+	    description="Use the ridging with the column physics"
+	    possible_values="'true', or 'false'"/>
+  </ConfigGroup>
+
+  <!-- Which column tracers to use -->
+  <ConfigGroup name="columnTracers">
+    <Config name="useIceAge" type="Boolean" value="true" units="unitless"
+	    description="If true use the ice age tracer."
+	    possible_values="true or false"
+	    icepack_name="tr_iage"
+	    mpas_name="config_use_ice_age"/>
+    <Config name="useFirstYearIce" type="Boolean" value="true" units="unitless"
+	    description="If true use the first year ice tracer."
+	    possible_values="true or false"
+	    icepack_name="tr_FY"
+	    mpas_name="config_use_first_year_ice"/>
+    <Config name="useLevelIce" type="Boolean" value="true" units="unitless"
+	    description="If true use the level ice tracers."
+	    possible_values="true or false"
+	    icepack_name="tr_lvl"
+	    mpas_name="config_use_level_ice"/>
+    <Config name="useCesmMeltponds" type="Boolean" value="false" units="unitless"
+	    description="If true use the cesm meltponds tracers."
+	    possible_values="true or false"
+	    icepack_name="tr_pond_cesm"
+	    mpas_name="config_use_cesm_meltponds"/>
+    <Config name="useLevelMeltponds" type="Boolean" value="true" units="unitless"
+	    description="If true use the level ice meltponds tracers."
+	    possible_values="true or false"
+	    icepack_name="tr_pond_lvl"
+	    mpas_name="config_use_level_meltponds"/>
+    <Config name="useTopoMeltponds" type="Boolean" value="false" units="unitless"
+	    description="If true use the topo meltpond tracers."
+	    possible_values="true or false"
+	    icepack_name="tr_pond_topo"
+	    mpas_name="config_use_topo_meltponds"/>
+    <Config name="useAerosols" type="Boolean" value="false" units="unitless"
+	    description="Carry aerosols in the ice (NCAR scheme)"
+	    possible_values="true or false"
+	    icepack_name="tr_aero"
+	    mpas_name="config_use_aerosols"/>
+  </ConfigGroup>
+
+  <!-- Shortwave parameters -->
+  <ConfigGroup name="shortwave">
+    <Config name="shortwaveType" type="String" value="dEdd" units="unitless"
+	    description="Shortwave radiation method."
+	    possible_values="'ccsm3' or 'dEdd'"
+	    icepack_name="shortwave"
+	    mpas_name="config_shortwave_type"/>
+    <Config name="albedoType" type="String" value="ccsm3" units="unitless"
+	    description="Albedo parameterization type."
+	    possible_values="'ccsm3' or 'constant'"
+	    icepack_name="albedo_type"
+	    mpas_name="config_albedo_type"/>
+    <Config name="visibleIceAlbedo" type="Double" value="0.78" units="unitless"
+	    description="Visible ice albedo for ice thickness greater than config_variable_albedo_thickness_limit."
+	    possible_values="Any real number between 0 and 1."
+	    icepack_name="albicev"
+	    mpas_name="config_visible_ice_albedo"/>
+    <Config name="infraredIceAlbedo" type="Double" value="0.36" units="unitless"
+	    description="Near-IR ice albedo for ice thickness greater than config_variable_albedo_thickness_limit."
+	    possible_values="Any real number between 0 and 1."
+	    icepack_name="albicei"
+	    mpas_name="config_infrared_ice_albedo"/>
+    <Config name="visibleSnowAlbedo" type="Double" value="0.98" units="unitless"
+	    description="Visible cold snow albedo."
+	    possible_values="Any real number between 0 and 1."
+	    icepack_name="albsnowv"
+	    mpas_name="config_visible_snow_albedo"/>
+    <Config name="infraredSnowAlbedo" type="Double" value="0.70" units="unitless"
+	    description="Near-IR cold snow albedo."
+	    possible_values="Any real number between 0 and 1."
+	    icepack_name="albsnowi"
+	    mpas_name="config_infrared_snow_albedo"/>
+    <Config name="variableAlbedoThicknessLimit" type="Double" value="0.3" units="m"
+	    description="Ice thickness above which the ice albedo is constant."
+	    possible_values="Any positive real number."
+	    icepack_name="ahmax"
+	    mpas_name="config_variable_albedo_thickness_limit"/>
+    <Config name="iceShortwaveTuningParameter" type="Double" value="0.0" units=""
+	    description="Sea ice tuning parameter; +1 for 1sig increase in albedo."
+	    possible_values=""
+	    icepack_name="R_ice"
+	    mpas_name="config_ice_shortwave_tuning_parameter"/>
+    <Config name="pondShortwaveTuningParameter" type="Double" value="0.0" units=""
+	    description="Ponded ice tuning parameter; +1 for 1sig increase in albedo."
+	    possible_values=""
+	    icepack_name="R_pnd"
+	    mpas_name="config_pond_shortwave_tuning_parameter"/>
+    <Config name="snowShortwaveTuningParameter" type="Double" value="1.5" units=""
+	    description="Snow tuning parameter; +1 for ~.01 change in broadband albedo."
+	    possible_values=""
+	    icepack_name="R_snw"
+	    mpas_name="config_snow_shortwave_tuning_parameter"/>
+    <Config name="tempChangeSnowGrainRadiusChange" type="Double" value="1.5" units="C"
+	    description="Change in temperture for non-melt to melt snow grain radius change."
+	    possible_values=""
+	    icepack_name="dT_mlt"
+	    mpas_name="config_temp_change_snow_grain_radius_change"/>
+    <Config name="maxMeltingSnowGrainRadius" type="Double" value="1500.0" units="10e-6 m"
+	    description="Maximum melting snow grain radius."
+	    possible_values=""
+	    icepack_name="rsnw_mlt"
+	    mpas_name="config_max_melting_snow_grain_radius"/>
+    <Config name="algaeAbsorptionCoefficient" type="Double" value="0.6" units=""
+	    description="Algae absorption coefficient for 0.5 m thick layer."
+	    possible_values=""
+	    icepack_name="kalg"
+	    mpas_name="config_algae_absorption_coefficient"/>
+  </ConfigGroup>
+
+  <!-- meltpond parameters -->
+  <ConfigGroup name="meltponds">
+    <Config name="snowToIceTransitionDepth" type="Double" value="0.0" units="m"
+	    description="Snow depth for transition to bare sea ice."
+	    possible_values=""
+	    icepack_name="hs0"
+	    mpas_name="config_snow_to_ice_transition_depth"/>
+    <Config name="pondRefreezingType" type="String" value="hlid" units="unitless"
+	    description="Pond refreezing parameterization."
+	    possible_values="'cesm' or 'hlid'"
+	    icepack_name="frzpnd"
+	    mpas_name="config_pond_refreezing_type"/>
+    <Config name="pondFlushingTimescale" type="Double" value="1.0e-3" units=""
+	    description="Alter e-folding time scale for flushing.?????"
+	    possible_values=""
+	    icepack_name="dpscale"
+	    mpas_name="config_pond_flushing_timescale"/>
+    <Config name="minMeltwaterRetainedFraction" type="Double" value="0.15" units="unitless"
+	    description="Minimum retained fraction of meltwater."
+	    possible_values="Any real number between 0 and 1"
+	    icepack_name="rfracmin"
+	    mpas_name="config_min_meltwater_retained_fraction"/>
+    <Config name="maxMeltwaterRetainedFraction" type="Double" value="1.0" units="unitless"
+	    description="Maximum retained fraction of meltwater."
+	    possible_values="Any real number between 0 and 1"
+	    icepack_name="rfracmax"
+	    mpas_name="config_max_meltwater_retained_fraction"/>
+    <Config name="pondDepthToFractionRatio" type="Double" value="0.8" units="unitless"
+	    description="Ratio of pond depth to pond fraction."
+	    possible_values=""
+	    icepack_name="pndaspect"
+	    mpas_name="config_pond_depth_to_fraction_ratio"/>
+    <Config name="snowOnPondIceTaperingParameter" type="Double" value="0.03" units=""
+	    description="Tapering parameter for snow on pond ice."
+	    possible_values=""
+	    icepack_name="hs1"
+	    mpas_name="config_snow_on_pond_ice_tapering_parameter"/>
+    <Config name="criticalPondIceThickness" type="Double" value="0.01" units=""
+	    description="Critical parameter for pond ice thickness."
+	    possible_values=""
+	    icepack_name="hp1"
+	    mpas_name="config_critical_pond_ice_thickness"/>
+  </ConfigGroup>
+
+  <!-- vertical thermodynamic parameters -->
+  <ConfigGroup name="thermodynamics">
+    <Config name="thermodynamicsType" type="String" value="mushy" units="unitless"
+	    description="Vertical themodynamics type."
+	    possible_values="'zero layer', 'BL99', or 'mushy'"
+	    icepack_name="ktherm"
+	    mpas_name="config_thermodynamics_type"/>
+    <Config name="heatConductivityType" type="String" value="bubbly" units="unitless"
+	    description="Thermal conductivity type for BL99 thermodynamics. Options are Maykut and Untersteiner 1971 form (with Wettlaufer 1991 constants), or Pringle et al JGR 2007 'bubbly brine'"
+	    possible_values="'MU71' or 'bubbly'"
+	    icepack_name="conduct"
+	    mpas_name="config_heat_conductivity_type"/>
+    <Config name="rapidModeChannelRadius" type="Double" value="0.5e-3" units="m"
+	    description="Channel radius for rapid gravity drainage mode."
+	    possible_values="Any positive real number."
+	    icepack_name="a_rapid_mode"
+	    mpas_name="config_rapid_mode_channel_radius"/>
+    <Config name="rapidModelCriticalRa" type="Double" value="10.0" units="unitless"
+	    description="Critical Rayleigh number for rapid gravity drainage mode."
+	    possible_values="Any positive real number."
+	    icepack_name="Rac_rapid_mode"
+	    mpas_name="config_rapid_model_critical_Ra"/>
+    <Config name="rapidModeAspectRatio" type="Double" value="1.0" units="unitless"
+	    description="Aspect ratio for rapid gravity drainage mode (larger=wider)."
+	    possible_values="Any positive real number."
+	    icepack_name="aspect_rapid_mode"
+	    mpas_name="config_rapid_mode_aspect_ratio"/>
+    <Config name="slowModeDrainageStrength" type="Double" value="-5.0e-8" units="m s^-1 K^-1"
+	    description="Slow gravity drainage mode drainage strength."
+	    possible_values="Any negative real number."
+	    icepack_name="dSdt_slow_mode"
+	    mpas_name="config_slow_mode_drainage_strength"/>
+    <Config name="slowModeCriticalPorosity" type="Double" value="0.05" units="unitless"
+	    description="Liquid fraction porosity cutoff for slow gravity drainage mode."
+	    possible_values="Any real number between 0 and 1."
+	    icepack_name="phi_c_slow_mode"
+	    mpas_name="config_slow_mode_critical_porosity"/>
+    <Config name="congelationIcePorosity" type="Double" value="0.85" units="unitless"
+	    description="Liquid fraction of congelation ice."
+	    possible_values="Any real number between 0 and 1."
+	    icepack_name="phi_i_mushy"
+	    mpas_name="config_congelation_ice_porosity"/>
+  </ConfigGroup>
+
+  <!-- ice thickness distribution parameters -->
+  <ConfigGroup name="itd">
+    <Config name="itdConversionType" type="String" value="linear remap" units="unitless"
+	    description="Type of ice thickness distribution conversions."
+	    possible_values="'delta function' or 'linear remap'"
+	    icepack_name="kitd"
+	    mpas_name="config_itd_conversion_type"/>
+    <Config name="categoryBoundsType" type="String" value="original" units="unitless"
+	    description="Type of ice thickness category bounds."
+	    possible_values="'single category', 'original', 'new', 'WMO', or 'asymptotic'"
+	    icepack_name="kcatbound"
+	    mpas_name="config_category_bounds_type"/>
+  </ConfigGroup>
+
+  <!-- ridging parameters -->
+  <ConfigGroup name="ridging">
+    <Config name="iceStrengthFormulation" type="String" value="Rothrock75" units="unitless"
+	    description="Type of ice strength formulation."
+	    possible_values="'Hibler79' or 'Rothrock75'"
+	    icepack_name="kstrength"
+	    mpas_name="config_ice_strength_formulation"/>
+    <Config name="ridgingParticipationFunction" type="String" value="exponential" units="unitless"
+	    description="Type of ridging participation function."
+	    possible_values="'Thorndike75' or 'exponential'"
+	    icepack_name="krdg_partic"
+	    mpas_name="config_ridging_participation_function"/>
+    <Config name="ridgingRedistributionFunction" type="String" value="exponential" units="unitless"
+	    description="Type of ridging redistribution function."
+	    possible_values="'Hibler80' or 'exponential'"
+	    icepack_name="krdg_redist"
+	    mpas_name="config_ridging_redistribution_function"/>
+    <Config name="ridigingEfoldingScale" type="Double" value="3.0" units="m^0.5"
+	    description="E-folding scale of ridged ice (krdg_redist = 1)"
+	    possible_values=""
+	    icepack_name="mu_rdg"
+	    mpas_name="config_ridiging_efolding_scale"/>
+    <Config name="ratioRidgingWorkToPE" type="Double" value="17.0" units="unitless"
+	    description="Ratio of ridging work to PE change in ridging (kstrength = 1)"
+	    possible_values=""
+	    icepack_name="Cf"
+	    mpas_name="config_ratio_ridging_work_to_PE"/>
+  </ConfigGroup>
+
+  <!-- atmospheric parameters -->
+  <ConfigGroup name="atmosphere">
+    <Config name="atmosBoundaryMethod" type="String" value="ccsm3" units="unitless"
+	    description="Atmosphere boundary method."
+	    possible_values="'ccsm3' or 'constant'"
+	    icepack_name="atmbndy"
+	    mpas_name="config_atmos_boundary_method"/>
+    <Config name="calcSurfaceStresses" type="Boolean" value="true" units="unitless"
+	    description="If true calculate wind stress components."
+	    possible_values="true or false"
+	    icepack_name="calc_strair"
+	    mpas_name="config_calc_surface_stresses"/>
+    <Config name="calcSurfaceTemperature" type="Boolean" value="true" units="unitless"
+	    description="If true calculate surface temperature. If false surface temperature is computed elsewhere and atmos-ice fluxes are provided."
+	    possible_values="true or false"
+	    icepack_name="calc_Tsfc"
+	    mpas_name="config_calc_surface_temperature"/>
+    <Config name="useFormDrag" type="Boolean" value="false" units="unitless"
+	    description="If true calculate form drag."
+	    possible_values="true or false"
+	    icepack_name="formdrag"
+	    mpas_name="config_use_form_drag"/>
+    <Config name="useHighFrequencyCoupling" type="Boolean" value="false" units="unitless"
+	    description="If true use high frequency coupling."
+	    possible_values="true or false"
+	    icepack_name="highfreq"
+	    mpas_name="config_use_high_frequency_coupling"/>
+    <Config name="boundaryLayerIterationNumber" type="Integer" value="5" units="unitless"
+	    description="Number of iterations for boundary layer calculations"
+	    possible_values="Any positive integer."
+	    icepack_name="natmiter"
+	    mpas_name="config_boundary_layer_iteration_number"/>
+  </ConfigGroup>
+
+  <!-- oceanic parameters -->
+  <ConfigGroup name="ocean">
+    <Config name="oceanType" type="String" value="init" units="unitless"
+ 	    description="Type of ocean used."
+ 	    possible_values="'init' or 'embedded'"/>
+    <Config name="useOceanMixedLayer" type="Boolean" value="true" units="unitless"
+	    description="If true use an ocean mixed layer."
+	    possible_values="true or false"
+	    icepack_name="oceanmixed_ice"
+	    mpas_name="config_use_ocean_mixed_layer"/>
+    <Config name="minFrictionVelocity" type="Double" value="0.0005" units=""
+	    description="Minimum friction velocity for ice-ocean heat flux."
+	    possible_values=""
+	    icepack_name="ustar_min"
+	    mpas_name="config_min_friction_velocity"/>
+    <Config name="oceanHeatTransferType" type="String" value="constant" units="unitless"
+	    description="Transfer coefficient type for ice-ocean heat flux."
+	    possible_values="'constant' or 'Cdn_ocn'"
+	    icepack_name="fbot_xfer_type"
+	    mpas_name="config_ocean_heat_transfer_type"/>
+    <Config name="seaFreezingTemperatureType" type="String" value="mushy" units="unitless"
+	    description="Form of ocean freezing temperature."
+	    possible_values="'mushy', 'linear_salt', or DEFAULT"
+	    icepack_name="tfrz_option"
+	    mpas_name="config_sea_freezing_temperature_type"/>
+  </ConfigGroup>
+
+  <!-- Remapping -->
+  <ConfigGroup name="remapping">
+    <Config name="useRemapping" type="Boolean" value="true" units="none"
+	    description="Use remapping system."
+	    possible_values="'true', or 'false'"/>
+    <Config name="remappingCorrectionType"  type="String" value="none" units="none"
+	    description="Use remapping system."
+	    possible_values="'none', 'flux', or 'obr'"/>
+    <Config name="remappingInterval" type="String" value="HOURS:1" units="none"
+	    description="Time intervale between remapping."
+	    possible_values="Time interval string format."/>
+    <Config name="checkConservation" type="Boolean" value="true" units="none"
+	    description="Check whether tracers are conserved during remapping."
+	    possible_values="'true', or 'false'"/>
+    <Config name="checkRemappingWeights" type="Boolean" value="false" units="none"
+	    description="Check remapping weights sum to one."
+	    possible_values="'true', or 'false'"/>
+    <Config name="checkEffectiveArea" type="Boolean" value="true" units="none"
+	    description="Check effective area is less than init area."
+	    possible_values="'true', or 'false'"/>
+    <Config name="checkIceConcentrationBounds" type="Boolean" value="true" units="none"
+	    description="Check ice concentration is bound [0,1]."
+	    possible_values="'true', or 'false'"/>
+    <Config name="maxIceConcBoundError" type="Double" value="1e-11" units="none"
+	    description="Allowed error for ice concentration bounds."
+	    possible_values="Any positive real number."/>
+  </ConfigGroup>
+
+</Configs>

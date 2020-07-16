@@ -1,0 +1,59 @@
+add_custom_command(
+  OUTPUT 
+  grid.nc
+  particles_in_bonded.nc
+  particles_in_unbonded.nc
+  COMMAND
+  ${DEMSI_PYTHON}
+  ${CMAKE_CURRENT_SOURCE_DIR}/make_testcase.py
+  )
+add_custom_target(two_particles_test_inputs ALL
+  DEPENDS
+  grid.nc
+  particles_in_bonded.nc
+  particles_in_unbonded.nc
+  )
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/config_bonded_compression.xml
+  ${CMAKE_CURRENT_BINARY_DIR}/config_bonded_compression.xml
+  COPYONLY
+  )
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/config_bonded_compression_force.xml
+  ${CMAKE_CURRENT_BINARY_DIR}/config_bonded_compression_force.xml
+  COPYONLY
+  )
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/config_bonded_compression_shear.xml
+  ${CMAKE_CURRENT_BINARY_DIR}/config_bonded_compression_shear.xml
+  COPYONLY
+  )
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/config_bonded_rotate.xml
+  ${CMAKE_CURRENT_BINARY_DIR}/config_bonded_rotate.xml
+  COPYONLY
+  )
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/config_bonded_shear.xml
+  ${CMAKE_CURRENT_BINARY_DIR}/config_bonded_shear.xml
+  COPYONLY
+  )
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/config_bonded_tension.xml
+  ${CMAKE_CURRENT_BINARY_DIR}/config_bonded_tension.xml
+  COPYONLY
+  )
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/config_bonded_tension_shear.xml
+  ${CMAKE_CURRENT_BINARY_DIR}/config_bonded_tension_shear.xml
+  COPYONLY
+  )
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/config_unbonded_compression_force.xml
+  ${CMAKE_CURRENT_BINARY_DIR}/config_unbonded_compression_force.xml
+  COPYONLY
+  )
+
+if (NOT EXISTS ${CMAKE_CURRENT_BINARY_DIR}/output)
+  file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/output)
+endif()

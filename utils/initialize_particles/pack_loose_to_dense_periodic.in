@@ -1,0 +1,96 @@
+log 		${name}_compress.log
+dimension	2
+
+units 		si
+variable	PI equal 3.141592653589
+variable	seed equal 14314
+
+
+################################################
+# Misc. simulation parameters
+################################################
+
+variable	dumpfreq equal 1000
+variable	logfreq equal 1000
+
+newton 		off
+
+atom_style	sphere
+
+boundary	p p p
+
+read_data	${name}.data
+
+atom_modify	sort 1000 1000.0
+
+### Clunky way to have LAMMPS compute min/max radius, min mass
+compute		1 all property/atom radius
+compute		2 all property/atom mass
+
+compute		minrad all reduce min c_1
+compute		maxrad all reduce max c_1
+compute		minmass all reduce min c_2
+
+run 		0 pre no post no every 1 &
+		"variable minrad equal $(c_minrad)" &
+		"variable maxrad equal $(c_maxrad)" &
+		"variable minmass equal $(c_minmass)"
+
+uncompute	minrad
+uncompute	maxrad
+uncompute 	minmass
+uncompute	1
+uncompute	2
+
+variable	skin equal ${minrad}*0.5
+neighbor	${minrad} bin
+neigh_modify	delay 0 every 1 check yes binsize ${minrad}
+comm_modify	mode multi group all vel yes
+
+################################################
+# Particle properties
+# Eventually use Hopkins contact model for packing, for
+# now just hooke w/ friction
+################################################
+variable        elastic_modulus equal 10^10
+variable        poisson_ratio equal 2.0/7.0
+variable        shear_modulus equal ${elastic_modulus}/(2*(1+${poisson_ratio})) 
+variable        friction_coeff equal 0.0
+variable	restitution equal 0.2
+
+variable        kn equal 4.0*${shear_modulus}/(3*(1-${poisson_ratio}))
+variable        kt equal 4.0*${shear_modulus}/(2-${poisson_ratio})
+
+variable        gamma_n equal 1e-10
+variable        gamma_t equal ${gamma_n}*0.5
+
+variable        tcol equal ${PI}/sqrt(2*${kn}/${minmass})
+timestep	$(v_tcol*0.02)
+
+##############################################################
+#### Fixes, pair styles, dumps, run ####
+##############################################################
+fix		1 all nve/sphere disc
+#fix		2 all langevin 1e29 1e29 $(v_tcol*0.02*1000) ${seed} 
+
+pair_style	gran/hooke ${kn} ${kt} ${gamma_n} ${gamma_t} ${friction_coeff} 0
+pair_coeff	* *
+
+#To maintain things at 0,0:
+variable     	xhi_final equal ($(xhi)-$(xlo))*${compress_factor}
+variable     	yhi_final equal ($(yhi)-$(ylo))*${compress_factor}
+fix		2 all deform 10 x final 0 ${xhi_final} y final 0 ${yhi_final}
+dump		1 all custom ${dumpfreq} ${name}_periodic_compress.dump id type mass radius x y z
+
+compute 	stressnoKE all pressure NULL virial
+thermo 		${logfreq}
+thermo_style	custom step cpu atoms ke pe c_stressnoKE elapsed 
+thermo_modify	flush yes lost warn
+
+
+# Initial compression w/ langevin 'heating' - the more steps, the better
+run 		${num_steps}
+
+write_data	${name}_periodic_final.data 
+
+

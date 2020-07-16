@@ -1,0 +1,5 @@
+MAILTO=""
+SHELL=/bin/bash
+
+#Test DEMSI at 1 AM
+00 01 * * * /ascldap/users/daibane/src/DEMSI/dashboards/cee-compute011.sandia.gov/nightly_cron_script.sh &> /ascldap/users/daibane/demsi-nightly/bash_log.txt

@@ -1,0 +1,4 @@
+# The fortran modules provided by this target.
+provides
+ column_icepack.mod
+ column_ridging_dev.mod

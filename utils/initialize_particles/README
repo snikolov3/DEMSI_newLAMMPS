@@ -1,0 +1,58 @@
+The scripts in this directory can be used to generate an initial 
+configuration of particles. Typical steps are as follows:
+
+1. Generate desired distribution of particle sizes, in the form of a 
+histogram. The histogram bin edges and values are written to a file with
+a specific format. This is done by "generate_psd.py", a very simple
+python script. Parameters can be set inside the script, then simply
+run it to create a file with the specified name:
+
+# Gaussian example
+>python generate_psd.py --type gaussian --mean 100000 --stddev 50000 --min 50000
+
+# Uniform example
+>python generate_psd.py --type uniform --minval 75000 --maxval 125000
+
+# Monodisperse example
+>python generate_psd.py --type monodisperse --diameter 100000
+
+2. Create a loose packing of particles. This is done using a small C++ code
+in the 'place_nonoverlapping' directory. There is a Makefile provided for that,
+assuming your executable is the default place_particles.out, the placement
+can be done by running this executable with a LONG list of command-line arguments (sorry!):
+
+>./place_particles.out <name of file containing particle size distribution> <dimensionality (2 or 3)> <xlo> <xhi> <ylo> <yhi> <xperiodic> <yperiodic> <interpolate flag (0 or 1)> <target volume fraction> <max attempts per particle> <random seed> <output file name>
+
+Arguments are as follows:
+<name of file containing psd> is the file produced in step 1
+<dimensionality> for all DEMSI simulations will likely always be 2
+<xlo, xhi, ylo, yhi> are the initial boundaries of the domain for the loose packing.
+  These will change as a result of the compression in step 3
+<xperiodic, yperiodic> for purposes of placement, is the domain periodic in x and y? 
+<interpolate flag > : 0 or 1 to indicate whether particle diameter values are interpolated within each histogram bin, or simply taken as the value at the histogram bin center. 
+<target volume fraction> : Particles will be picked out of the distribution and inserted until the volume fraction reaches this value. This and the domain dimensions control the number of particles. Typically, volume fractions around 0.4-0.5 are achieveable for 2D packings.
+<max attempts> : Max number of attempts that are made for each particle before the program gives up. A good setting is 100; higher values could slow things down, lower values may result in some particles not being placed, which can skew the final particle size distribution.
+<random seed> : Any integer > 0, different values can be used to create different realizations
+<output file name>: Name of output LAMMPS data file
+
+Example:
+>place_nonoverlapping/place_particles.out gaussian_mean5000_stdev2000.txt 2 0 100000 0 100000 0 0 1 0.4 100 1234 mypack.data
+
+3. Run a LAMMPS compression simulation using the included 'pack_loose_to_dense_nonperiodic.in' or 'pack_loose_to_dense_periodic.in' script. Both take the same three parameters, as follows:
+
+>lmp -in pack_loose_to_dense_nonperiodic.in -v name mypack -v num_steps 100000 -v compress_factor 0.4
+
+Where:
+name : the base name of the .data file produced in step 2 (e.g. for mypack.data, name is 'mypack')
+
+num_steps : integer > 0, number of LAMMPS dynamics steps. Compression will be faster for fewer steps, but this can lead to unstable simulations. 
+
+compress_factor : Value between 0 and 1, each domain dimension in the initial state will be reduced by this factor during the compression simulation.
+
+4. After the LAMMPS compression simulation completes, you will need to extract a single configuration from the resulting .dump file (which includes the entire compression simulation). Additionally, a bond is created between any pairs of particles that are in contact in this step. This is all in the script 'extract_from_dump_addbonds.py'. Arguments are the dump file name and time step to extract:
+
+>python extract_from_dump_addbonds.py mypack_compress.dump 40000
+
+Note that the time step must match one in the dump file (entries after 'ITEM: TIMESTEP')
+
+The resulting .data file, e.g. mypack_compress_step40000.data can be used as input for a DEMSI run. Note that in the case of nonperidoic simulations, the boundaries (xlo, xhi, ylo, yhi) will be based on the initial size of your loose pack, which may not be what you want, so for now these can be adjusted manually.

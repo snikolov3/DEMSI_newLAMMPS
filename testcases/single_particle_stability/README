@@ -1,0 +1,5 @@
+This test case tests numerical stability for single particles at low element mass. A single particle experiences a constant wind forcing in the x direction and drag from the ocean.
+
+config_thick.xml demonstrates stability at high mass, with plot_particle_motion.py producing plots of particle position and velocity showing the final constant velocity caused by a balance from air stress and ocean drag.
+
+config_thin.xml demonstrates stability at low mass with the implicit forcing implementation.

@@ -1,0 +1,1 @@
+static const char *petscconfigureoptions = "--prefix=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install --download-fblaslapack if ( APPLE ) PETSC_ARCH=arch-darwin-c-debug else ( ) PETSC_ARCH=arch-linux-c-debug endif ( )";

@@ -1,0 +1,44 @@
+print_mesg_after_build: 
+	-@echo "Now to install the libraries do:"
+	-@echo "make PETSC_DIR=/ascldap/users/snikolo/DEMSI_cpu3/DEMSI/petsc-install  install"
+	-@echo "========================================="
+
+libc: ${LIBNAME}(${OBJSC})
+
+libcxx: ${LIBNAME}(${OBJSCXX})
+
+libcu: ${LIBNAME}(${OBJSCU})
+
+libf: ${OBJSF}
+	-${AR} ${AR_FLAGS} ${LIBNAME} ${OBJSF}
+
+shared_arch: shared_linux
+
+amrex-build: 
+
+amrex-install: 
+
+mfem-build: 
+
+mfem-install: 
+
+hpddm-build: 
+
+hpddm-install: 
+
+slepc-build: 
+
+slepc-install: 
+
+libmesh-build: 
+
+libmesh-install: 
+
+mpi4py-build: 
+
+mpi4py-install: 
+
+petsc4py-build: 
+
+petsc4py-install: 
+

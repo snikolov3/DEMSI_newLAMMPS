@@ -1,0 +1,79 @@
+
+# Build around a 10 day run with restart at day 5.
+#-----------------------------------------------------------
+# Run the ICEPACK model baseline simulation
+
+cp icepack_in icepack_in.0
+${ICE_CASEDIR}/casescripts/parse_namelist.sh icepack_in ${ICE_CASEDIR}/casescripts/test_nml.restart1
+cp icepack_in icepack_in.1
+
+./icepack.run
+
+if ( $? != 0 ) then
+  echo "FAIL ${ICE_TESTNAME} run-initial" >> ${ICE_CASEDIR}/test_output
+  exit 99
+else
+  echo "PASS ${ICE_TESTNAME} run-initial" >> ${ICE_CASEDIR}/test_output
+endif
+
+# Copy restart files to baseline directory 
+set test_file = `ls -1 ${ICE_RUNDIR}/restart | tail -1`
+if ( -d ${ICE_RUNDIR}/restart_baseline ) then
+  rm -rf ${ICE_RUNDIR}/restart_baseline
+endif
+mv ${ICE_RUNDIR}/restart ${ICE_RUNDIR}/restart_baseline
+mkdir -p ${ICE_RUNDIR}/diags_baseline
+mv ${ICE_RUNDIR}/ice_diag.* ${ICE_RUNDIR}/diags_baseline/
+
+mkdir -p ${ICE_RUNDIR}/restart
+# Determine the restart file to use
+set numfiles=`ls ${ICE_RUNDIR}/restart_baseline/iced.* | wc -l`
+@ halffiles = $numfiles / 2
+@ cnt = 0
+foreach file (`ls ${ICE_RUNDIR}/restart_baseline/iced.*`)
+    @ cnt += 1
+    if ( $cnt == $halffiles ) then
+        set fname=$file
+        break
+    endif
+end
+cp -f ${fname} ${ICE_RUNDIR}/restart/
+
+# Calculate the 'npt' for the restart run
+set npt=`grep "npt " icepack_in.1 | grep -oP "\d+" | sort -n | tail -1`
+@ new_npt = $npt / 2
+
+set base_data = ${ICE_RUNDIR}/restart_baseline/${test_file}
+set test_data = ${ICE_RUNDIR}/restart/${test_file}
+
+#-----------------------------------------------------------
+# Run the ICEPACK model for the restart simulation
+
+echo "ice_ic         = './restart/${fname:t}'" >> ${ICE_CASEDIR}/casescripts/test_nml.restart2
+echo "npt            = $new_npt" >> ${ICE_CASEDIR}/casescripts/test_nml.restart2
+${ICE_CASEDIR}/casescripts/parse_namelist.sh icepack_in ${ICE_CASEDIR}/casescripts/test_nml.restart2
+cp icepack_in icepack_in.2
+
+./icepack.run
+
+if ( $? != 0 ) then
+  echo "FAIL ${ICE_TESTNAME} run-restart" >> ${ICE_CASEDIR}/test_output
+  exit 99
+else
+  echo "PASS ${ICE_TESTNAME} run-restart" >> ${ICE_CASEDIR}/test_output
+endif
+
+#-----------------------------------------------------------
+
+echo "Exact Restart Comparison Mode:"
+echo "Performing binary comparison between files:"
+echo "base: $base_data"
+echo "test: $test_data"
+if ( { cmp -s $test_data $base_data } ) then
+  echo "PASS ${ICE_TESTNAME} exact-restart" >> ${ICE_CASEDIR}/test_output
+else
+  echo "FAIL ${ICE_TESTNAME} exact-restart" >> ${ICE_CASEDIR}/test_output
+endif
+
+#-----------------------------------------------------------
+

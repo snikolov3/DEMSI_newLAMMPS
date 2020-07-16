@@ -1,0 +1,10 @@
+*.nc
+*log*
+*.dat
+*.dump
+*.mov
+tmp
+*.png
+*.data
+*.txt
+*.tmp*

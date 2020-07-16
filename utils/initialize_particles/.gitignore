@@ -1,0 +1,5 @@
+*.nc
+*.txt
+*.data
+*log*
+*.dump
