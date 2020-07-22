@@ -820,6 +820,224 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pointers.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/utils.h
  lib/kokkos/KokkosCore_config.h
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src/Kokkos_DualView.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src/Kokkos_ScatterView.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/KokkosExp_Cuda_IterateTile.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/KokkosExp_Cuda_IterateTile_Refactor.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Atomic_Intrinsics.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Atomic_Intrinsics_Restore_Builtins.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_BlockSize_Deduction.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Error.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Instance.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_KernelLaunch.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Locks.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Parallel.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ReduceScan.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Task.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Team.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_UniqueToken.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Vectorization.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_Version_9_8_Compatibility.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_View.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ViewCopyETIAvail.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_ViewCopyETIDecl.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_WorkGraphPolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_abort.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Cuda/Kokkos_Cuda_fwd.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/KokkosExp_HIP_IterateTile.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Abort.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Atomic.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_BlockSize_Deduction.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Error.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Instance.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_KernelLaunch.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Locks.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_MDRange.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_Range.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Parallel_Team.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_ReduceScan.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Team.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HIP/Kokkos_HIP_Vectorization.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_ChunkedRoundRobinExecutor.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_Task.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/HPX/Kokkos_HPX_WorkGraphPolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/KokkosExp_MDRangePolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_AnonymousSpace.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Array.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Atomic.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Complex.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Concepts.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_CopyViews.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Core.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Core_fwd.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Crs.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Cuda.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_CudaSpace.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_ExecPolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Extents.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Future.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HBWSpace.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HIP.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HIP_Space.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HPX.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_HostSpace.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Layout.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Macros.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_MasterLock.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_MemoryPool.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_MemoryTraits.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_NumericTraits.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMP.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMPTarget.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_OpenMPTargetSpace.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Pair.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Parallel.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Parallel_Reduce.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_PointerOwnership.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_ROCm.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_ROCmSpace.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_ScratchSpace.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Serial.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_TaskPolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_TaskScheduler.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_TaskScheduler_fwd.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Threads.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Timer.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_UniqueToken.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_Vectorization.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_View.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_WorkGraphPolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Kokkos_hwloc.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Exec.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Parallel.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Task.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_Team.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_ViewCopyETIAvail.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_ViewCopyETIDecl.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMP/Kokkos_OpenMP_WorkGraphPolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Exec.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Parallel.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Parallel_MDRange.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/OpenMPTarget/Kokkos_OpenMPTarget_Task.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/KokkosExp_ROCm_IterateTile_Refactor.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Atomic.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Config.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Exec.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Invoke.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Join.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Parallel.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Reduce.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ReduceScan.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Scan.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Task.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Tile.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_Vectorization.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ViewCopyETIAvail.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/Kokkos_ROCm_ViewCopyETIDecl.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/ROCm/hc_math_std.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Serial/Kokkos_Serial_ViewCopyETIAvail.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Serial/Kokkos_Serial_ViewCopyETIDecl.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_ThreadsExec.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_ThreadsTeam.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_Parallel.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_ViewCopyETIAvail.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_ViewCopyETIDecl.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/Threads/Kokkos_Threads_WorkGraphPolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/eti/common/Kokkos_ViewFillCopyETIAvail_Macros.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/eti/common/Kokkos_ViewFillCopyETIDecl_Macros.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/KokkosExp_Host_IterateTile.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_AnalyzePolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Assembly.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Compare_Exchange_Strong.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Decrement.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Exchange.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Add.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_And.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Or.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Fetch_Sub.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Generic_Secondary.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Increment.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Load.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Memory_Order.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_MinMax.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Store.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_View.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Atomic_Windows.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_BitOps.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ChaseLev.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ClockTic.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ConcurrentBitset.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_EBO.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Error.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_FunctorAdapter.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_FunctorAnalysis.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostBarrier.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_HostThreadTeam.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_LIFO.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_LinkedListNode.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Memory_Fence.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_MultipleTaskQueue.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_OldMacros.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_OptionalRef.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_DeviceInfo.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Profiling_Interface.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_Task.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Serial_WorkGraphPolicy.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SharedAlloc.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SimpleTaskScheduler.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_SingleTaskQueue.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Spinwait.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Tags.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskBase.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskNode.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskPolicyData.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueue.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueCommon.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMemoryManager.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMultiple.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskQueueMultiple_impl.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskResult.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_TaskTeamMember.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Timer.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Traits.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Utilities.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_VLAEmulation.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewArray.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewCtor.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewFillCopyETIAvail.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewFillCopyETIDecl.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewMapping.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_ViewUniformType.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Volatile_Load.hpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos_type.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/memory_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_masks.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_vec.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/comm.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/comm_brick.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/domain.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/exceptions.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix_adapt.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/force.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lammps.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmptype.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmpwindows.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/math_const.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/memory.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/modify.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pointers.h
+ lib/kokkos/KokkosCore_config.h
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src/Kokkos_DualView.hpp
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/containers/src/Kokkos_ScatterView.hpp
@@ -1015,12 +1233,14 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos_type.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/memory_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_masks.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_vec.h
@@ -14404,6 +14624,126 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/update.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/verlet.h
  lib/kokkos/KokkosCore_config.h
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_vec.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/comm.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/domain.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/exceptions.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix_adapt.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/force.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lammps.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmptype.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmpwindows.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/math_const.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/memory.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/modify.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pointers.h
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/comm.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/compute.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/exceptions.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/force.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lammps.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmptype.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmpwindows.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/memory.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/modify.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pointers.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/update.h
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/bond.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/exceptions.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix_store.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/force.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/group.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/input.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/integrate.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/kspace.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lammps.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmptype.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmpwindows.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/math_const.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/memory.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/modify.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pair.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pair_hybrid.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pointers.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/respa.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/update.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/variable.h
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_vec.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/domain.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/exceptions.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix_nve.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/force.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/integrate.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lammps.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmptype.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmpwindows.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/math_extra.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/math_vector.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pointers.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/respa.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/update.h
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_gran_hooke_history.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/comm.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/exceptions.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/force.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lammps.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmptype.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmpwindows.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/memory.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/neigh_list.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/neighbor.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pair.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pointers.h
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_gran_hooke_history.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/comm.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/error.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/exceptions.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/fix_neigh_history.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/force.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lammps.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmptype.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lmpwindows.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/math_const.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/memory.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/neigh_list.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/neighbor.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pair.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/pointers.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/update.h
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.cpp.o
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.cpp
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.h
@@ -14660,10 +15000,12 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Volatile_Load.hpp
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos_type.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.cpp
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_vec.h
@@ -14980,10 +15322,12 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/lib/kokkos/core/src/impl/Kokkos_Volatile_Load.hpp
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos_type.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_vec.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom_vec_atomic.h
@@ -19450,6 +19794,8 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/forc
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle_deprecated.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle_hybrid.h
@@ -20654,6 +21000,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lamm
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_bond_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_dpd_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_full_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.h
@@ -21022,6 +21369,12 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/lamm
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-COLVARS/fix_colvars.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-COLVARS/group_ndx.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-COLVARS/ndx_group.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DIFFRACTION/compute_saed.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DIFFRACTION/compute_xrd.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DIFFRACTION/fix_saed_vtk.h
@@ -22323,6 +22676,9 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/modi
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos_type.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.h
+ /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/atom.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/comm.h
  /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/comm_brick.h

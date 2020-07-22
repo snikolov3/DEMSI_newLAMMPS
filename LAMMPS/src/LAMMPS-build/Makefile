@@ -1324,6 +1324,33 @@ ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kok
 	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.s
 .PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.s
 
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.o
+
+# target to build an object file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.i: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.i
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.i
+
+# target to preprocess a source file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.i:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.i
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.i
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.s: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.s
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.s
+
+# target to generate assembly for a file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.s:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.s
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.s
+
 ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o
 
 .PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.o
@@ -2997,6 +3024,168 @@ ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.s: as
 ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.s:
 	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.s
 .PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.s
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.o
+
+# target to build an object file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.i: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.i
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.i
+
+# target to preprocess a source file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.i:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.i
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.i
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.s: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.s
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.s
+
+# target to generate assembly for a file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.s:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.s
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.s
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.o
+
+# target to build an object file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.i: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.i
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.i
+
+# target to preprocess a source file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.i:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.i
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.i
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.s: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.s
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.s
+
+# target to generate assembly for a file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.s:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.s
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.s
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.o
+
+# target to build an object file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.i: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.i
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.i
+
+# target to preprocess a source file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.i:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.i
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.i
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.s: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.s
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.s
+
+# target to generate assembly for a file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.s:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.s
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.s
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.o
+
+# target to build an object file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.i: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.i
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.i
+
+# target to preprocess a source file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.i:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.i
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.i
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.s: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.s
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.s
+
+# target to generate assembly for a file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.s:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.s
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.s
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.o
+
+# target to build an object file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.i: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.i
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.i
+
+# target to preprocess a source file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.i:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.i
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.i
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.s: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.s
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.s
+
+# target to generate assembly for a file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.s:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.s
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.s
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.o
+
+# target to build an object file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.i: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.i
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.i
+
+# target to preprocess a source file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.i:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.i
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.i
+
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.s: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.s
+
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.s
+
+# target to generate assembly for a file
+ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.s:
+	$(MAKE) -f CMakeFiles/lammps.dir/build.make CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.s
+.PHONY : ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.s
 
 ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.o: ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.cpp.o
 
@@ -13667,6 +13856,9 @@ help:
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.o"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.i"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.s"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.o"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.i"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.s"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.o"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.i"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.s"
@@ -13853,6 +14045,24 @@ help:
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.o"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.i"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.s"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.o"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.i"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.s"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.o"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.i"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.s"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.o"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.i"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.s"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.o"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.i"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.s"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.o"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.i"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.s"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.o"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.i"
+	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.s"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.o"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.i"
 	@echo "... ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/angle.s"

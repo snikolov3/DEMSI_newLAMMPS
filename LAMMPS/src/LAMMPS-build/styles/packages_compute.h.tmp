@@ -242,6 +242,9 @@
 #define PACKAGE "USER-UEF"
 #include "USER-UEF/compute_temp_uef.h"
 #undef PACKAGE
+#define PACKAGE "USER-DEMSI"
+#include "USER-DEMSI/compute_demsi.h"
+#undef PACKAGE
 #define PACKAGE "CORESHELL"
 #include "CORESHELL/compute_temp_cs.h"
 #undef PACKAGE

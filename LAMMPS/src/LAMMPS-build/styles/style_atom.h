@@ -3,6 +3,8 @@
 #include "atom_vec_body.h"
 #include "atom_vec_charge.h"
 #include "atom_vec_charge_kokkos.h"
+#include "atom_vec_demsi.h"
+#include "atom_vec_demsi_kokkos.h"
 #include "atom_vec_ellipsoid.h"
 #include "atom_vec_hybrid.h"
 #include "atom_vec_hybrid_kokkos.h"

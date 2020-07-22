@@ -491,6 +491,12 @@
 #define PACKAGE "USER-QMMM"
 #include "USER-QMMM/fix_qmmm.h"
 #undef PACKAGE
+#define PACKAGE "USER-DEMSI"
+#include "USER-DEMSI/fix_adapt_demsi.h"
+#undef PACKAGE
+#define PACKAGE "USER-DEMSI"
+#include "USER-DEMSI/fix_nve_sphere_demsi.h"
+#undef PACKAGE
 #define PACKAGE "USER-OMP"
 #include "USER-OMP/fix_gravity_omp.h"
 #undef PACKAGE

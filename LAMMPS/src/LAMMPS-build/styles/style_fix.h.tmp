@@ -1,4 +1,5 @@
 #include "fix_adapt.h"
+#include "fix_adapt_demsi.h"
 #include "fix_addforce.h"
 #include "fix_ave_atom.h"
 #include "fix_ave_chunk.h"
@@ -49,6 +50,7 @@
 #include "fix_nve_limit.h"
 #include "fix_nve_noforce.h"
 #include "fix_nve_sphere.h"
+#include "fix_nve_sphere_demsi.h"
 #include "fix_nve_sphere_kokkos.h"
 #include "fix_nvt.h"
 #include "fix_nvt_kokkos.h"

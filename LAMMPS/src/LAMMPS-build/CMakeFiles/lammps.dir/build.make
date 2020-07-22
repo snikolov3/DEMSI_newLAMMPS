@@ -5231,9 +5231,87 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRAN
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_granular.cpp.s"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_granular.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_granular.cpp.s
 
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o: CMakeFiles/lammps.dir/flags.make
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.i"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp > CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.i
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.s"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.s
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o: CMakeFiles/lammps.dir/flags.make
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.i"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp > CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.i
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.s"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.s
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o: CMakeFiles/lammps.dir/flags.make
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.i"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp > CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.i
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.s"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.s
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o: CMakeFiles/lammps.dir/flags.make
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.i"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp > CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.i
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.s"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.s
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o: CMakeFiles/lammps.dir/flags.make
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.i"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp > CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.i
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.s"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.s
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o: CMakeFiles/lammps.dir/flags.make
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.i"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp > CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.i
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.s"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.s
+
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp.i: cmake_force
@@ -5246,7 +5324,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp.i: cmake_force
@@ -5259,7 +5337,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp.i: cmake_force
@@ -5272,7 +5350,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_kokkos.cpp.i: cmake_force
@@ -5285,7 +5363,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_tiled_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_tiled_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_tiled_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_tiled_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_tiled_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_tiled_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_tiled_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/comm_tiled_kokkos.cpp.i: cmake_force
@@ -5298,7 +5376,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_kokkos.cpp.i: cmake_force
@@ -5311,7 +5389,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_linesearch_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_linesearch_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_linesearch_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_linesearch_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_linesearch_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_linesearch_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_linesearch_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_linesearch_kokkos.cpp.i: cmake_force
@@ -5324,7 +5402,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neighbor_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neighbor_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neighbor_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neighbor_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neighbor_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neighbor_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neighbor_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neighbor_kokkos.cpp.i: cmake_force
@@ -5337,7 +5415,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_list_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_list_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_list_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_list_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_list_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_list_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_list_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_list_kokkos.cpp.i: cmake_force
@@ -5350,7 +5428,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_bond_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_bond_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_bond_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_bond_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_bond_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_bond_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_bond_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/neigh_bond_kokkos.cpp.i: cmake_force
@@ -5363,7 +5441,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nh_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nh_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nh_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nh_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nh_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nh_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nh_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nh_kokkos.cpp.i: cmake_force
@@ -5376,7 +5454,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/nbin_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/nbin_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/nbin_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/nbin_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/nbin_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/nbin_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/nbin_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/nbin_kokkos.cpp.i: cmake_force
@@ -5389,7 +5467,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_kokkos.cpp.i: cmake_force
@@ -5402,7 +5480,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_halffull_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_halffull_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_halffull_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_halffull_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_halffull_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_halffull_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_halffull_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_halffull_kokkos.cpp.i: cmake_force
@@ -5415,7 +5493,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/domain_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/domain_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/domain_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/domain_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/domain_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/domain_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/domain_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/domain_kokkos.cpp.i: cmake_force
@@ -5428,7 +5506,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/modify_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/modify_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/modify_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/modify_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/modify_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/modify_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/modify_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/modify_kokkos.cpp.i: cmake_force
@@ -5441,7 +5519,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_atomic_kokkos.cpp.i: cmake_force
@@ -5454,7 +5532,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.i: cmake_force
@@ -5467,7 +5545,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.i: cmake_force
@@ -5480,7 +5558,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.i: cmake_force
@@ -5491,9 +5569,22 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.s"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.s
 
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.i"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp > CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.i
+
+CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.s"
+	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.s
+
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp.i: cmake_force
@@ -5506,7 +5597,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp.i: cmake_force
@@ -5519,7 +5610,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp.i: cmake_force
@@ -5532,7 +5623,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_deform_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_deform_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_deform_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_deform_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_deform_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_deform_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_deform_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_deform_kokkos.cpp.i: cmake_force
@@ -5545,7 +5636,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_enforce2d_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_enforce2d_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_enforce2d_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_enforce2d_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_enforce2d_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_enforce2d_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_enforce2d_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_enforce2d_kokkos.cpp.i: cmake_force
@@ -5558,7 +5649,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_gravity_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_gravity_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_gravity_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_gravity_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_gravity_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_gravity_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_gravity_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_gravity_kokkos.cpp.i: cmake_force
@@ -5571,7 +5662,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_langevin_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_langevin_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_langevin_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_langevin_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_langevin_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_langevin_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_langevin_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_langevin_kokkos.cpp.i: cmake_force
@@ -5584,7 +5675,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_minimize_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_minimize_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_minimize_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_minimize_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_minimize_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_minimize_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_minimize_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_minimize_kokkos.cpp.i: cmake_force
@@ -5597,7 +5688,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_momentum_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_momentum_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_momentum_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_momentum_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_momentum_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_momentum_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_momentum_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_momentum_kokkos.cpp.i: cmake_force
@@ -5610,7 +5701,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_neigh_history_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_neigh_history_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_neigh_history_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_neigh_history_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_neigh_history_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_neigh_history_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_neigh_history_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_neigh_history_kokkos.cpp.i: cmake_force
@@ -5623,7 +5714,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nph_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nph_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nph_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nph_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nph_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nph_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nph_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nph_kokkos.cpp.i: cmake_force
@@ -5636,7 +5727,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_npt_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_npt_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_npt_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_npt_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_npt_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_npt_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_npt_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_npt_kokkos.cpp.i: cmake_force
@@ -5649,7 +5740,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_kokkos.cpp.i: cmake_force
@@ -5662,7 +5753,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_sphere_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_sphere_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_sphere_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_sphere_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_sphere_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_sphere_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_sphere_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nve_sphere_kokkos.cpp.i: cmake_force
@@ -5675,7 +5766,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nvt_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nvt_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nvt_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nvt_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nvt_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nvt_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nvt_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_nvt_kokkos.cpp.i: cmake_force
@@ -5688,7 +5779,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_property_atom_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_property_atom_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_property_atom_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_property_atom_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_property_atom_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_property_atom_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_property_atom_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_property_atom_kokkos.cpp.i: cmake_force
@@ -5701,7 +5792,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_setforce_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_setforce_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_setforce_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_setforce_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_setforce_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_setforce_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_setforce_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_setforce_kokkos.cpp.i: cmake_force
@@ -5714,7 +5805,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_lj93_kokkos.cpp.i: cmake_force
@@ -5727,7 +5818,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_wall_reflect_kokkos.cpp.i: cmake_force
@@ -5740,7 +5831,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_freeze_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_freeze_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_freeze_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_freeze_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_freeze_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_freeze_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_freeze_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/fix_freeze_kokkos.cpp.i: cmake_force
@@ -5753,7 +5844,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/verlet_kokkos.cpp.i: cmake_force
@@ -5766,7 +5857,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_cg_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_cg_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_cg_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_cg_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_cg_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_cg_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_cg_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/min_cg_kokkos.cpp.i: cmake_force
@@ -5779,7 +5870,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_copy_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_copy_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_copy_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_copy_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_copy_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_copy_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_copy_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_copy_kokkos.cpp.i: cmake_force
@@ -5792,7 +5883,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_skip_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_skip_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_skip_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_skip_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_skip_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_skip_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_skip_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/npair_skip_kokkos.cpp.i: cmake_force
@@ -5805,7 +5896,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_kokkos.cpp.i: cmake_force
@@ -5818,7 +5909,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_coul_cut_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_coul_cut_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_coul_cut_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_coul_cut_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_coul_cut_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_coul_cut_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_coul_cut_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_buck_coul_cut_kokkos.cpp.i: cmake_force
@@ -5831,7 +5922,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_cut_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_cut_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_cut_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_cut_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_cut_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_cut_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_cut_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_cut_kokkos.cpp.i: cmake_force
@@ -5844,7 +5935,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_debye_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_debye_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_debye_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_debye_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_debye_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_debye_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_debye_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_debye_kokkos.cpp.i: cmake_force
@@ -5857,7 +5948,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_dsf_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_dsf_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_dsf_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_dsf_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_dsf_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_dsf_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_dsf_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_dsf_kokkos.cpp.i: cmake_force
@@ -5870,7 +5961,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_wolf_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_wolf_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_wolf_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_wolf_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_wolf_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_wolf_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_wolf_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_coul_wolf_kokkos.cpp.i: cmake_force
@@ -5883,7 +5974,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_kokkos.cpp.i: cmake_force
@@ -5896,7 +5987,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_overlay_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_overlay_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_overlay_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_overlay_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_overlay_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_overlay_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_overlay_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_hybrid_overlay_kokkos.cpp.i: cmake_force
@@ -5909,7 +6000,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_kokkos.cpp.i: cmake_force
@@ -5922,7 +6013,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_cut_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_cut_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_cut_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_cut_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_cut_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_cut_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_cut_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_cut_kokkos.cpp.i: cmake_force
@@ -5935,7 +6026,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_debye_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_debye_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_debye_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_debye_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_debye_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_debye_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_debye_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_debye_kokkos.cpp.i: cmake_force
@@ -5948,7 +6039,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_dsf_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_dsf_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_dsf_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_dsf_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_dsf_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_dsf_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_dsf_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_cut_coul_dsf_kokkos.cpp.i: cmake_force
@@ -5961,7 +6052,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_expand_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_expand_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_expand_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_expand_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_expand_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_expand_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_expand_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_expand_kokkos.cpp.i: cmake_force
@@ -5974,7 +6065,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_kokkos.cpp.i: cmake_force
@@ -5987,7 +6078,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_coul_gromacs_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_coul_gromacs_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_coul_gromacs_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_coul_gromacs_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_coul_gromacs_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_coul_gromacs_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_coul_gromacs_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_lj_gromacs_coul_gromacs_kokkos.cpp.i: cmake_force
@@ -6000,7 +6091,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_morse_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_morse_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_morse_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_morse_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_morse_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_morse_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_morse_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_morse_kokkos.cpp.i: cmake_force
@@ -6013,7 +6104,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_table_kokkos.cpp.i: cmake_force
@@ -6026,7 +6117,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_yukawa_kokkos.cpp.i: cmake_force
@@ -6039,7 +6130,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_zbl_kokkos.cpp.i: cmake_force
@@ -6052,7 +6143,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_gran_hooke_history_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_gran_hooke_history_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_gran_hooke_history_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_gran_hooke_history_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_gran_hooke_history_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_gran_hooke_history_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_gran_hooke_history_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/pair_gran_hooke_history_kokkos.cpp.i: cmake_force
@@ -6065,7 +6156,7 @@ CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKK
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/region_block_kokkos.cpp.o: CMakeFiles/lammps.dir/flags.make
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/region_block_kokkos.cpp.o: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/region_block_kokkos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/region_block_kokkos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building CXX object CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/region_block_kokkos.cpp.o"
 	/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/region_block_kokkos.cpp.o -c /ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/region_block_kokkos.cpp
 
 CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/region_block_kokkos.cpp.i: cmake_force
@@ -6476,6 +6567,12 @@ lammps_OBJECTS = \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_gran_hooke.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_gran_hooke_history.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_granular.cpp.o" \
+"CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o" \
+"CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o" \
+"CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o" \
+"CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o" \
+"CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o" \
+"CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp.o" \
@@ -6496,6 +6593,7 @@ lammps_OBJECTS = \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.o" \
+"CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp.o" \
 "CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp.o" \
@@ -6943,6 +7041,12 @@ liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_gran_hooke.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_gran_hooke_history.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/GRANULAR/pair_granular.cpp.o
+liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/atom_vec_demsi.cpp.o
+liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/compute_demsi.cpp.o
+liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_adapt_demsi.cpp.o
+liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/fix_nve_sphere_demsi.cpp.o
+liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hooke_thickness.cpp.o
+liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/USER-DEMSI/pair_gran_hopkins.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/kokkos.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_kokkos.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_kokkos.cpp.o
@@ -6963,6 +7067,7 @@ liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_charge_kokkos.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_hybrid_kokkos.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_sphere_kokkos.cpp.o
+liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/atom_vec_demsi_kokkos.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_coord_atom_kokkos.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_orientorder_atom_kokkos.cpp.o
 liblammps.so.0: CMakeFiles/lammps.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/KOKKOS/compute_temp_kokkos.cpp.o
@@ -7016,7 +7121,7 @@ liblammps.so.0: lib/kokkos/containers/src/libkokkoscontainers.so.3.1.1
 liblammps.so.0: lib/kokkos/core/src/libkokkoscore.so.3.1.1
 liblammps.so.0: /usr/lib64/libdl.so
 liblammps.so.0: CMakeFiles/lammps.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Linking CXX shared library liblammps.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Linking CXX shared library liblammps.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lammps.dir/link.txt --verbose=$(VERBOSE)
 	$(CMAKE_COMMAND) -E cmake_symlink_library liblammps.so.0 liblammps.so.0 liblammps.so
 

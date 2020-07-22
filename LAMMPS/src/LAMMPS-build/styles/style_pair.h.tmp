@@ -23,6 +23,8 @@
 #include "pair_gran_hooke.h"
 #include "pair_gran_hooke_history.h"
 #include "pair_gran_hooke_history_kokkos.h"
+#include "pair_gran_hooke_thickness.h"
+#include "pair_gran_hopkins.h"
 #include "pair_granular.h"
 #include "pair_hybrid.h"
 #include "pair_hybrid_kokkos.h"

@@ -81,7 +81,8 @@ demsi: src/CMakeFiles/demsi.dir/demsi.cpp.o
 demsi: src/CMakeFiles/demsi.dir/build.make
 demsi: src/libdemsilib.so
 demsi: LAMMPS-install/lib64/liblammps.so
-demsi: LAMMPS-install/lib/libkokkos.so
+demsi: LAMMPS-install/lib64/libkokkoscore.so
+demsi: LAMMPS-install/lib64/libkokkoscontainers.so
 demsi: Icepack-install/libIcepack.so
 demsi: /ascldap/users/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/libnetcdf.so
 demsi: petsc-install/lib/libpetsc.so

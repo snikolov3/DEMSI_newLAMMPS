@@ -82,7 +82,8 @@ testcases/particle_to_grid_interp/part_to_grid_test: testcases/particle_to_grid_
 testcases/particle_to_grid_interp/part_to_grid_test: src/libdemsilib.so
 testcases/particle_to_grid_interp/part_to_grid_test: Icepack-install/libIcepack.so
 testcases/particle_to_grid_interp/part_to_grid_test: LAMMPS-install/lib64/liblammps.so
-testcases/particle_to_grid_interp/part_to_grid_test: LAMMPS-install/lib/libkokkos.so
+testcases/particle_to_grid_interp/part_to_grid_test: LAMMPS-install/lib64/libkokkoscore.so
+testcases/particle_to_grid_interp/part_to_grid_test: LAMMPS-install/lib64/libkokkoscontainers.so
 testcases/particle_to_grid_interp/part_to_grid_test: /ascldap/users/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/libnetcdf.so
 testcases/particle_to_grid_interp/part_to_grid_test: petsc-install/lib/libpetsc.so
 testcases/particle_to_grid_interp/part_to_grid_test: permon/lib/libpermon.so

@@ -551,6 +551,12 @@
 #define PACKAGE "USER-YAFF"
 #include "USER-YAFF/pair_mm3_switch3_coulgauss_long.h"
 #undef PACKAGE
+#define PACKAGE "USER-DEMSI"
+#include "USER-DEMSI/pair_gran_hooke_thickness.h"
+#undef PACKAGE
+#define PACKAGE "USER-DEMSI"
+#include "USER-DEMSI/pair_gran_hopkins.h"
+#undef PACKAGE
 #define PACKAGE "CORESHELL"
 #include "CORESHELL/pair_born_coul_dsf_cs.h"
 #undef PACKAGE

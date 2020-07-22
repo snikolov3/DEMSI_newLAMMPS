@@ -16,6 +16,7 @@
 #include "compute_contact_atom.h"
 #include "compute_coord_atom.h"
 #include "compute_coord_atom_kokkos.h"
+#include "compute_demsi.h"
 #include "compute_deprecated.h"
 #include "compute_dihedral.h"
 #include "compute_dihedral_local.h"

@@ -130,8 +130,8 @@ CMAKE_INSTALL_MANDIR:PATH=
 //C header files for non-gcc (/usr/include)
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
-//No help, variable specified on the command line.
-CMAKE_INSTALL_PREFIX:STRING=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install
+//Install path prefix, prepended onto install directories.
+CMAKE_INSTALL_PREFIX:PATH=/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS-install
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -742,7 +742,7 @@ PKG_USER-CGSDK:BOOL=OFF
 //Build USER-COLVARS Package
 PKG_USER-COLVARS:BOOL=OFF
 
-//No help, variable specified on the command line.
+//Build USER-DEMSI Package
 PKG_USER-DEMSI:BOOL=ON
 
 //Build USER-DIFFRACTION Package

@@ -560,7 +560,8 @@ src/libdemsilib.so: src/CMakeFiles/demsilib.dir/demsi_ridging.F90.o
 src/libdemsilib.so: src/CMakeFiles/demsilib.dir/demsi_diagnostics.cpp.o
 src/libdemsilib.so: src/CMakeFiles/demsilib.dir/build.make
 src/libdemsilib.so: LAMMPS-install/lib64/liblammps.so
-src/libdemsilib.so: LAMMPS-install/lib/libkokkos.so
+src/libdemsilib.so: LAMMPS-install/lib64/libkokkoscore.so
+src/libdemsilib.so: LAMMPS-install/lib64/libkokkoscontainers.so
 src/libdemsilib.so: Icepack-install/libIcepack.so
 src/libdemsilib.so: /ascldap/users/projects/ppc64le-pwr8-nvidia/netcdf/4.6.1/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/lib/libnetcdf.so
 src/libdemsilib.so: petsc-install/lib/libpetsc.so

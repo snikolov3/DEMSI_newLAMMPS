@@ -1,6 +1,6 @@
 static const char *petscmachineinfo = "\n"
 "-----------------------------------------\n"
-"Libraries compiled on 2020-07-16 00:43:16 on white11 \n"
+"Libraries compiled on 2020-07-22 19:34:54 on white11 \n"
 "Machine characteristics: Linux-3.10.0-862.el7.ppc64le-ppc64le-with-redhat-7.5-Maipo\n"
 "Using PETSc directory: /ascldap/users/snikolo/move/DEMSI_newLAMMPS/petsc-install\n"
 "Using PETSc arch: \n"

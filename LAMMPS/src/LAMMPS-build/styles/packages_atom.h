@@ -50,6 +50,9 @@
 #define PACKAGE "USER-SPH"
 #include "USER-SPH/atom_vec_sph.h"
 #undef PACKAGE
+#define PACKAGE "USER-DEMSI"
+#include "USER-DEMSI/atom_vec_demsi.h"
+#undef PACKAGE
 #define PACKAGE "KOKKOS"
 #include "KOKKOS/atom_vec_angle_kokkos.h"
 #undef PACKAGE
@@ -61,6 +64,9 @@
 #undef PACKAGE
 #define PACKAGE "KOKKOS"
 #include "KOKKOS/atom_vec_charge_kokkos.h"
+#undef PACKAGE
+#define PACKAGE "KOKKOS"
+#include "KOKKOS/atom_vec_demsi_kokkos.h"
 #undef PACKAGE
 #define PACKAGE "KOKKOS"
 #include "KOKKOS/atom_vec_dpd_kokkos.h"

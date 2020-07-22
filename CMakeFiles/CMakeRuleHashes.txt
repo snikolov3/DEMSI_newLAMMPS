@@ -34,7 +34,7 @@ eac84d9312c0f8e3b18a98d688538739 CMakeFiles/NightlyStart
 951e4b5c4fc48dd825f48a79c41c4d65 CMakeFiles/petsc
 02de70882f2aaf47271513403d707550 CMakeFiles/petsc-complete
 9cd264cb8b8e2b4d167eb1b416ae0610 LAMMPS/src/LAMMPS-stamp/LAMMPS-build
-f026a8b5ab63eb76380de5671b8c4e77 LAMMPS/src/LAMMPS-stamp/LAMMPS-configure
+a39039e0e8ca84bb0617bcf7235fb6f1 LAMMPS/src/LAMMPS-stamp/LAMMPS-configure
 104531e4fba699696a6c97258e7d8223 LAMMPS/src/LAMMPS-stamp/LAMMPS-download
 c9305f9b59a785fab73f2a37a431d2e1 LAMMPS/src/LAMMPS-stamp/LAMMPS-install
 c3d39e4b973afb4ab043e10e8964c3ca LAMMPS/src/LAMMPS-stamp/LAMMPS-mkdir
