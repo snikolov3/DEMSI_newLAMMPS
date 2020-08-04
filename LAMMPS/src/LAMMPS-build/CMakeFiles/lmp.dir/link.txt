@@ -1,1 +1,0 @@
-/home/projects/ppc64le-pwr8-nvidia/openmpi/3.1.0/gcc/7.2.0/cuda/9.2.88/bin/mpicxx  -O3 -g -O3 -DNDEBUG   CMakeFiles/lmp.dir/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/main.cpp.o  -o lmp -Wl,-rpath,/ascldap/users/snikolo/move/DEMSI_newLAMMPS/LAMMPS/src/LAMMPS-build: liblammps.so.0 

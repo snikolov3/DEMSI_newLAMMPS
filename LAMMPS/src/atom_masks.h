@@ -62,6 +62,8 @@
 #define TORQUE_MASK    0x00800000
 #define ANGMOM_MASK    0x01000000
 #define GRANULAR_MASK  0x01f00000
+#define FORCING_MASK   0x02000000
+#define THICKNESS_MASK 0x04000000
 
 // peridynamics
 

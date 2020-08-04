@@ -275,6 +275,8 @@ void Special::onetwo_build_newton()
   for (i = 0; i < nlocal; i++) {
     for (j = 0; j < num_bond[i]; j++) {
       onetwo[i][nspecial[i][0]++] = bond_atom[i][j];
+      std::cout << "\nm = " << m;
+      std::cout << "\n\n\n\n\n\n\n\n\nm = " << m;
       m = atom->map(bond_atom[i][j]);
       if (m >= 0 && m < nlocal) onetwo[m][nspecial[m][0]++] = tag[i];
     }
@@ -283,6 +285,8 @@ void Special::onetwo_build_newton()
   for (m = 0; m < nreturn; m++) {
     i = atom->map(outbuf[m].atomID);
     onetwo[i][nspecial[i][0]++] = outbuf[m].partnerID;
+      std::cout << "\nm = " << outbuf[m].partnerID;
+      std::cout << "\n\n\n\n\n\n\n\n\nm = " << outbuf[m].partnerID;
   }
 
   memory->sfree(outbuf);
@@ -316,6 +320,8 @@ void Special::onetwo_build_newton_off()
     nspecial[i][0] = num_bond[i];
     for (j = 0; j < num_bond[i]; j++)
       onetwo[i][j] = bond_atom[i][j];
+      std::cout << "\nm = " << bond_atom[i][j];
+  ///    std::cout << "\n\n\n\n\n\n\n\n\nm = " << bond_atom[i][j];
   }
 }
 
@@ -412,6 +418,7 @@ void Special::onethree_build()
       for (k = 0; k < nspecial[i][0]; k++) {
         if (j == k) continue;
         onethree[m][nspecial[m][1]++] = onetwo[i][k];
+        std::cout << "\nonethree = " << onetwo[i][k];
       }
     }
   }
@@ -419,6 +426,7 @@ void Special::onethree_build()
   for (m = 0; m < nreturn; m++) {
     i = atom->map(outbuf[m].atomID);
     onethree[i][nspecial[i][1]++] = outbuf[m].partnerID;
+    std::cout << "\nonethree buff = " << outbuf[m].partnerID;
   }
 
   memory->sfree(outbuf);
@@ -581,20 +589,23 @@ void Special::dedup()
     for (j = 0; j < unique; j++) atom->map_one(onethree[i][j],-1);
   }
 
-  for (i = 0; i < nlocal; i++) {
-    unique = 0;
-    atom->map_one(tag[i],0);
-    for (j = 0; j < nspecial[i][2]; j++) {
-      m = onefour[i][j];
-      if (atom->map(m) < 0) {
-        onefour[i][unique++] = m;
-        atom->map_one(m,0);
-      }
-    }
-    nspecial[i][2] = unique;
-    atom->map_one(tag[i],-1);
-    for (j = 0; j < unique; j++) atom->map_one(onefour[i][j],-1);
-  }
+    if (force->special_coul[3] != 1 || force->special_lj[3] != 1){
+
+	  for (i = 0; i < nlocal; i++) {
+	    unique = 0;
+	    atom->map_one(tag[i],0);
+	    for (j = 0; j < nspecial[i][2]; j++) {
+	      m = onefour[i][j];
+	      if (atom->map(m) < 0) {
+		onefour[i][unique++] = m;
+		atom->map_one(m,0);
+	      }
+	    }
+	    nspecial[i][2] = unique;
+	    atom->map_one(tag[i],-1);
+	    for (j = 0; j < unique; j++) atom->map_one(onefour[i][j],-1);
+	  }
+     }
 
   // re-create map
 
@@ -655,12 +666,15 @@ void Special::combine()
         atom->map_one(m,0);
       }
     }
-    for (j = 0; j < nspecial[i][2]; j++) {
-      m = onefour[i][j];
-      if (atom->map(m) < 0) {
-        unique++;
-        atom->map_one(m,0);
-      }
+    if (force->special_coul[3] != 1 || force->special_lj[3] != 1){
+
+	    for (j = 0; j < nspecial[i][2]; j++) {
+	      m = onefour[i][j];
+	      if (atom->map(m) < 0) {
+		unique++;
+		atom->map_one(m,0);
+	      }
+	    }
     }
 
     maxspecial = MAX(maxspecial,unique);
@@ -668,7 +682,9 @@ void Special::combine()
     atom->map_one(tag[i],-1);
     for (j = 0; j < nspecial[i][0]; j++) atom->map_one(onetwo[i][j],-1);
     for (j = 0; j < nspecial[i][1]; j++) atom->map_one(onethree[i][j],-1);
-    for (j = 0; j < nspecial[i][2]; j++) atom->map_one(onefour[i][j],-1);
+    if (force->special_coul[3] != 1 || force->special_lj[3] != 1){
+	    for (j = 0; j < nspecial[i][2]; j++) atom->map_one(onefour[i][j],-1);
+    }
   }
 
   // if atom->maxspecial has been updated before, make certain
@@ -719,13 +735,17 @@ void Special::combine()
   // exclude original atom explicitly
   // adjust nspecial[i] values to reflect removed duplicates
   // nspecial[i][1] and nspecial[i][2] now become cumulative counters
-
+  double dummy = 0;
   for (i = 0; i < nlocal; i++) {
     unique = 0;
     atom->map_one(tag[i],0);
 
     for (j = 0; j < nspecial[i][0]; j++) {
       m = onetwo[i][j];
+      std::cout << "\nm = " << m;    
+//if (m>nlocal){
+//         dummy = 1;
+//      }
       if (atom->map(m) < 0) {
         special[i][unique++] = m;
         atom->map_one(m,0);
@@ -742,12 +762,14 @@ void Special::combine()
     }
     nspecial[i][1] = unique;
 
-    for (j = 0; j < nspecial[i][2]; j++) {
-      m = onefour[i][j];
-      if (atom->map(m) < 0) {
-        special[i][unique++] = m;
-        atom->map_one(m,0);
-      }
+    if (force->special_coul[3] != 1 || force->special_lj[3] != 1){
+	    for (j = 0; j < nspecial[i][2]; j++) {
+	      m = onefour[i][j];
+	      if (atom->map(m) < 0) {
+		special[i][unique++] = m;
+		atom->map_one(m,0);
+	      }
+	    }
     }
     nspecial[i][2] = unique;
 
